@@ -1,0 +1,7 @@
+# generated inputs are ignored, except the small build state CI needs to stay incremental
+cache/*
+!cache/built.json
+plugins/
+packages/
+*.tmp
+__pycache__/

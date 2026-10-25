@@ -1,0 +1,88 @@
+name: refresh
+
+# Keeps the catalog current with zero human involvement:
+#   1. re-index pi.dev
+#   2. package a bounded number of new, dependency-free packages
+#   3. publish them as assets of a NEW immutable release tag
+#   4. gate on hashes/zip shape, then commit catalog.json + lock.json
+on:
+  schedule:
+    - cron: "17 3 * * 1"        # Mondays 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      TAG: pkgs-${{ github.run_id }}
+      RELEASES_BASE: https://github.com/${{ github.repository }}/releases/download
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Index pi.dev
+        run: python pimarket.py index
+
+      - name: Resolve npm versions
+        run: python pimarket.py versions || true
+
+      - name: Package new packages (bounded)
+        run: python pimarket.py build-top --limit 150 --max-mb 8 --skip-built || true
+
+      - name: Publish catalog + lock
+        run: |
+          python pimarket.py publish \
+            --releases-base "$RELEASES_BASE" \
+            --release-tag "$TAG"
+
+      - name: Upload the new tag's assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          python - "$TAG" <<'PY'
+          import json, os, sys
+          tag = sys.argv[1]
+          lock = json.load(open("lock.json", encoding="utf-8"))
+          files = [os.path.join("packages", v["asset"])
+                   for v in lock["packages"].values() if v.get("tag") == tag]
+          files = [f for f in files if os.path.exists(f)]
+          open("/tmp/assets.txt", "w").write("\n".join(files))
+          print(f"{len(files)} asset(s) for {tag}")
+          PY
+          if [ -s /tmp/assets.txt ]; then
+            gh release create "$TAG" --title "$TAG" \
+              --notes "Automated refresh: PI packages packaged for PI-Desktop." || true
+            mapfile -t ASSETS < /tmp/assets.txt
+            for ((i=0; i<${#ASSETS[@]}; i+=40)); do
+              gh release upload "$TAG" "${ASSETS[@]:i:40}" --clobber
+            done
+          else
+            echo "nothing new to publish"
+          fi
+
+      - name: Release gate (hashes, zip shape, manifest rules)
+        run: python pimarket.py verify --only-tag "$TAG"
+
+      - name: Commit catalog + lock
+        run: |
+          git config user.name  "pi-market bot"
+          git config user.email "pi-market@users.noreply.github.com"
+          git add catalog.json lock.json cache/built.json
+          if git diff --cached --quiet; then
+            echo "no catalog change"
+          else
+            git commit -m "refresh: $TAG ($(python -c "import json;print(len(json.load(open('lock.json'))['packages']))") packages)"
+            git push
+          fi

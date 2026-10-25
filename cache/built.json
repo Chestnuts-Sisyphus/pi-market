@@ -1,0 +1,2186 @@
+{
+ "pi-simplify": {
+  "name": "pi-simplify",
+  "id": "pi-pkg.pi-simplify",
+  "version": "0.2.3",
+  "ok": true,
+  "sizeBytes": 23739,
+  "shasum": "75d3777744f036383e3feaef719fe0093aa4b67ea7c88c5acb4b8c79e30e10fd",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-simplify-0.2.3.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-memory": {
+  "name": "pi-memory",
+  "id": "pi-pkg.pi-memory",
+  "version": "0.4.2",
+  "ok": true,
+  "sizeBytes": 108382,
+  "shasum": "6099bf3ac4056a69539322dbe21659b24acee0e32dfe1b21758e11f5eb60b4a6",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-memory-0.4.2.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@dietrichgebert/ponytail": {
+  "name": "@dietrichgebert/ponytail",
+  "id": "pi-pkg.dietrichgebert-ponytail",
+  "version": "5.3.2",
+  "ok": true,
+  "sizeBytes": 50246,
+  "shasum": "bff0db31d0428e49ab6ca64697205ba16e559a15cd10c595da417b50a64aac33",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/pi-extension/index.js"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.dietrichgebert-ponytail-5.3.2.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@postman/postman-plugin": {
+  "name": "@postman/postman-plugin",
+  "id": "pi-pkg.postman-postman-plugin",
+  "version": "0.4.1",
+  "ok": true,
+  "sizeBytes": 307846,
+  "shasum": "63d1b2743efbeb3a89bc08842f3b4e58fc3f466e1b5eae07a53c37e4ab820034",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/dist/pi-extension.js"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.postman-postman-plugin-0.4.1.piplug",
+  "license": "Apache-2.0",
+  "npmIntegrity": null
+ },
+ "pi-goal-x": {
+  "name": "pi-goal-x",
+  "id": "pi-pkg.pi-goal-x",
+  "version": "0.34.0",
+  "ok": true,
+  "sizeBytes": 901464,
+  "shasum": "cda1209c87303f731af17a392e858f4c42bdfb7bde7ca86517b18e42aa61ad55",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/goal.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-goal-x-0.34.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-powerline-footer": {
+  "name": "pi-powerline-footer",
+  "id": "pi-pkg.pi-powerline-footer",
+  "version": "0.21.0",
+  "ok": true,
+  "sizeBytes": 505565,
+  "shasum": "70899ddfdc8ece3629939c4dd6a1616ce4ca982553ed3618902d6a13d858522f",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-powerline-footer-0.21.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-advisor-flow": {
+  "name": "pi-advisor-flow",
+  "id": "pi-pkg.pi-advisor-flow",
+  "version": "0.14.2",
+  "ok": true,
+  "sizeBytes": 384067,
+  "shasum": "95d0fd26b94cc2d65e6efdb86bd31046ca2c0b403907bcc49452a3baddd368e1",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-advisor-flow-0.14.2.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "cc-safety-net": {
+  "name": "cc-safety-net",
+  "id": "pi-pkg.cc-safety-net",
+  "version": "2.6.19",
+  "ok": true,
+  "sizeBytes": 16522,
+  "shasum": "1484af48b9f1a434da7c4e6fa295c16b0b50516a80e0bd0a3f2068aaa409e860",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/pi/index.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.cc-safety-net-2.6.19.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-web-search": {
+  "name": "pi-web-search",
+  "id": "pi-pkg.pi-web-search",
+  "version": "1.7.0",
+  "ok": true,
+  "sizeBytes": 101438,
+  "shasum": "8e07d8dab9d3274cdd0f5f0d50ca9e58a5543aaceb3f539ac54bcf61b64db264",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-web-search-1.7.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "billion-context-pi": {
+  "name": "billion-context-pi",
+  "id": "pi-pkg.billion-context-pi",
+  "version": "0.1.83",
+  "ok": true,
+  "sizeBytes": 3998800,
+  "shasum": "0fe67e71c4de357543d049bca55e3991839d04ac6aa075f62363e2ab918b746c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.billion-context-pi-0.1.83.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-btw": {
+  "name": "pi-btw",
+  "id": "pi-pkg.pi-btw",
+  "version": "0.8.0",
+  "ok": true,
+  "sizeBytes": 145656,
+  "shasum": "81d24690e523829f58d9ecd043295e6c4c626ac3fc9d5eaf364accb3601f3225",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/btw.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-btw-0.8.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-cache-optimizer": {
+  "name": "pi-cache-optimizer",
+  "id": "pi-pkg.pi-cache-optimizer",
+  "version": "2.10.4",
+  "ok": true,
+  "sizeBytes": 911712,
+  "shasum": "822677c19e21a93be2873e7e71729c4aab725779af18f5ea49ccdec694f6f5e6",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-cache-optimizer-2.10.4.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@akagilnc/pi-workflow-roles": {
+  "name": "@akagilnc/pi-workflow-roles",
+  "id": "pi-pkg.akagilnc-pi-workflow-roles",
+  "version": "0.1.6021",
+  "ok": true,
+  "sizeBytes": 28573,
+  "shasum": "e234319a576332a73d4aa54b8309895c260addb8452464142cd980a5af385111",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/role-runtime.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.akagilnc-pi-workflow-roles-0.1.6021.piplug",
+  "license": "Apache-2.0",
+  "npmIntegrity": null
+ },
+ "@mutmutco/pi-plugin": {
+  "name": "@mutmutco/pi-plugin",
+  "id": "pi-pkg.mutmutco-pi-plugin",
+  "version": "4.5.200",
+  "ok": true,
+  "sizeBytes": 251844,
+  "shasum": "18d699ad1d896658633072291bf6e8cf8566e1971b1ed8f4849c7030164cbc31",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.mutmutco-pi-plugin-4.5.200.piplug",
+  "license": "NONE",
+  "npmIntegrity": null
+ },
+ "@braintrust/pi-extension": {
+  "name": "@braintrust/pi-extension",
+  "id": "pi-pkg.braintrust-pi-extension",
+  "version": "2.2.1",
+  "ok": true,
+  "sizeBytes": 79043,
+  "shasum": "29e6736a54534bfbf4bfe5d66ee97f3f9e78c9ea20e93bb6ba8cf3f9ecc46bcd",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.mjs"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.braintrust-pi-extension-2.2.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "gentle-engram": {
+  "name": "gentle-engram",
+  "id": "pi-pkg.gentle-engram",
+  "version": "0.4.2",
+  "ok": true,
+  "sizeBytes": 1605931,
+  "shasum": "92c85c4c83116748b5562710335dc01ad8a2ca2f084cf199622d9392a3438c5f",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.gentle-engram-0.4.2.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@cratis/pi": {
+  "name": "@cratis/pi",
+  "id": "pi-pkg.cratis-pi",
+  "version": "7.112.0",
+  "ok": true,
+  "sizeBytes": 169542,
+  "shasum": "436df819bda298dfb6729b3e7164039e9f678d74e276a5c1c672591e8eae5d36",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts",
+   "src/package/corpus/harnesses/pi/extensions/cratis-hooks/index.ts",
+   "src/package/corpus/harnesses/pi/extensions/cratis-mcp/index.ts",
+   "src/package/corpus/harnesses/pi/extensions/cratis-path-guidance/index.ts",
+   "src/package/corpus/harnesses/pi/extensions/subagent/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.cratis-pi-7.112.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-muse-msp": {
+  "name": "pi-muse-msp",
+  "id": "pi-pkg.pi-muse-msp",
+  "version": "0.2.7",
+  "ok": true,
+  "sizeBytes": 147657,
+  "shasum": "c0fe0d46cbc38dedcb96306ce8979ea3e44f4754258361c7baaaf380d21d734c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/muse-msp.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-muse-msp-0.2.7.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-provider-litellm": {
+  "name": "pi-provider-litellm",
+  "id": "pi-pkg.pi-provider-litellm",
+  "version": "4.5.0",
+  "ok": true,
+  "sizeBytes": 435575,
+  "shasum": "5815e52f8c5120833a4f9d0edfc9765f3a50856da4ef7204d9d54efac91cca31",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-provider-litellm-4.5.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-interview": {
+  "name": "pi-interview",
+  "id": "pi-pkg.pi-interview",
+  "version": "0.14.0",
+  "ok": true,
+  "sizeBytes": 380540,
+  "shasum": "11b9753a012c950d9b6f42ca7fa9ab6aa85ecd509f0a35e38273c161a8fb4a88",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-interview-0.14.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "glimpseui": {
+  "name": "glimpseui",
+  "id": "pi-pkg.glimpseui",
+  "version": "0.8.1",
+  "ok": true,
+  "sizeBytes": 44885,
+  "shasum": "6e23c05a371d9e7fd5820ce5dfd9805a4ae1734fa22a501bbf8211cef911bdd8",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.glimpseui-0.8.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@gotgenes/pi-anthropic-auth": {
+  "name": "@gotgenes/pi-anthropic-auth",
+  "id": "pi-pkg.gotgenes-pi-anthropic-auth",
+  "version": "3.4.3",
+  "ok": true,
+  "sizeBytes": 110680,
+  "shasum": "d5bd22fd3beddfb2d7a744d99cd0dfc16f8ab78a243a7fcd56d289ae5beab5ea",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.gotgenes-pi-anthropic-auth-3.4.3.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@raindrop-ai/pi-agent": {
+  "name": "@raindrop-ai/pi-agent",
+  "id": "pi-pkg.raindrop-ai-pi-agent",
+  "version": "0.2.5",
+  "ok": true,
+  "sizeBytes": 457568,
+  "shasum": "eff2baf3bf75a6837c959b79bfdf1f4c994d36728db4fd1fd4273dd2b9043cfa",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/extension.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.raindrop-ai-pi-agent-0.2.5.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@getpipher/vision": {
+  "name": "@getpipher/vision",
+  "id": "pi-pkg.getpipher-vision",
+  "version": "0.5.3",
+  "ok": true,
+  "sizeBytes": 92441,
+  "shasum": "6f0fa07d13ba0f802de51466ba483985bfca7bce8c80d541887ddca1179bd721",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/vision.ts",
+   "src/extensions/paste.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.getpipher-vision-0.5.3.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-fireworks": {
+  "name": "pi-fireworks",
+  "id": "pi-pkg.pi-fireworks",
+  "version": "0.1.2",
+  "ok": true,
+  "sizeBytes": 18123,
+  "shasum": "4d77d908eb43c988f213486be3db07a2715fea4a18eed3249341d6158fb39d9c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-fireworks-0.1.2.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@awebai/oats-pi": {
+  "name": "@awebai/oats-pi",
+  "id": "pi-pkg.awebai-oats-pi",
+  "version": "0.67.1",
+  "ok": true,
+  "sizeBytes": 15472,
+  "shasum": "58f6a299f8a393c743207ccd394fecd35b86348f7008429e9073781a571cc6b1",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extension/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.awebai-oats-pi-0.67.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@gotgenes/pi-subagents": {
+  "name": "@gotgenes/pi-subagents",
+  "id": "pi-pkg.gotgenes-pi-subagents",
+  "version": "25.0.4",
+  "ok": true,
+  "sizeBytes": 551133,
+  "shasum": "af5ea75c004150f03896a5d3d4f3b8dadc2cf1b78c118b68c116f38837e794cf",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.gotgenes-pi-subagents-25.0.4.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-bifrost": {
+  "name": "pi-bifrost",
+  "id": "pi-pkg.pi-bifrost",
+  "version": "0.5.0",
+  "ok": true,
+  "sizeBytes": 327326,
+  "shasum": "d18aa9363214fb16f1e57b45f80200e2b990bb9cead70e3ab636e943eeedebad",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-bifrost-0.5.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-zentui": {
+  "name": "pi-zentui",
+  "id": "pi-pkg.pi-zentui",
+  "version": "0.32.0",
+  "ok": true,
+  "sizeBytes": 1252257,
+  "shasum": "c432e6710c0e61a6d24619893c32b6c38a9b63673e672d15854aac6f82eb67ed",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/zentui/accent-rail-editor.ts",
+   "src/extensions/zentui/average-token-rate.ts",
+   "src/extensions/zentui/codex-quota-display.ts",
+   "src/extensions/zentui/codex-quota-headers.ts",
+   "src/extensions/zentui/codex-quota.ts",
+   "src/extensions/zentui/completion-menu.ts",
+   "src/extensions/zentui/component-colors.ts",
+   "src/extensions/zentui/component-settings.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-zentui-0.32.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-open-tui": {
+  "name": "pi-open-tui",
+  "id": "pi-pkg.pi-open-tui",
+  "version": "0.3.11",
+  "ok": true,
+  "sizeBytes": 140856,
+  "shasum": "a29fd1a8b49e8f5486b20e03852f986bad771ff0eba48814f25e0f81fdc30185",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/open-tui/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-open-tui-0.3.11.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-ask-user": {
+  "name": "pi-ask-user",
+  "id": "pi-pkg.pi-ask-user",
+  "version": "0.17.0",
+  "ok": true,
+  "sizeBytes": 192140,
+  "shasum": "c085a1d58ee7298a894c65c62da6b6f85adbfb14c2677fe3b9dfcfe2215f80c5",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-ask-user-0.17.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@llblab/pi-telegram": {
+  "name": "@llblab/pi-telegram",
+  "id": "pi-pkg.llblab-pi-telegram",
+  "version": "0.58.1",
+  "ok": true,
+  "sizeBytes": 88712,
+  "shasum": "04cfe2bf7d741a191a1267327bded1d62660b356f23c8b3bae782d551766340a",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/dist/pi-telegram/index.js"
+  ],
+  "skills": [
+   "src/dist/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.llblab-pi-telegram-0.58.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-rtk-optimizer": {
+  "name": "pi-rtk-optimizer",
+  "id": "pi-pkg.pi-rtk-optimizer",
+  "version": "0.9.0",
+  "ok": true,
+  "sizeBytes": 286011,
+  "shasum": "79e319e0741069a3b952d19405aacfc0c3da9735ade3186152875b02b27ccd95",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-rtk-optimizer-0.9.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-nvidia-nim": {
+  "name": "pi-nvidia-nim",
+  "id": "pi-pkg.pi-nvidia-nim",
+  "version": "1.1.23",
+  "ok": true,
+  "sizeBytes": 41759,
+  "shasum": "5c8016940bca87e9ca1c568a9ed84a5cfa7a3ea9f121767a2ed845191718c7c7",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-nvidia-nim-1.1.23.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@d3ara1n/pi-context-include": {
+  "name": "@d3ara1n/pi-context-include",
+  "id": "pi-pkg.d3ara1n-pi-context-include",
+  "version": "3.0.0",
+  "ok": true,
+  "sizeBytes": 42054,
+  "shasum": "89a397bc97de8fc7b098b13a5a3e6a1371579a9780ac6df5d0d5608923b120df",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.d3ara1n-pi-context-include-3.0.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "donsetch": {
+  "name": "donsetch",
+  "id": "pi-pkg.donsetch",
+  "version": "4.10.2",
+  "ok": true,
+  "sizeBytes": 101450,
+  "shasum": "71d7330114d3c6d754b0386e25fdea19729d0a312ce41041de26323801628776",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/pi-extension.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.donsetch-4.10.2.piplug",
+  "license": "AGPL-3.0-only",
+  "npmIntegrity": null
+ },
+ "pi-extension-nvidia-nim": {
+  "name": "pi-extension-nvidia-nim",
+  "id": "pi-pkg.pi-extension-nvidia-nim",
+  "version": "1.17.0",
+  "ok": true,
+  "sizeBytes": 414023,
+  "shasum": "cc8b9f85b748c443926d9f06079469e95edb13bc94b64777fda05321162fca7c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-extension-nvidia-nim-1.17.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@sting8k/pi-vcc": {
+  "name": "@sting8k/pi-vcc",
+  "id": "pi-pkg.sting8k-pi-vcc",
+  "version": "0.10.2",
+  "ok": true,
+  "sizeBytes": 263251,
+  "shasum": "4d12e47c8406d72f7eed39154b1ffacd89f990c9e0a0327987f06b9522f3d2d5",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.sting8k-pi-vcc-0.10.2.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-blackhole": {
+  "name": "pi-blackhole",
+  "id": "pi-pkg.pi-blackhole",
+  "version": "0.5.16",
+  "ok": true,
+  "sizeBytes": 651487,
+  "shasum": "5dd23ed08f9ed05d70f8a377587d21ed0cbdb0480a4e9573092e93b164490d8b",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-blackhole-0.5.16.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@narumitw/pi-lsp": {
+  "name": "@narumitw/pi-lsp",
+  "id": "pi-pkg.narumitw-pi-lsp",
+  "version": "0.49.10",
+  "ok": true,
+  "sizeBytes": 188247,
+  "shasum": "c543f6fc88880bd6175f56b60e5e4e605f64db1c4863eef0d8a9402cf14a7ae5",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.narumitw-pi-lsp-0.49.10.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-goal-list-loop-audit": {
+  "name": "pi-goal-list-loop-audit",
+  "id": "pi-pkg.pi-goal-list-loop-audit",
+  "version": "0.39.52",
+  "ok": true,
+  "sizeBytes": 1215123,
+  "shasum": "f4bf81a1902a5f09a905d2262a854e0f1b15227bbfd80568df9611c7d8c7dbc8",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/loops/goal.ts"
+  ],
+  "skills": [
+   "src/skills/glla-delegate"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-goal-list-loop-audit-0.39.52.piplug",
+  "license": "AGPL-3.0-only",
+  "npmIntegrity": null
+ },
+ "@brainervirus/workit-pi": {
+  "name": "@brainervirus/workit-pi",
+  "id": "pi-pkg.brainervirus-workit-pi",
+  "version": "8.28.0",
+  "ok": true,
+  "sizeBytes": 1320284,
+  "shasum": "ddd6ca23684dade26dff5f754c5f03d1a29a2cf81ed47972d7ac5e84f0ebe3cd",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/dist/workit.js"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.brainervirus-workit-pi-8.28.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@ollama/pi-web-search": {
+  "name": "@ollama/pi-web-search",
+  "id": "pi-pkg.ollama-pi-web-search",
+  "version": "0.0.5",
+  "ok": true,
+  "sizeBytes": 8335,
+  "shasum": "551d2c7aebb3382b66997de428f73a29c71747c481c2e2434c43e98837f16b3b",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.ollama-pi-web-search-0.0.5.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-straw-boss": {
+  "name": "pi-straw-boss",
+  "id": "pi-pkg.pi-straw-boss",
+  "version": "0.42.1",
+  "ok": true,
+  "sizeBytes": 576729,
+  "shasum": "135931e4681df8d24178b3e063dddbaaa994cde2968c0f9486551bfec13063a9",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts",
+   "src/src/balance.ts",
+   "src/src/blocked.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-straw-boss-0.42.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-zhipu-usage": {
+  "name": "pi-zhipu-usage",
+  "id": "pi-pkg.pi-zhipu-usage",
+  "version": "0.3.0",
+  "ok": true,
+  "sizeBytes": 18237,
+  "shasum": "59fc0e31d5ea523e4b12ae024217093570f532f58de6a43cc69bc60c67cea982",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/glm-usage.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-zhipu-usage-0.3.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-commandcode-provider": {
+  "name": "pi-commandcode-provider",
+  "id": "pi-pkg.pi-commandcode-provider",
+  "version": "0.7.10",
+  "ok": true,
+  "sizeBytes": 281389,
+  "shasum": "01def79fadd73986accbd21826eddc5d10ad83e19b0c5d4eb2aff7adb26bd1d4",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-commandcode-provider-0.7.10.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@a-t-h-i/bot-lobby": {
+  "name": "@a-t-h-i/bot-lobby",
+  "id": "pi-pkg.a-t-h-i-bot-lobby",
+  "version": "0.6.61",
+  "ok": true,
+  "sizeBytes": 2024898,
+  "shasum": "27a6af812b6159b0ad178c3606f0ba53cdd8fd240a02439712a8af672f749b25",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.a-t-h-i-bot-lobby-0.6.61.piplug",
+  "license": "Apache-2.0",
+  "npmIntegrity": null
+ },
+ "pi-observational-memory": {
+  "name": "pi-observational-memory",
+  "id": "pi-pkg.pi-observational-memory",
+  "version": "3.1.4",
+  "ok": true,
+  "sizeBytes": 228629,
+  "shasum": "0532ec5beb161deab13c3e0076fcb6e4e1103e7bf9dc6d4568757a00104eb57b",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-observational-memory-3.1.4.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "opencode-agent-skill": {
+  "name": "opencode-agent-skill",
+  "id": "pi-pkg.opencode-agent-skill",
+  "version": "16.16.0",
+  "ok": true,
+  "sizeBytes": 812228,
+  "shasum": "ce6766ec2509b467bb7b7907779c5409ed47a704b47a944208f11674cd0c5c5c",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/pi/extensions/ues.ts",
+   "src/pi/extensions/ues-loop-recovery.ts"
+  ],
+  "skills": [
+   "src/global-config/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.opencode-agent-skill-16.16.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-caveman": {
+  "name": "pi-caveman",
+  "id": "pi-pkg.pi-caveman",
+  "version": "1.0.12",
+  "ok": true,
+  "sizeBytes": 25579,
+  "shasum": "08cd62e6e3bebcd246ee6158a1736d73e620caa9456b215332000c25707c52a1",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/caveman.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-caveman-1.0.12.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-context-view": {
+  "name": "pi-context-view",
+  "id": "pi-pkg.pi-context-view",
+  "version": "0.8.0",
+  "ok": true,
+  "sizeBytes": 585448,
+  "shasum": "ff9e659df193984585343804f6060dbcccd5c280649e63875e73ceb67399df2b",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-context-view-0.8.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-router": {
+  "name": "pi-router",
+  "id": "pi-pkg.pi-router",
+  "version": "0.5.9",
+  "ok": true,
+  "sizeBytes": 1183965,
+  "shasum": "48a6732fa47f38fbd97959987e73fdeee1088b9773cc921a8071c622e319b726",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-router-0.5.9.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@tmustier/pi-usage-extension": {
+  "name": "@tmustier/pi-usage-extension",
+  "id": "pi-pkg.tmustier-pi-usage-extension",
+  "version": "0.9.5",
+  "ok": true,
+  "sizeBytes": 796074,
+  "shasum": "1f9d0c622bd1d504b37ef670bdcfb69672acfcbcd03afab935805025982fdc7e",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.tmustier-pi-usage-extension-0.9.5.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-coralbricks-provider": {
+  "name": "pi-coralbricks-provider",
+  "id": "pi-pkg.pi-coralbricks-provider",
+  "version": "1.0.38",
+  "ok": true,
+  "sizeBytes": 118307,
+  "shasum": "623e320cfcb2d9a689bb21ac1c63d5253285f9bc38ca96453517bc92a440f251",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-coralbricks-provider-1.0.38.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-llama-cpp": {
+  "name": "pi-llama-cpp",
+  "id": "pi-pkg.pi-llama-cpp",
+  "version": "0.19.1",
+  "ok": true,
+  "sizeBytes": 321355,
+  "shasum": "88cdb48e798791f9120242ed121348ca412e2edee0462c1a1375961c39b16918",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-llama-cpp-0.19.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@juicesharp/rpiv-btw": {
+  "name": "@juicesharp/rpiv-btw",
+  "id": "pi-pkg.juicesharp-rpiv-btw",
+  "version": "2.15.0",
+  "ok": true,
+  "sizeBytes": 78946,
+  "shasum": "336ff561ee485879a3335c33ab053e1ce84e1efc163a9930aebd5af61188cae3",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.juicesharp-rpiv-btw-2.15.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-token-speed": {
+  "name": "pi-token-speed",
+  "id": "pi-pkg.pi-token-speed",
+  "version": "0.12.0",
+  "ok": true,
+  "sizeBytes": 224655,
+  "shasum": "2160fcb0e7d3f20875934f7a9d2bb74306e9dd5380364a79cfb9f0dd3a4d7742",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-token-speed-0.12.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-dashscope": {
+  "name": "pi-dashscope",
+  "id": "pi-pkg.pi-dashscope",
+  "version": "1.0.5",
+  "ok": true,
+  "sizeBytes": 11309,
+  "shasum": "cab873e188320bf3d6b51b2bf5760f628a8c45b3e23693d8efe7b619c3eb080c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-dashscope-1.0.5.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@pi-unipi/command-enchantment": {
+  "name": "@pi-unipi/command-enchantment",
+  "id": "pi-pkg.pi-unipi-command-enchantment",
+  "version": "2.20.5",
+  "ok": true,
+  "sizeBytes": 38352,
+  "shasum": "09d8000fb431ac737e635fae4dc89321e9cb9953d18532e2cbcc94ee4111df02",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-unipi-command-enchantment-2.20.5.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@router-for-me/pi-cliproxyapi-provider": {
+  "name": "@router-for-me/pi-cliproxyapi-provider",
+  "id": "pi-pkg.router-for-me-pi-cliproxyapi-provider",
+  "version": "1.4.23",
+  "ok": true,
+  "sizeBytes": 165308,
+  "shasum": "c51ff5b3311e7f47386c2afacf227138e53c8b93f4c9e9cb3a47cf6e1272153c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts",
+   "src/extensions/tps.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.router-for-me-pi-cliproxyapi-provider-1.4.23.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-cliproxyapi-provider": {
+  "name": "pi-cliproxyapi-provider",
+  "id": "pi-pkg.pi-cliproxyapi-provider",
+  "version": "0.15.58",
+  "ok": true,
+  "sizeBytes": 15810,
+  "shasum": "bfa1881bef6e5828b6acd50670dcee68eb432a6c20ec6ba3eab9b4a6bf3113b4",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-cliproxyapi-provider-0.15.58.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-ollama-cloud": {
+  "name": "pi-ollama-cloud",
+  "id": "pi-pkg.pi-ollama-cloud",
+  "version": "0.13.1",
+  "ok": true,
+  "sizeBytes": 145401,
+  "shasum": "8f15dc0e41ceebce166b1c8db56e09d507108f0b36a049ff9737f9f4a9789ee4",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-ollama-cloud-0.13.1.piplug",
+  "license": "NONE",
+  "npmIntegrity": null
+ },
+ "@gtrabanco/pi-nan-provider": {
+  "name": "@gtrabanco/pi-nan-provider",
+  "id": "pi-pkg.gtrabanco-pi-nan-provider",
+  "version": "1.3.0",
+  "ok": true,
+  "sizeBytes": 187580,
+  "shasum": "922473b474d93e145c57044aa569fc802a9a3c93ab816e53a84b4a3469cb750b",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.gtrabanco-pi-nan-provider-1.3.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@ludi-uni/ludi-agent-kit": {
+  "name": "@ludi-uni/ludi-agent-kit",
+  "id": "pi-pkg.ludi-uni-ludi-agent-kit",
+  "version": "0.4.0",
+  "ok": true,
+  "sizeBytes": 177325,
+  "shasum": "4770dd76d26743285fef7ac407d087f614f78667e4c750b44511f3b083b21f04",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/adapters/pi/loop-guard/index.js",
+   "src/adapters/pi/orchestrator-ext/index.js"
+  ],
+  "skills": [
+   "src/skills/pi-workflow",
+   "src/skills/project-management",
+   "src/skills/visual-verification"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.ludi-uni-ludi-agent-kit-0.4.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@realvendex/pi-token-router": {
+  "name": "@realvendex/pi-token-router",
+  "id": "pi-pkg.realvendex-pi-token-router",
+  "version": "0.2.0",
+  "ok": true,
+  "sizeBytes": 33215,
+  "shasum": "2fe2633db775cbe5b7417588030750c5a6e3a62db1bf4b44f8d8c2e2dfb59b03",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts",
+   "src/extensions/logger.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.realvendex-pi-token-router-0.2.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@agent-sh/computer-use-linux": {
+  "name": "@agent-sh/computer-use-linux",
+  "id": "pi-pkg.agent-sh-computer-use-linux",
+  "version": "0.7.25",
+  "ok": true,
+  "sizeBytes": 639640,
+  "shasum": "4f91a128f9faa0c6f167aae4f4671d1d83fb98cad5c6dcd53e6bc0aa0852c080",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/pi/extension/index.ts"
+  ],
+  "skills": [
+   "src/skills/computer-use-linux/SKILL.md"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.agent-sh-computer-use-linux-0.7.25.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-openai-toolkit": {
+  "name": "pi-openai-toolkit",
+  "id": "pi-pkg.pi-openai-toolkit",
+  "version": "0.24.0",
+  "ok": true,
+  "sizeBytes": 531430,
+  "shasum": "9b8905e83ad6c8dcd7218ac1a9e33e89119a7b9da5ba2faff3e93d58d4aa39c0",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/extension-runtime.ts",
+   "src/src/web-search/extension.ts",
+   "src/src/image-generation/extension.ts",
+   "src/src/codex-fast/extension.ts",
+   "src/src/codex-astra/extension.ts",
+   "src/src/responses-websocket/extension.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-openai-toolkit-0.24.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-subdir-context": {
+  "name": "pi-subdir-context",
+  "id": "pi-pkg.pi-subdir-context",
+  "version": "1.1.7",
+  "ok": true,
+  "sizeBytes": 8879,
+  "shasum": "3f1ff7409db323ee02fb98e13349123a7f88cf3a9350794b47b40e24317c922e",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-subdir-context-1.1.7.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-durable-subagents": {
+  "name": "pi-durable-subagents",
+  "id": "pi-pkg.pi-durable-subagents",
+  "version": "1.4.1",
+  "ok": true,
+  "sizeBytes": 1454339,
+  "shasum": "126c490c7051d966b0e5ec8a44e1977e81aa2f99b83c258bd0762b762e493214",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-durable-subagents-1.4.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-smart-compact": {
+  "name": "pi-smart-compact",
+  "id": "pi-pkg.pi-smart-compact",
+  "version": "10.6.2",
+  "ok": true,
+  "sizeBytes": 1698188,
+  "shasum": "7104740f9da547553645805a8f0ea3618f72b9b373520828f442de04cdbe0229",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-smart-compact-10.6.2.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-lore": {
+  "name": "pi-lore",
+  "id": "pi-pkg.pi-lore",
+  "version": "1.0.10",
+  "ok": true,
+  "sizeBytes": 268035,
+  "shasum": "598e12b647414e5bf5d07eb475c5a37122dbf573a99865e3ae5f3ddfb0a386af",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-lore-1.0.10.piplug",
+  "license": "NONE",
+  "npmIntegrity": null
+ },
+ "pi-lingual": {
+  "name": "pi-lingual",
+  "id": "pi-pkg.pi-lingual",
+  "version": "0.6.0",
+  "ok": true,
+  "sizeBytes": 1894573,
+  "shasum": "3357217e0ed2f7f8ab630c889403581beafa320791ede2482e6704f55921f47a",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/dist/extension.js"
+  ],
+  "skills": [
+   "src/skills/lingual-tuner"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-lingual-0.6.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-free": {
+  "name": "pi-free",
+  "id": "pi-pkg.pi-free",
+  "version": "2.8.5",
+  "ok": true,
+  "sizeBytes": 3859310,
+  "shasum": "43f32d7f32428cc66c19e78fed205be132e450626e7b700c4aad7d49e6b77fa6",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-free-2.8.5.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@sreetej510/pi-usage": {
+  "name": "@sreetej510/pi-usage",
+  "id": "pi-pkg.sreetej510-pi-usage",
+  "version": "0.13.0",
+  "ok": true,
+  "sizeBytes": 41043,
+  "shasum": "7399fc0b90c69f9c2011fa818ce6ae2b33ec84d1dc6113eeadb829cc10a4bf28",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.sreetej510-pi-usage-0.13.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@injaneity/pi-computer-use": {
+  "name": "@injaneity/pi-computer-use",
+  "id": "pi-pkg.injaneity-pi-computer-use",
+  "version": "0.5.1",
+  "ok": true,
+  "sizeBytes": 19369,
+  "shasum": "02fc859a4571129f3ba23a8d4462593eb80fcbb46026fcbd48a50ad0729054d4",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/computer-use.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.injaneity-pi-computer-use-0.5.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "bladebro": {
+  "name": "bladebro",
+  "id": "pi-pkg.bladebro",
+  "version": "4.6.5",
+  "ok": true,
+  "sizeBytes": 26885,
+  "shasum": "70685e10f671758aa71ebc8694bba6ebbdc550739c306f36b9745e009935bbb5",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/pi-extension.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.bladebro-4.6.5.piplug",
+  "license": "Apache-2.0",
+  "npmIntegrity": null
+ },
+ "pi-herdr-agents": {
+  "name": "pi-herdr-agents",
+  "id": "pi-pkg.pi-herdr-agents",
+  "version": "3.3.1",
+  "ok": true,
+  "sizeBytes": 183703,
+  "shasum": "7f49a3623abb0573d7b66e0add4def47bfcd52380ecc2ba22aa1d00ee0d801a3",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/pi-extension/subagents/index.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-herdr-agents-3.3.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-chrome": {
+  "name": "pi-chrome",
+  "id": "pi-pkg.pi-chrome",
+  "version": "0.15.57",
+  "ok": true,
+  "sizeBytes": 332987,
+  "shasum": "49de4a01024dae744a3f534ee0d92566ad9f691b025d1c15f0fff80612d875df",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/chrome-profile-bridge/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-chrome-0.15.57.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@llblab/pi-state-flow": {
+  "name": "@llblab/pi-state-flow",
+  "id": "pi-pkg.llblab-pi-state-flow",
+  "version": "0.26.5",
+  "ok": true,
+  "sizeBytes": 41613,
+  "shasum": "8b3ba23a8f3ac393019689ad28ff65678c24736b75f7ba05abbf7cc5714b6774",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/dist/pi-state-flow/index.js"
+  ],
+  "skills": [
+   "src/dist/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.llblab-pi-state-flow-0.26.5.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@gonrocca/nodd": {
+  "name": "@gonrocca/nodd",
+  "id": "pi-pkg.gonrocca-nodd",
+  "version": "0.9.2",
+  "ok": true,
+  "sizeBytes": 208984,
+  "shasum": "9c33e87335725453f0d54cb743ff97c887a4b6e213d58a065e06b7fc3b3e93bc",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/nodd-kernel.ts",
+   "src/extensions/nodd-gates.ts",
+   "src/extensions/nodd-allow.ts",
+   "src/extensions/nodd-models.ts",
+   "src/extensions/nodd-agents.ts",
+   "src/extensions/nodd-promote.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.gonrocca-nodd-0.9.2.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@tintinweb/pi-tasks": {
+  "name": "@tintinweb/pi-tasks",
+  "id": "pi-pkg.tintinweb-pi-tasks",
+  "version": "0.9.1",
+  "ok": true,
+  "sizeBytes": 154707,
+  "shasum": "824cae0b27d51800674234bb63ad6e08b287af333f1e0d2af8096ada9eaac1f5",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.tintinweb-pi-tasks-0.9.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-alibaba-models": {
+  "name": "pi-alibaba-models",
+  "id": "pi-pkg.pi-alibaba-models",
+  "version": "1.1.1",
+  "ok": true,
+  "sizeBytes": 59006,
+  "shasum": "a2acc96f5d02f3e53ef693fcac478bd686d1e8e7e3b45ba929d3e9a8431f85e7",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/alibaba.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-alibaba-models-1.1.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@pi-archimedes/core": {
+  "name": "@pi-archimedes/core",
+  "id": "pi-pkg.pi-archimedes-core",
+  "version": "2.11.2",
+  "ok": true,
+  "sizeBytes": 302803,
+  "shasum": "46001378e5822b70ae388dc95493976a79b70e0ddd7e40ccffe55a976b547fe5",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-archimedes-core-2.11.2.piplug",
+  "license": "NONE",
+  "npmIntegrity": null
+ },
+ "pi-compact-tools": {
+  "name": "pi-compact-tools",
+  "id": "pi-pkg.pi-compact-tools",
+  "version": "0.16.6",
+  "ok": true,
+  "sizeBytes": 338098,
+  "shasum": "4fa57745504d72a9fbf2dc687ad0005a55f9f6b422d7abd151c9b1da32086e0c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/compact-tools.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-compact-tools-0.16.6.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-cmux": {
+  "name": "pi-cmux",
+  "id": "pi-pkg.pi-cmux",
+  "version": "0.2.0",
+  "ok": true,
+  "sizeBytes": 168191,
+  "shasum": "4c9df1a7921516d7f251815ab58bc939b2fb13ca268f86b5aa9f90f2d67f0941",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-cmux-0.2.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-qwen_dashscope": {
+  "name": "pi-qwen_dashscope",
+  "id": "pi-pkg.pi-qwen_dashscope",
+  "version": "1.1.0",
+  "ok": true,
+  "sizeBytes": 28445,
+  "shasum": "ffe6c6abef0fc87304a25183bbd204959dc2b9d16960f270f7aab4126e456569",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-qwen_dashscope-1.1.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-autoresearch": {
+  "name": "pi-autoresearch",
+  "id": "pi-pkg.pi-autoresearch",
+  "version": "1.9.0",
+  "ok": true,
+  "sizeBytes": 219497,
+  "shasum": "43e7537e7112a6a84d004137a6a502bc123500efcb94101bfb1d1961f9e407d2",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/pi-autoresearch/commands.ts",
+   "src/extensions/pi-autoresearch/compaction.ts",
+   "src/extensions/pi-autoresearch/hooks.ts",
+   "src/extensions/pi-autoresearch/index.ts",
+   "src/extensions/pi-autoresearch/jsonl.ts",
+   "src/extensions/pi-autoresearch/paths.ts",
+   "src/extensions/pi-autoresearch/shortcuts.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-autoresearch-1.9.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@yandy0725/pi-memory": {
+  "name": "@yandy0725/pi-memory",
+  "id": "pi-pkg.yandy0725-pi-memory",
+  "version": "2.5.1",
+  "ok": true,
+  "sizeBytes": 272365,
+  "shasum": "edd4c4585c0f84e08a9b32d979efe6031bcfecba72c02bb05484032216dae5f6",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.yandy0725-pi-memory-2.5.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-tokenrouter": {
+  "name": "pi-tokenrouter",
+  "id": "pi-pkg.pi-tokenrouter",
+  "version": "1.5.0",
+  "ok": true,
+  "sizeBytes": 80181,
+  "shasum": "c00e5c498b7d7aed0c9b5eedcc5a2cbcb8681a4007b7027f7f08af11b561b191",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-tokenrouter-1.5.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-extension-qwen-token-plan-cn-ex": {
+  "name": "pi-extension-qwen-token-plan-cn-ex",
+  "id": "pi-pkg.pi-extension-qwen-token-plan-cn-ex",
+  "version": "0.1.0",
+  "ok": true,
+  "sizeBytes": 65808,
+  "shasum": "d8a6f43d1025d76b827bb6e248fece2d385aaf57614621f2a7e16fb92658d701",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-extension-qwen-token-plan-cn-ex-0.1.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "leos-agent": {
+  "name": "leos-agent",
+  "id": "pi-pkg.leos-agent",
+  "version": "12.2026101109.0",
+  "ok": true,
+  "sizeBytes": 964082,
+  "shasum": "b2f586924f700a39136aba5864380eb5684ea42732736083b02b83b3955f523b",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/pi-extension.js"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.leos-agent-12.2026101109.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-lmstudio": {
+  "name": "pi-lmstudio",
+  "id": "pi-pkg.pi-lmstudio",
+  "version": "1.5.0",
+  "ok": true,
+  "sizeBytes": 10939,
+  "shasum": "462b3215bdd427b6e7c8f1e413b23e08af85b9a808ce94b48ebb12c85c3d46ae",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/pi-lmstudio/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-lmstudio-1.5.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "osdy-pi": {
+  "name": "osdy-pi",
+  "id": "pi-pkg.osdy-pi",
+  "version": "1.11.18",
+  "ok": true,
+  "sizeBytes": 1598085,
+  "shasum": "98474dd7c4406065813e801a3a0254e100e942eba6de341af23f590c5fbaeb2f",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/osdy-pi.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.osdy-pi-1.11.18.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@d3ara1n/pi-provider-sensenova": {
+  "name": "@d3ara1n/pi-provider-sensenova",
+  "id": "pi-pkg.d3ara1n-pi-provider-sensenova",
+  "version": "1.5.1",
+  "ok": true,
+  "sizeBytes": 31232,
+  "shasum": "1aa301201317832b4fd7dc96863eb09a368718143440447dccfca186997f7adc",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.d3ara1n-pi-provider-sensenova-1.5.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-daddy": {
+  "name": "pi-daddy",
+  "id": "pi-pkg.pi-daddy",
+  "version": "0.49.3",
+  "ok": true,
+  "sizeBytes": 483234,
+  "shasum": "5563146de075e1cfa552a79932fafdac8e008bc3e24f07b26f5073c3efd6a71c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/grants.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-daddy-0.49.3.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-lean-ctx": {
+  "name": "pi-lean-ctx",
+  "id": "pi-pkg.pi-lean-ctx",
+  "version": "3.11.4",
+  "ok": true,
+  "sizeBytes": 718097,
+  "shasum": "02e38ecaf075e10ef9ad1b3fe3177ea82f1f11a8c752520167bccd1c675e5698",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-lean-ctx-3.11.4.piplug",
+  "license": "Apache-2.0",
+  "npmIntegrity": null
+ },
+ "pi-codex-goal": {
+  "name": "pi-codex-goal",
+  "id": "pi-pkg.pi-codex-goal",
+  "version": "0.6.1",
+  "ok": true,
+  "sizeBytes": 7066,
+  "shasum": "8def979d407cc3a13d21014b0f5587f767eccaa8869d0ff8306019c8eaa09e05",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-codex-goal-0.6.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-sensenova": {
+  "name": "pi-sensenova",
+  "id": "pi-pkg.pi-sensenova",
+  "version": "1.1.2",
+  "ok": true,
+  "sizeBytes": 28988,
+  "shasum": "608573febfba89b9e22807bfaf97466e309e72e092059d977c95aae9e1c57010",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/sensenova.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-sensenova-1.1.2.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@juicesharp/rpiv-args": {
+  "name": "@juicesharp/rpiv-args",
+  "id": "pi-pkg.juicesharp-rpiv-args",
+  "version": "2.15.0",
+  "ok": true,
+  "sizeBytes": 49184,
+  "shasum": "2f5b508dfd6a5c825c511e4fdcc90b69031a70dc569857828390d7eae7584cb7",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.juicesharp-rpiv-args-2.15.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@pi-unipi/skill-registry": {
+  "name": "@pi-unipi/skill-registry",
+  "id": "pi-pkg.pi-unipi-skill-registry",
+  "version": "3.0.0-alpha.0",
+  "ok": true,
+  "sizeBytes": 106551,
+  "shasum": "b361f3cf4f907af3a7116fdfcb869deb4a134ee2b8feeebca364688d2808a108",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-unipi-skill-registry-3.0.0-alpha.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@aibyzero/cm-workflow": {
+  "name": "@aibyzero/cm-workflow",
+  "id": "pi-pkg.aibyzero-cm-workflow",
+  "version": "0.17.1",
+  "ok": true,
+  "cached": true,
+  "sizeBytes": 625840,
+  "shasum": "19ebbd1a877584aee2c5715cec58184045719f257a05a38e2a03eb5577bb6b47",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/skills/cm-ai",
+   "src/skills/cm-check",
+   "src/skills/cm-fix",
+   "src/skills/cm-idea",
+   "src/skills/cm-init",
+   "src/skills/cm-notify",
+   "src/skills/cm-prd",
+   "src/skills/cm-refactor",
+   "src/skills/cm-runtime",
+   "src/skills/cm-security",
+   "src/skills/cm-test"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.aibyzero-cm-workflow-0.17.1.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-xai-oauth": {
+  "name": "pi-xai-oauth",
+  "id": "pi-pkg.pi-xai-oauth",
+  "version": "1.7.3",
+  "ok": true,
+  "sizeBytes": 702894,
+  "shasum": "13ee180f76113a2652c39acb6d9b490f5deaada9bdab0d858d284e2da7ac63ef",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/xai-oauth.ts",
+   "src/extensions/xai/abort.ts",
+   "src/extensions/xai/auth.ts",
+   "src/extensions/xai/bounded-body.ts",
+   "src/extensions/xai/catalog.ts",
+   "src/extensions/xai/constants.ts",
+   "src/extensions/xai/device-auth.ts",
+   "src/extensions/xai/image-edit.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-xai-oauth-1.7.3.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-atelier": {
+  "name": "pi-atelier",
+  "id": "pi-pkg.pi-atelier",
+  "version": "0.16.0",
+  "ok": true,
+  "sizeBytes": 49101,
+  "shasum": "1b5c985694d27d5d15abeb07e23f10fc5f214b0f3c7e21aaafdc416a327567bc",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-atelier-0.16.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@czottmann/pi-zai-api": {
+  "name": "@czottmann/pi-zai-api",
+  "id": "pi-pkg.czottmann-pi-zai-api",
+  "version": "1.1.0",
+  "ok": true,
+  "sizeBytes": 9320,
+  "shasum": "b2ce5e97de02bef17c3af884e4f66be9e0d4d6ad7f69b99a802a57683aab99da",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/zai-api.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.czottmann-pi-zai-api-1.1.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-do-always": {
+  "name": "pi-do-always",
+  "id": "pi-pkg.pi-do-always",
+  "version": "0.23.0",
+  "ok": true,
+  "sizeBytes": 259326,
+  "shasum": "23fc91af9c6f824dfc1739a95b250e0e327d6e03cb22e1df05411f6792b8973b",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/pi-do-always/index.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-do-always-0.23.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@capdiem/pi-todo": {
+  "name": "@capdiem/pi-todo",
+  "id": "pi-pkg.capdiem-pi-todo",
+  "version": "0.3.2",
+  "ok": true,
+  "sizeBytes": 49268,
+  "shasum": "4ec5108d46dfa1a1eb961d26f30f61455757d2968e727cb62b30820c6b661beb",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.min.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.capdiem-pi-todo-0.3.2.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "superpowers-zh": {
+  "name": "superpowers-zh",
+  "id": "pi-pkg.superpowers-zh",
+  "version": "1.8.0",
+  "ok": true,
+  "sizeBytes": 560712,
+  "shasum": "cb273e9f22dacfe93b52a4178e0b27b1df9a13277f92bb962718d651e8a0855c",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/.pi/extensions/superpowers.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.superpowers-zh-1.8.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-tool-repair": {
+  "name": "pi-tool-repair",
+  "id": "pi-pkg.pi-tool-repair",
+  "version": "0.3.9",
+  "ok": true,
+  "sizeBytes": 113488,
+  "shasum": "7f8a8df1f388b7547029941282c78f5675f17fcd7e08ab2b53036bdbd8e158f6",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/tool-repair.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-tool-repair-0.3.9.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pine-of-glass": {
+  "name": "pine-of-glass",
+  "id": "pi-pkg.pine-of-glass",
+  "version": "0.18.3",
+  "ok": true,
+  "sizeBytes": 106927,
+  "shasum": "ea5556cd835d8dc7df5382df9a0e9359742bc80f315895765480777785537c22",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/pi-contextimate/heuristic-config.ts",
+   "src/extensions/pi-contextimate/index.ts",
+   "src/extensions/pi-contextimate/message-size.ts",
+   "src/extensions/pi-contextimate/metric-rows.ts",
+   "src/extensions/pi-contextimate/prompt-parsing.ts",
+   "src/extensions/pi-contextimate/render.ts",
+   "src/extensions/pi-contextimate/report.ts",
+   "src/extensions/pi-contextimate/request-messages.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pine-of-glass-0.18.3.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "awesome-pi-themes": {
+  "name": "awesome-pi-themes",
+  "id": "pi-pkg.awesome-pi-themes",
+  "version": "1.2.19",
+  "ok": true,
+  "sizeBytes": 29274,
+  "shasum": "00d295146d2d7bcc3f982e51acdb78d1770b5951b525de26beeaa7b780468276",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/look-pack.ts"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.awesome-pi-themes-1.2.19.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-cloudflare": {
+  "name": "pi-cloudflare",
+  "id": "pi-pkg.pi-cloudflare",
+  "version": "0.11.15",
+  "ok": true,
+  "sizeBytes": 1366779,
+  "shasum": "7410b16e341e249f3f03d9e783a1109014664583f9c1dbc19bd41b9125350c51",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-cloudflare-0.11.15.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "@spences10/pi-redact": {
+  "name": "@spences10/pi-redact",
+  "id": "pi-pkg.spences10-pi-redact",
+  "version": "0.0.15",
+  "ok": true,
+  "sizeBytes": 30810,
+  "shasum": "aa0f4f49bfde5de2c42a3fc0575b8da3a6d6e8f883939a7ef4c2ea80112f20e6",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.spences10-pi-redact-0.0.15.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "principal-pi-skills": {
+  "name": "principal-pi-skills",
+  "id": "pi-pkg.principal-pi-skills",
+  "version": "4.14.0",
+  "ok": true,
+  "sizeBytes": 173399,
+  "shasum": "f14582a64e50f0d96d633a4d982965b9dfd3a5c036365ca862eccd785c07ce9c",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/bootstrap.ts",
+   "src/extensions/resume.ts",
+   "src/extensions/workflow.ts",
+   "src/extensions/codemode.ts"
+  ],
+  "skills": [
+   "src/decide",
+   "src/architect",
+   "src/plan",
+   "src/build",
+   "src/review",
+   "src/test-review",
+   "src/debug",
+   "src/investigate",
+   "src/git-ops"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.principal-pi-skills-4.14.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ },
+ "pi-context": {
+  "name": "pi-context",
+  "id": "pi-pkg.pi-context",
+  "version": "2.3.0",
+  "ok": true,
+  "sizeBytes": 109614,
+  "shasum": "72969b0c0ece35cdaa96dd6af6f3ed8462c6049a8264d4ef893554db74ac169a",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/src/index.ts",
+   "src/src/context.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-context-2.3.0.piplug",
+  "license": "MIT",
+  "npmIntegrity": null
+ }
+}
