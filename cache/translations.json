@@ -1,5 +1,5 @@
 {
-"generated_at": "2026-10-25T10:37:25Z",
+"generated_at": "2026-10-25T10:41:26Z",
 "entries": {
 "billion-context": {
 "zh": "一个上下文压缩插件——小上下文窗口（100K上下文足够），5倍更少的标记，长达一个月的单次会话（数十亿标记），以及压缩质量——适用于所有代理：pi、OpenCode、Codex、Claude Code等。"
@@ -252,9 +252,6 @@
 },
 "@kontextmind/kxm": {
 "zh": "KXM本地优先多代理编排和操作仪表板"
-},
-"pi-intercom": {
-"zh": "<p> <img src=\"banner.png\" alt=\"pi-intercom\" width=\"1100\"> </p>"
 },
 "@mutmutco/pi-plugin": {
 "zh": "MMI工作流技能和组织门控交付"
@@ -615,9 +612,6 @@
 },
 "@nitra/cursor": {
 "zh": "CLI用于将cursor-规则（前缀n-）加载到本地仓库"
-},
-"@aliou/pi-guardrails": {
-"zh": ""
 },
 "@rhinos0608/pi-subagents": {
 "zh": "Pi的单代理委托和脚本化多代理工作流程扩展"
@@ -1303,9 +1297,6 @@
 "pi-slate": {
 "zh": "一个最小化 TUI，具有丰富的图形支持，添加零上下文膨胀。"
 },
-"@aliou/pi-processes": {
-"zh": "![banner](https://assets.aliou.me/github/aliou/pi-processes/banner-v0.10.x.png)"
-},
 "pi-jar": {
 "zh": "一个温暖、角色感知的 Pi 终端工作区，具有可切换配置文件、动画 UI、计划和目标工作流程、任务、变更审查、模型角色、后台外壳和子代理。"
 },
@@ -1762,53 +1753,11 @@
 "@inaiii/pi-preset": {
 "zh": "Pi coding agent preset — 技能、扩展、提示和主题"
 },
-"pi-provider-antigravity": {
-"zh": "Minimal Antigravity provider for Pi Coding Agent"
-},
-"@sreetej510/pi-hpc-tools": {
-"zh": "Pi extension for exploring a remote HPC/SSH host (via plink) with ls/read/grep tools, gated per-project by /hpc:on and /hpc:off"
-},
 "pi-gemini-multimodal": {
 "zh": "Multimodal perception for Pi — 图像/音频/视频/文档理解，通过 Gemini（gemini_api 或本地 antigravity CLI）进行转录和图像生成"
 },
-"pi-anthropic-compat": {
-"zh": "Native Anthropic compaction compatibility for Pi"
-},
-"@prjct.app/pi-team": {
-"zh": "Connect independent Pi terminals with live presence, automatic message delivery and clear submission receipts"
-},
-"@bytetrue/pi-subagent": {
-"zh": "Pi extension: lightweight subagent runner with streaming execution, live TUI progress card, parallel/chain execution, and zero framework lock-in"
-},
-"@geohar/pi-permissions-analyzer": {
-"zh": "Pi extension: analyze and probe the pi-permission-auto-review classifier. Dry-run or call the model to validate additionalPolicy rules and inspect prompt construction"
-},
-"@tranhoangnguyen0310/pi-flow-external": {
-"zh": "External Claude Code, Codex CLI, Antigravity, Grok Build CLI, Muse Code, and OpenCode delegation for pi"
-},
 "@zhushanwen/pi-ask-user": {
 "zh": "Inline adaptive ask_user tool for Pi — 单/多问题结构化输入，带有分割预览和内联自由文本编辑器"
-},
-"pi-cohort": {
-"zh": "Delegate Pi work to focused child agents: code review, scouting, implementation, parallel audits, saved chains, and background jobs"
-},
-"pi-vim": {
-"zh": "Vim-style modal editing for Pi's TUI editor"
-},
-"@mrclrchtr/supi-extras": {
-"zh": "Session capability controls, prompt stash, shortcuts, and activity indicators"
-},
-"pi-doppelclaude": {
-"zh": "Pi provider that runs your Claude Code subscription as pi models via the Claude Agent SDK"
-},
-"@mrclrchtr/supi-cache": {
-"zh": "Inspect prompt-cache history and investigate regressions"
-},
-"pi-studio": {
-"zh": "Two-pane browser workspace for pi with prompt/response editing, annotations, critiques, active quiz, prompt/response history, live previews, and tmux-backed REPL/literate REPL workflows"
-},
-"@mrclrchtr/supi-settings": {
-"zh": "One project/global settings UI for SuPi packages"
 },
 "@davideasden/pi-undo": {
 "zh": "Pi 持久工作区撤销和重做"
@@ -2644,9 +2593,6 @@
 "@pi-archimedes/ui": {
 "zh": "终端UI增强、样式化bash工具渲染和Pi的视觉呈现组件"
 },
-"@aliou/pi-neuralwatt": {
-"zh": "![banner](https://assets.aliou.me/github/aliou/pi-neuralwatt/banner.png)"
-},
 "@astrofoundry/pi-astro": {
 "zh": "为pi编码代理提供个人定制（扩展、子代理、技能、提示、主题）"
 },
@@ -3424,9 +3370,6 @@
 "pi-codex-account-switcher": {
 "zh": "在 Pi 中切换和监控多个 OpenAI Codex 账户。"
 },
-"pi-tps-web": {
-"zh": "<div align=\"center\">"
-},
 "pi-subagents-j0k3r": {
 "zh": "可安装的 Pi 包，添加 markdown 定义的子代理、委托任务工具、历史记录和模型配置文件。"
 },
@@ -3550,66 +3493,6 @@
 "mcp-gway": {
 "zh": "为agent需要的每个服务器提供一个MCP端点——Code Mode按需发现模式。"
 },
-"pi-sensenova-compat": {
-"zh": "SenseNova (TokenPlan) image generation and editing for pi: U-series models via a thin extension"
-},
-"@dieulc/workflow": {
-"zh": "Plan↔Build mode with an independent Review Mode reviewer, questionnaire, subagent explore, todos and shadow-checkpoint rewind for Pi."
-},
-"@cmo-so/skills": {
-"zh": "Install the CMO.so marketing skills (SEO, AI search, content, social, email, ads, CRO, analytics) into Claude Code, Codex, Pi, Cursor, Gemini CLI, OpenCode, Copilot and other coding agents, for one project or for your user. Also a Pi package."
-},
-"@dev-sergeev/pi-gigachat": {
-"zh": "GigaChat-compatible server connections and user-selected models for pi-coding-agent"
-},
-"@mjakl/pi-subagent": {
-"zh": "Subagent extension for Pi coding agent. Delegate prompts to specialized agents with optional named sessions."
-},
-"@chainingintention/pi-web-cn": {
-"zh": "Web UI for persistent Pi Coding Agent sessions in real workspaces."
-},
-"@cortexkit/pi-anthropic-auth": {
-"zh": "Use Claude Pro/Max subscriptions in [Pi](https://pi.dev) with `@cortexkit/pi-anthropic-auth`. The companion `@cortexkit/opencode-anthropic-auth` package supports [OpenCode](https://opencode.ai) 1 and 2; both integrations use the shared `@cortexkit/anthrop"
-},
-"pi-opencode-cli-bridge": {
-"zh": "Bridge the OpenCode CLI into Pi Coding Agent"
-},
-"@kvidzibo/pi-browser": {
-"zh": "Isolated Chromium for Pi and MCP: private approvals, saved profiles and LAN blocking"
-},
-"@monotykamary/pi-cost-backoff": {
-"zh": "Cost-aware request throttling for pi — exponential backoff when $/M or $/min exceeds your cap. Companion to pi-tps."
-},
-"pi-actors": {
-"zh": "Subagents for pi, built like Erlang processes: spawn fresh or forked children on any model, message them, and get their reports pushed back. Survives reloads and crashes."
-},
-"@xynogen/pix-subagent": {
-"zh": "Pi tool — planner-driven sub-agents: spawn, fetch, steer scoped child agents"
-},
-"@papillon6814/pi-scaffold": {
-"zh": "Pi-native Scaffold workflow tools built on pi-gh"
-},
-"pi-provider-kimi-code": {
-"zh": "Kimi Code models (K3, K2.8, HighSpeed) in Pi: OAuth shared login with kimi-code CLI, file uploads, and Kimi-native tools"
-},
-"codecartographer-pi": {
-"zh": "Turn an unfamiliar codebase into a validated reimplementation spec, then synthesize confirmed specs and a product vision into a traceable plan."
-},
-"@pentect/pi": {
-"zh": "Pentect provider extension for Pi"
-},
-"pi-model-switch": {
-"zh": "Model switching extension for pi coding agent"
-},
-"@alexeiled/pi-fusion": {
-"zh": "Stronger answers for hard Pi questions via a parallel model panel + judge, built on pi-subagents"
-},
-"@llblab/pi-actors": {
-"zh": "Local Actor Kernel for Pi"
-},
-"@zhafron/pi-memory": {
-"zh": "Memory management extension for pi coding agent"
-},
 "@pwguler/pi-loop": {
 "zh": "pi循环扩展"
 },
@@ -3654,9 +3537,6 @@
 },
 "@phni3j9a/pimate": {
 "zh": "通过您的PC和Tailscale在您的手机上使用Pi"
-},
-"@dataforxyz/agent-intercom-pi": {
-"zh": "<p> <img src=\"banner.png\" alt=\"pi-intercom\" width=\"1100\"> </p>"
 },
 "pi-provider-alibaba-bailian": {
 "zh": "pi提供程序扩展，用于阿里巴巴Bailian（DashScope，OpenAI兼容模式）"
@@ -3901,9 +3781,6 @@
 "@luan.sh/pi-libtui": {
 "zh": "共享TUI组件和通用鼠标兼容性，适用于本地Pi扩展"
 },
-"@agwab/pi-subagent": {
-"zh": "Minimal subagent runtime for Pi。"
-},
 "decorated-pi": {
 "zh": "decorated-pi是pi编码代理的一个实用增强包 - 令牌高效的流程、缓存友好的设计、更智能的工具。"
 },
@@ -4030,65 +3907,8 @@
 "@jetcrab/pi-desk-quota-viewer": {
 "zh": "Pi 桌面余额和配额查看器，具有驱动设置适配器。"
 },
-"pi-sub-anthropic": {
-"zh": "Anthropic provider extension for pi, ported from omp (oh-my-pi). Registers a separate `pi-sub-anthropic` provider; pi's built-in anthropic provider is untouched."
-},
-"@xynogen/pix-gate": {
-"zh": "Pi extension — permission gate for dangerous bash commands (confirm/block with TUI dialog)"
-},
-"@clementprevot/pi-blast-radius-guard": {
-"zh": "Pi extension that intercepts git push commands that look like accidents (protected branch targets, oversized diffs) and asks the user first"
-},
 "pi-zh-cn": {
 "zh": "pi 编码代理的简体中文界面汉化插件"
-},
-"@estebanforge/pi-ask-codex": {
-"zh": "Pi tool that delegates a self-contained sub-task to OpenAI's Codex CLI via `codex exec --json`. Streams structured events as partial output, returns the final agent message. Configurable default model + reasoning effort, with multi-turn session continuity"
-},
-"@cad0p/pi-napkin": {
-"zh": "📜 Napkin integration for pi — vault context, knowledge tools, and automatic distillation with git-worktree concurrency safety"
-},
-"pi-claude-request-compat": {
-"zh": "An OAuth-only Claude Compat selection for Pi with validated Claude Code-style requests."
-},
-"@garygentry/feature-forge": {
-"zh": "Cross-agent installer for the feature-forge skill suite — installs the canonical forge pipeline into Claude, Codex, Copilot, Cursor, Gemini, or Pi."
-},
-"pi-rewind": {
-"zh": "Checkpoint/rewind extension for the Pi coding agent — per-tool snapshots, /rewind command, Esc+Esc shortcut, safe restore, redo stack"
-},
-"pi-tool-duration": {
-"zh": "Make host-observed Pi tool-call timing visible to the model"
-},
-"@piewf/pi-ext-roles": {
-"zh": "Independent Pi role resolution options, contributions and native startup launcher"
-},
-"@heyhuynhgiabuu/pi-diff": {
-"zh": "Shiki-powered terminal diff renderer for pi — syntax-highlighted, word-level diffs in split and unified views."
-},
-"@leo-alvarenga/pi-ext-core": {
-"zh": "Shared building blocks for pi extensions: types, utils, headless agent runtime, session store, panel widget, and subagent runtime"
-},
-"oira666_pi-watcher": {
-"zh": "A persistent side-agent conversation for observing and steering your running Pi agent."
-},
-"@pify/workflow": {
-"zh": "Deterministic multi-step agent orchestration for pi: a Claude Code-style workflow tool with agent()/parallel()/pipeline() scripts over the shared agent catalog"
-},
-"pi-session-name": {
-"zh": "pi extension that auto-generates a concise session title from the first user prompt and shows agent running/idle status in the terminal title."
-},
-"@leing2021/pi-search": {
-"zh": "Minimal Secure Evidence Gateway for Pi Coding Agent — search, web_search, web_fetch, research_search. Intent-based provider routing, quota fallback, dual-LLM research, 4-layer abuse prevention."
-},
-"pi-qoder-agent-sdk-bridge": {
-"zh": "Pi extension that bridges the Qoder Agent SDK (official @qoder-ai/qoder-agent-sdk) into Pi as a model provider"
-},
-"omp-cursor-sdk": {
-"zh": "omp (oh-my-pi) plugin that registers Cursor models as the cursor-sdk provider, backed by @cursor/sdk local and cloud agents"
-},
-"@vanillagreen/pi-session-manager": {
-"zh": "Polished Pi session manager overlay for browsing, searching, resuming, renaming, and safely deleting sessions."
 },
 "pi-superpowers": {
 "zh": "Superpowers工作流技能适配pi"
@@ -7531,9 +7351,6 @@
 "pi-tool-supervisor": {
 "zh": "具有每个工具可配置的生命周期审查和交互式配置的Pi工具管理器扩展。"
 },
-"pi-usage-limits": {
-"zh": "[![npm](https://img.shields.io/npm/v/pi-usage-limits)](https://www.npmjs.com/package/pi-usage-limits)"
-},
 "@arhen/pi-core-ask": {
 "zh": "简约pi问卷：ask_user_question工具，最多4个结构化问题（2-4选项，多选，预览，输入类型）。"
 },
@@ -7611,9 +7428,6 @@
 },
 "@tavily/pi-extension": {
 "zh": "Tavily 为 Pi 编码代理的官方扩展"
-},
-"voipi": {
-"zh": "<p align=\"center\"> <a href=\"https://voipi.vercel.app/\"> <img src=\"logo.svg\" alt=\"voipi\" width=\"128\" height=\"128\"> </a> </p>"
 },
 "@arcanemachine/inter-agent-pi": {
 "zh": "Pi 扩展，用于连接到代理间消息总线"
@@ -8109,66 +7923,6 @@
 },
 "@fradser/pi-recap": {
 "zh": "Pi会话摘要——显示TUI输入框上方发生的事情的简洁摘要，如Claude Code的✦摘要：功能"
-},
-"@tian.zuo/pi-find": {
-"zh": "Simple, bounded ripgrep/fd-backed grep and find tools for the pi coding agent."
-},
-"@danypops/pi-packed": {
-"zh": "Pi package lifecycle, validation, daemon, tools, profiles, and TUI"
-},
-"@goodman-b/pi-swarm": {
-"zh": "Multi-agent swarm for the pi coding agent: board-coordinated peers, an independent harvest verifier, and an optional sandboxed writer. pi extension"
-},
-"pi-agent-orchestrator": {
-"zh": "Parallel shell jobs and child agents for Pi, with automatic completion notifications and an activity dock"
-},
-"pi-custom-provider-model": {
-"zh": "A local browser-based custom provider and API-key manager for Pi."
-},
-"pi-prompt-queue": {
-"zh": "FIFO prompt queue shared across pi sessions — one local model, many terminals, serialized"
-},
-"pi-killword": {
-"zh": "Bind Ctrl+Backspace to Pi's backward word deletion action."
-},
-"@tylerho/pi-ask-user-question": {
-"zh": "Claude Code-shaped batch questions: 1-4 per call, each with a header, 2-4 options, optional multi-select and per-option previews."
-},
-"pi-context-mode": {
-"zh": "Context-saving MCP extension for Pi Coding Agent with sandboxed code execution, FTS5 knowledge base, and intent-driven search."
-},
-"pi-gitlab-provider": {
-"zh": "GitLab AI gateway model proxy provider for pi (Anthropic and OpenAI models via GitLab Duo)"
-},
-"pi-nano-gpt-provider": {
-"zh": "nanoGPT custom provider extension for the Pi coding agent — lazy discovery of the detailed model catalog (context windows, vision/reasoning, at-cost pricing), cached offline, no startup blocking."
-},
-"timestamp-pi": {
-"zh": "Timestamps under every message plus a prompt-cache countdown in the footer"
-},
-"@blueocean223/pi-question": {
-"zh": "AskUserQuestion tool for pi: single/multi questions, multiSelect, previews, tab navigation"
-},
-"@each1024/pi-final-model": {
-"zh": "Rewrite Pi's final answer with a dedicated model, with settings, diagnostic logs, and a verified completion sparkle."
-},
-"pi-extension-opensandbox": {
-"zh": "Server-side Pi extension factory that routes built-in tools to a remote OpenSandbox sandbox"
-},
-"@sherif-fanous/pi-rtk": {
-"zh": "Pi extension that routes shell commands through rtk to reduce LLM token usage"
-},
-"@daxzeit/pi-jev-vcc-memory-relevance": {
-"zh": "Logit-scored memory relevance for the Pi coding agent — ranked hints (priors, not verdicts) over your long-term memory index, via JEV (default) or a fully local scorer"
-},
-"pi-deepseek-search-tools": {
-"zh": "DeepSeek Search & Fetch for Pi: deepseek_search for live web results via the official POST /v1/tools/search API and deepseek_fetch for full-page Markdown via POST /v1/tools/fetch. Requires a DeepSeek API key (DEEPSEEK_API_KEY or /deepseek-setup)."
-},
-"pi-impeccable": {
-"zh": "Run Impeccable skills from Pi without blocking the agent."
-},
-"pi-skill-palette": {
-"zh": "VS Code-style command palette for selecting and applying skills in pi"
 },
 "pi-diet-lsp": {
 "zh": "按需 LSP 代码智能工具，适用于 Pi，无需自动诊断或上下文注入。"
@@ -8787,9 +8541,6 @@
 },
 "@pixelsnis/pi-plan-mode": {
 "zh": "Pi 的计划和构建模式，带有默认拒绝的计划工具和明确的计划批准。"
-},
-"@thanhpp/pi-context": {
-"zh": "# pi-context"
 },
 "@clang.engineer/pi-notify": {
 "zh": "Pi 编码代理的完成和权限通知。"
@@ -9556,59 +9307,11 @@
 "pi-modelshortcuts": {
 "zh": "Slash commands that switch models in Pi: 绑定 /quick、/heavy 或您自己的名称到模型"
 },
-"cache-warm": {
-"zh": "Opt-in prompt-cache keep-alive for Pi with avoided-miss and USD-saved metrics"
-},
-"@giladbarnea/pi-time-sense": {
-"zh": "Give Pi agents ongoing sense of time."
-},
-"@hank-warren/pi-stats": {
-"zh": "A compact /stats dashboard for all-time Pi token usage, including persisted subagents."
-},
-"@miadi/agent-pi": {
-"zh": "Multi-agent orchestration suite for Pi — 6 modes, 43 extensions, 11 themes"
-},
 "@patimweb/pi-sentinel": {
 "zh": "Verification harness for the pi coding agent: 运行您的检查，当代理编辑时，在完成之前，失败时将其发送回去，并记录每次运行以便回滚。"
 },
-"pi-repoprompt-mcp": {
-"zh": "A token-efficient RepoPrompt integration for Pi with branch-safe workspace and tab management"
-},
-"pi-tiny-search": {
-"zh": "Instant web search and page fetching for Pi via Monid/TinyFish. No browser, no LLM summarization — just fast structured results."
-},
-"@wbline/pi-dynamic-models": {
-"zh": "Dynamic model discovery for Pi coding agent — fetches models from any configured API server at startup"
-},
-"@gang-of-beads/pi-multi-account": {
-"zh": "Multi-account OAuth switching and Claude subscription billing for pi"
-},
-"@jamesjfoong/pi-ollama": {
-"zh": "Auto-discover and register Ollama models in pi. No more manual models.json editing."
-},
 "pi-cliffcompaction": {
 "zh": "CliffCompaction for Pi/OMP: 机械自动压缩。截断或删除，永不改写，永不压缩压缩。arXiv:2609.26779 的移植。"
-},
-"pi-subagent-sessions": {
-"zh": "Manage persistent, resumable child-agent sessions in Pi."
-},
-"@pixu1980/pi-path-picker": {
-"zh": "Interactive file path autocomplete for pi coding agent - arrow-key navigation, fuzzy matching, Tab completion, and the /pick command"
-},
-"@d3ara1n/pi-chat-room": {
-"zh": "Agent-to-agent messaging for pi — built on @d3ara1n/pi-mesh. Exposes the send_to tool so agents can message each other; incoming messages arrive as user messages prefixed [From: NAME], queued until idle. Role-agnostic and order-agnostic: just the messaging"
-},
-"@lilibonk/pi-pane": {
-"zh": "Hand the current pi TUI session to a foreground browser workbench, with RPC-owned conversations and optional HTTPS access"
-},
-"pi-agentic-search": {
-"zh": "Pi extension for agent-oriented ranked code search and one-call diff context packs"
-},
-"pi-bifrost-provider": {
-"zh": "A Bifrost AI Gateway provider for the pi coding agent"
-},
-"pi-cliproxy-search": {
-"zh": "Blazing-fast multi-engine web search & clean page fetch extension for Pi Coding Agent powered by local CLIProxyAPI (Codex & Antigravity) and Jina Reader."
 },
 "pi-private-input": {
 "zh": "为 Pi 提供私有凭证输入和显式 SSH/sudo 辅助工具。"
@@ -11113,63 +10816,6 @@
 "@myka2003/pi-dpi": {
 "zh": "dπ — 拆解 π：pi 的解耦 agent 仓库引擎"
 },
-"pi-dynamiccontext": {
-"zh": "Declarative lifecycle rules over an append-only slot ledger, as a pi extension"
-},
-"pi-git-tui": {
-"zh": "Interactive Git diff, staging, history, and commit TUI for Pi."
-},
-"pi-manage-todo-list": {
-"zh": "A pi extension that replicates GitHub Copilot's manage_todo_list tool"
-},
-"pi-models-sync-extension": {
-"zh": "Synchronize new chat-model IDs from an OpenAI-compatible /models endpoint into Pi models.json"
-},
-"pi-tor-proxy": {
-"zh": "Pi extension that routes pi agent requests through Tor. It downloads and manages its own Tor binary, so nothing needs to be installed on the system."
-},
-"@sfroment/pi-gh-cli": {
-"zh": "Pi extension wrapping the GitHub gh CLI as a single typed tool (direct CLI, not MCP)."
-},
-"@sugarforever/pi-jev-router": {
-"zh": "Per-turn session router for Pi: Jev decides whether a prompt should continue, fork, or start a new session before it pollutes the context"
-},
-"@vtstech/pi-openrouter-sync": {
-"zh": "OpenRouter model sync extension for Pi Coding Agent — add models from OpenRouter URLs or IDs"
-},
-"avtc-pi-zai-continue": {
-"zh": "Auto-continue after Z.ai usage limit resets, with a live countdown and retry suppression."
-},
-"@better-compact/pi": {
-"zh": "pi and Oh My Pi extension that improves long-session context with boundary-time pruning"
-},
-"@gotgenes/pi-permission-model-judge": {
-"zh": "Deny-first typo-path model judge — a pi-permission-system Authorizer chain link"
-},
-"@ifi/oh-pi-skills": {
-"zh": "On-demand skill packs for pi: web-search, debug-helper, git-workflow, and more."
-},
-"@narumitw/pi-fleet": {
-"zh": "Pi extension for spawning and connecting local Pi sessions."
-},
-"pi-claude-shimmer": {
-"zh": "Claude Code-style working spinner for Pi — shimmer, thinking glow, token count, stall detection"
-},
-"pi-codex-app-server": {
-"zh": "Expose Pi Coding Agent through the Codex App Server and ChatGPT Remote protocols."
-},
-"pi-interactive-lite": {
-"zh": "Lightweight interactive-shell alternative for pi: drive terminal programs (agent CLIs, auth flows, anything needing a PTY) through tmux via plain bash, plus a minimal user_input tool to prompt the user for free-form answers. ~150 tokens/round instead of ~"
-},
-"pi-local-fusion": {
-"zh": "Persistent lead/sidekick orchestration for Pi, inspired by Devin Local Fusion"
-},
-"pi-ntfy": {
-"zh": "Project and session-aware NTFY notifications for the pi coding agent."
-},
-"@realmikekelly/pi-mcp-events": {
-"zh": "Native MCP Events streams for Pi, with idle wakeups"
-},
 "@xynogen/pix-aria2": {
 "zh": "Pi工具——通过自动管理的aria2 RPC守护进程实现快速可恢复下载"
 },
@@ -11590,66 +11236,6 @@
 "pi-sticky-last-prompt": {
 "zh": "将您的最后一条用户消息固定在pi的全屏TUI顶部；点击固定的栏跳转到该消息的记录中"
 },
-"pi-agy": {
-"zh": "Antigravity / Cloud Code Assist provider for Pi with multi-account quota failover"
-},
-"pi-figma-remote-auth": {
-"zh": "Pi extension that authenticates and configures Figma Remote MCP for pi-mcp-adapter."
-},
-"pi-jj": {
-"zh": "Pi extension package for Jujutsu workflows (checkpointing, rewind, and jj onboarding)"
-},
-"pi-quote-jev": {
-"zh": "Select text in Pi fullscreen, press Alt+Q, and reply below a neatly formatted quote. No clipboard needed."
-},
-"pi-requesty-provider": {
-"zh": "Requesty provider extension for pi coding agent with dynamic model discovery, unified /requesty command, and /login support"
-},
-"pi-sgrep": {
-"zh": "pi extension: sgrep-powered semantic code search (plain-English retrieval over a local index)"
-},
-"pi-web-core": {
-"zh": "Configurable web search and web fetching for Pi coding agent."
-},
-"@victor-software-house/pi-openai-proxy": {
-"zh": "OpenAI-compatible HTTP proxy for pi's multi-provider model registry"
-},
-"@wwwyo/pi-vim": {
-"zh": "Vim-style modal editing for Pi's TUI editor"
-},
-"@yandy0725/pi-web-tools": {
-"zh": "pi package providing websearch and webfetch tools"
-},
-"@jaggerxtrm/pi-service-knowledge": {
-"zh": "Pi extension: service-knowledge registry status + drift notice (self-gating; zero surface without a registry). Relocated from core/pi-extensions (xtrm-6z6.5) to co-locate with the service-knowledge Python package it mirrors."
-},
-"@lebronj/pi-playwright": {
-"zh": "Optional Playwright browser automation package for pi"
-},
-"omp-dynamic-reasoning": {
-"zh": "Opt-in, model-aware reasoning effort routing with OpenRouter Jev for Pi and Oh My Pi"
-},
-"pi-everything": {
-"zh": "Instant machine-wide file search for the pi coding agent on Windows — native tools (search, content grep, folder size, syntax reference, status) backed by the Everything index via es.exe"
-},
-"pi-linehash-edit": {
-"zh": "Stateless checksum-guarded line editing for pi coding agents"
-},
-"pi-starline": {
-"zh": "A Starship-inspired statusline and Opencode-style TUI for Pi."
-},
-"zeldoc-pi-provider": {
-"zh": "Zeldoc.ai model provider extension for the Pi coding agent"
-},
-"@apetersson/pi-beacon": {
-"zh": "Authoritative lifecycle state (idle/working/compacting/retrying) for a running Pi instance, exposed via unix socket and state file"
-},
-"@mammothb/pi-memory": {
-"zh": "VCC conversation compaction for Pi, backed by mm-cli"
-},
-"orchestrator-autopilot": {
-"zh": "Deterministic orchestrator autopilot — keeps a subagent worker fleet at capacity. One queue store + lifecycle + tools; each host loads only its own adapter."
-},
 "@adamcjm/pi-subagent": {
 "zh": "pi的子代理工具：使用隔离的上下文窗口（单、并行、链模式）委托任务，具有流式输出、计划模式传播和父模型继承"
 },
@@ -11829,66 +11415,6 @@
 },
 "@finngi/pi-delegation": {
 "zh": "Pi 代理发现、委派和通信"
-},
-"@howaboua/pi-github-watch": {
-"zh": "Opt-in same-session GitHub comment and Actions run watches for Pi"
-},
-"pi-herdr-swarm": {
-"zh": "Herdr-backed subagents for Pi: visible, steerable, resumable child agents in Herdr panes"
-},
-"pi-package-manager": {
-"zh": "Installed packages manager — web dashboard for browsing, installing, and removing pi packages from your agent. Adds the /packages slash command."
-},
-"pi-resource-center": {
-"zh": "Pi package for browsing packages, skills, extensions, prompts, themes, tools, and MCP servers"
-},
-"@smoose/pi-persona": {
-"zh": "A pi extension that adds persistent persona and emotional state to your coding agent"
-},
-"@timmyjl12/pi-subagents": {
-"zh": "Claude Code-style subagents and workflow orchestration for pi, with coordinated fallback recovery and an interactive child-session workspace. Fork of tintinweb/pi-subagents."
-},
-"@aiwayds/pi-ext-fan": {
-"zh": "pi-coding-agent extension — @agent interception, /ext family-bucket installer (/ext all, /ext setup, /ext status), /think command, /init shortcuts"
-},
-"@groeponline/pi-autoresearch": {
-"zh": "Pi extension and Agent Skill for bounded, benchmark-driven autoresearch loops in code repositories."
-},
-"@meowshed/meow-checks": {
-"zh": "Runs a repository's five verification stages, format, lint, check, test and build, from the commands it declares in .meowpaw/profile.toml, and reports a stage with no command as unresolved, never as passed. Distributed as a Pi package."
-},
-"omo-claude-auth": {
-"zh": "omo/senpi extension that wraps opencode-claude-auth to reuse Claude Code credentials"
-},
-"pi-seat": {
-"zh": "Named multi-account manager for Pi: exclusive OAuth profile store, per-session pinning via PI_SEAT, and terminal usage meters for Anthropic and OpenAI Codex"
-},
-"@99percentpeople/pi-ssh-remote": {
-"zh": "Route Pi's file and shell tools to remote Unix or Windows workspaces through reusable OpenSSH or ssh2 transports"
-},
-"@cpzombie/pi-settings": {
-"zh": "pi coding agent extensions: raw token context counter footer, plus a setup sync that seeds personal model (local llama-cpp) and compaction settings"
-},
-"@mhjerryjin/pi-footer": {
-"zh": "A compact Pi footer showing model, Git, context, quotas, and active work/subagent status."
-},
-"pi-vimmode": {
-"zh": "Vim mode for Pi coding agent"
-},
-"@prjct.app/pi-markdown": {
-"zh": "Fix malformed single-line Markdown code fences in PI Agent responses so code blocks display correctly."
-},
-"@qmxme/pi-rottweiler": {
-"zh": "Command guard extension for pi - blocks destructive git ops, ssh, and whole-filesystem find"
-},
-"@aliaksei-raketski/pi-statusline": {
-"zh": "Pi extension for a highly customizable, ANSI-aware statusline footer."
-},
-"@andreaarrighi/pi-meat": {
-"zh": "Read code changes without the gristle: navigable reading diffs for Pi, powered by Meat."
-},
-"@arcanemachine/pi-model-switcher": {
-"zh": "User-authorized agent model switching for Pi sessions"
 },
 "pi-agy-mode": {
 "zh": "pi的Antigravity (agy)模式：agy风格的系统提示和工具名称（view_file、run_command、manage_task、schedule等）适用于Gemini模型，具有本地后台任务和定时器"
@@ -14410,21 +13936,6 @@
 "pi-devin-auth": {
 "zh": "Pi 编码代理扩展，用于 Devin/Cognition（Windsurf）OAuth + 流媒体"
 },
-"@spences10/pi-confirm-destructive": {
-"zh": "Git-aware Pi guardrail that asks for confirmation before destructive shell actions can change or lose work"
-},
-"@maxedapps/pi-subagents": {
-"zh": "Standalone Pi extension for headless scout/research/worker subagents"
-},
-"pi-sap-aicore": {
-"zh": "SAP AI Core (orchestration + foundation) provider for the pi coding agent"
-},
-"@aaronkyriesenbach/pi-package-manager": {
-"zh": "Pi package manager — list, enable/disable, and auto-update installed Pi packages from within a session"
-},
-"@pify/task": {
-"zh": "Track tasks inside pi sessions: dependency graph with cycle detection, evidence-gated completion, live widget, Claude Code-style reminders"
-},
 "pi-response-model": {
 "zh": "用响应和聊天完成API报告的模型标记Pi助手消息。"
 },
@@ -15895,36 +15406,6 @@
 "@jiuliyear/pi-personalization": {
 "zh": "便携式Pi外观扩展，主题和受版本保护的ALPS定制补丁。"
 },
-"pi-matrix-bridge": {
-"zh": "Bridge Matrix into pi (Matrix-only fork of pi-messenger-bridge)"
-},
-"pi-mlx-models": {
-"zh": "Local MLX model launcher extension for Pi"
-},
-"@piotr-oles/pi-bash-timeout": {
-"zh": "Pi Agent extension: inject a default bash timeout and append timeout policy guidance to the system prompt"
-},
-"9router-pi": {
-"zh": "Dynamic 9router model discovery for Pi Coding Agent"
-},
-"@jetserge/pi-usage-bars": {
-"zh": "Quota, balance, and spend indicators for current Pi providers"
-},
-"pi-agent-board": {
-"zh": "Agent-board dashboard for Pi: dispatch, monitor, peek/reply, and attach to background Pi sessions."
-},
-"pi-auto-model-router": {
-"zh": "A Pi Coding Agent extension that scores requests and routes work to configured worker models and thinking levels while keeping the parent model selected."
-},
-"pi-claude-plugins": {
-"zh": "Pi extension that exposes Claude marketplace plugin skills from ~/.claude/plugins/marketplaces into the current pi session."
-},
-"pi-exit-summary": {
-"zh": "Pi extension that prints a provider-neutral token usage summary when Pi exits"
-},
-"pi-ntfy-en": {
-"zh": "Project and session-aware NTFY notifications for the pi coding agent (English UI, fork of pi-ntfy)"
-},
 "pi-pie": {
 "zh": "Pi 编码代理的像素艺术饼图启动头"
 },
@@ -16044,6 +15525,519 @@
 },
 "@pi-sparkles/pi-sparkles": {
 "zh": "把 Pi 变成面向中国、香港与美国市场的金融研究助手"
+},
+"@xynogen/pix-subagent": {
+"zh": "Pi工具—由规划驱动的子代理：创建、获取、引导范围化的子代理"
+},
+"@papillon6814/pi-scaffold": {
+"zh": "基于pi-gh构建的Pi原生脚手架工作流程工具"
+},
+"pi-provider-kimi-code": {
+"zh": "Pi中的Kimi代码模型（K3、K2.8、HighSpeed）：通过kimi-code CLI进行OAuth共享登录、文件上传和Kimi原生工具"
+},
+"codecartographer-pi": {
+"zh": "将不熟悉的代码库转换为经过验证的重实现规范，然后将已确认的规范和产品愿景合成可追踪的计划"
+},
+"@pentect/pi": {
+"zh": "Pentect提供程序扩展用于Pi"
+},
+"pi-model-switch": {
+"zh": "pi编码代理的模型切换扩展"
+},
+"@alexeiled/pi-fusion": {
+"zh": "通过并行模型面板+裁判，在pi子代理上构建的针对困难Pi问题的更强答案"
+},
+"@llblab/pi-actors": {
+"zh": "Pi的本地Actor内核"
+},
+"@zhafron/pi-memory": {
+"zh": "pi编码代理的内存管理扩展"
+},
+"@dataforxyz/agent-intercom-pi": {
+"zh": ""
+},
+"pi-intercom": {
+"zh": ""
+},
+"@aliou/pi-guardrails": {
+"zh": ""
+},
+"@aliou/pi-processes": {
+"zh": ""
+},
+"pi-provider-antigravity": {
+"zh": "Pi 编码代理的轻量级反重力提供程序"
+},
+"@sreetej510/pi-hpc-tools": {
+"zh": "Pi 扩展：通过 plink 探索远程 HPC/SSH 主机（使用 ls/read/grep 工具），由 /hpc:on 和 /hpc:off 控制。"
+},
+"pi-anthropic-compat": {
+"zh": "Pi 的原生 Anthropic 压缩兼容性"
+},
+"@prjct.app/pi-team": {
+"zh": "通过实时存在、自动消息投递和清晰的提交收据连接独立的 Pi 终端。"
+},
+"@bytetrue/pi-subagent": {
+"zh": "Pi 扩展：轻量级子代理运行器，具有流式执行、实时 TUI 进度卡片、并行/链式执行，无框架锁定。"
+},
+"@geohar/pi-permissions-analyzer": {
+"zh": "Pi 扩展：分析和探测 pi-permission-auto-review 分类器。干运行或调用模型以验证 additionalPolicy 规则并检查提示构造。"
+},
+"@tranhoangnguyen0310/pi-flow-external": {
+"zh": "为 pi 提供外部 Claude Code、Codex CLI、Antigravity、Grok Build CLI、Muse Code 和 OpenCode 委托"
+},
+"@dieulc/workflow": {
+"zh": "Pi的独立审查模式审阅者、问卷、子代理探索、待办事项和阴影检查点回退功能。"
+},
+"@cmo-so/skills": {
+"zh": "将CMO.so营销技能（SEO、AI搜索、内容、社交、电子邮件、广告、CRO、分析）安装到Claude Code、Codex、Pi、Cursor、Gemini CLI、OpenCode、Copilot和其他编码代理中，适用于一个项目或您的用户。也是Pi的一个包。"
+},
+"@dev-sergeev/pi-gigachat": {
+"zh": "适用于pi-coding-agent的GigaChat兼容服务器连接和用户选择的模型。"
+},
+"@mjakl/pi-subagent": {
+"zh": "Pi编码代理的子代理扩展。将提示委托给专业代理，可选命名会话。"
+},
+"@chainingintention/pi-web-cn": {
+"zh": "真实工作空间中持久Pi编码代理会话的Web UI。"
+},
+"@cortexkit/pi-anthropic-auth": {
+"zh": "使用Claude Pro/Max订阅在[Pi](https://pi.dev)中，使用`@cortexkit/pi-anthropic-auth`。配套的`@cortexkit/opencode-anthropic-auth`包支持[OpenCode](https://opencode.ai) 1和2；两种集成都使用共享的`@cortexkit/anthrop`。"
+},
+"pi-opencode-cli-bridge": {
+"zh": "将OpenCode CLI桥接到Pi编码代理。"
+},
+"@kvidzibo/pi-browser": {
+"zh": "Pi和MCP的独立Chromium：私有批准、保存的配置文件和局域网阻止。"
+},
+"@monotykamary/pi-cost-backoff": {
+"zh": "pi的按成本请求节流：当$/M或$/min超过您的上限时，使用指数退避。pi-tps的配套工具。"
+},
+"pi-actors": {
+"zh": "为pi构建的子代理，类似于Erlang进程：在任何模型上创建新的或分叉的子进程，向它们发送消息，并获取它们的报告。在重新加载和崩溃中存活。"
+},
+"@agwab/pi-subagent": {
+"zh": "Pi的最小子代理运行时。"
+},
+"pi-sub-anthropic": {
+"zh": "Anthropic提供者扩展，为pi移植自omp（oh-my-pi），注册了单独的`pi-sub-anthropic`提供者；pi的内置anthropic提供者保持不变。"
+},
+"@xynogen/pix-gate": {
+"zh": "Pi扩展——危险bash命令的权限门（使用TUI对话框确认/阻止）"
+},
+"@clementprevot/pi-blast-radius-guard": {
+"zh": "Pi扩展，拦截看起来像意外的git push命令（受保护分支目标、过大差异），并首先询问用户"
+},
+"@estebanforge/pi-ask-codex": {
+"zh": "Pi工具，通过`codex exec --json`将自包含子任务委托给OpenAI的Codex CLI。以部分输出流式传输结构化事件，返回最终代理消息。可配置默认模型+推理努力，具有多轮会话连续性"
+},
+"@cad0p/pi-napkin": {
+"zh": "Napkin集成于pi——保险库上下文、知识工具和自动蒸馏，具有git-worktree并发安全性"
+},
+"pi-claude-request-compat": {
+"zh": "Pi的OAuth-only Claude兼容选择，具有验证的Claude Code-style请求。"
+},
+"@garygentry/feature-forge": {
+"zh": "特征锻造技能套件的跨代理安装器——将规范forge管道安装到Claude、Codex、Copilot、Cursor、Gemini或Pi。"
+},
+"pi-rewind": {
+"zh": "Pi编码代理的检查点/回滚扩展——每个工具快照、/rewind命令、Esc+Esc快捷键、安全恢复、重做堆栈"
+},
+"pi-tool-duration": {
+"zh": "使主机观察到的Pi工具调用时间对模型可见"
+},
+"@piewf/pi-ext-roles": {
+"zh": "独立 Pi 角色解析选项、贡献和原生启动加载器"
+},
+"@heyhuynhgiabuu/pi-diff": {
+"zh": "Shiki 驱动的 pi 终端差异渲染器 —— 分割和统一视图中的语法高亮、词级差异"
+},
+"@leo-alvarenga/pi-ext-core": {
+"zh": "pi 扩展的共享构建块：类型、工具、无头代理运行时、会话存储、面板小部件和子代理运行时"
+},
+"oira666_pi-watcher": {
+"zh": "用于观察和引导运行中的 Pi 代理的持久侧代理对话"
+},
+"@pify/workflow": {
+"zh": "pi 的确定性多步代理编排：一个 Claude Code 风格的工作流程工具，具有 agent()/parallel()/pipeline() 脚本，覆盖共享代理目录"
+},
+"pi-session-name": {
+"zh": "pi 扩展，自动从第一个用户提示生成简洁的会话标题，并在终端标题中显示代理运行/空闲状态"
+},
+"@leing2021/pi-search": {
+"zh": "Pi 编码代理的持久安全证据网关 —— 搜索、web_search、web_fetch、研究搜索。基于意图的提供者路由、配额回退、双重 LLM 研究、4 层滥用预防"
+},
+"pi-qoder-agent-sdk-bridge": {
+"zh": "将 Qoder Agent SDK（官方 @qoder-ai/qoder-agent-sdk）桥接到 Pi 作为模型提供者的 pi 扩展"
+},
+"omp-cursor-sdk": {
+"zh": "注册 Cursor 模型作为 cursor-sdk 提供者的 omp（oh-my-pi）插件，由 @cursor/sdk 本地代理和云代理支持"
+},
+"@vanillagreen/pi-session-manager": {
+"zh": "经过抛光的 Pi 会话管理器覆盖层，用于浏览、搜索、恢复、重命名和安全删除会话"
+},
+"pi-usage-limits": {
+"zh": "[![npm](https://img.shields.io/npm/v/pi-usage-limits)](https://www.npmjs.com/package/pi-usage-limits)"
+},
+"voipi": {
+"zh": "<p align=\"center\">&lt;a href=\"https://voipi.vercel.app/&quot;&gt;&lt;img src=\"logo.svg\" alt=\"voipi\" width=\"128\" height=\"128\"&gt;&lt;/a&gt;</p>"
+},
+"@tian.zuo/pi-find": {
+"zh": "pi编码代理的简单、有界的ripgrep/fd-backed grep和find工具。"
+},
+"@danypops/pi-packed": {
+"zh": "pi包生命周期、验证、守护进程、工具、配置文件和TUI。"
+},
+"@goodman-b/pi-swarm": {
+"zh": "pi编码代理的多代理集群：板协调的节点、独立的收获验证器和可选的沙盒写入器。pi扩展。"
+},
+"pi-agent-orchestrator": {
+"zh": "Pi的并行shell作业和子代理，带有自动完成通知和活动坞。"
+},
+"pi-custom-provider-model": {
+"zh": "Pi的本地基于浏览器的自定义提供者和API密钥管理器。"
+},
+"pi-prompt-queue": {
+"zh": "pi会话间共享的FIFO提示队列——一个本地模型，多个终端，序列化。"
+},
+"pi-killword": {
+"zh": "将Ctrl+Backspace绑定到Pi的后退单词删除动作。"
+},
+"@tylerho/pi-ask-user-question": {
+"zh": "Claude Code形状的批量问题：每次调用1-4个，每个问题有标题，2-4个选项，可选的多选和每个选项的预览。"
+},
+"pi-context-mode": {
+"zh": "Pi Coding Agent的上下文保存MCP扩展，具有沙箱代码执行、FTS5知识库和意图驱动搜索。"
+},
+"pi-gitlab-provider": {
+"zh": "为pi提供的GitLab AI网关模型代理，通过GitLab Duo提供Anthropic和OpenAI模型。"
+},
+"pi-nano-gpt-provider": {
+"zh": "nanoGPT为Pi编码代理的定制提供程序扩展——详细模型目录的懒加载发现（上下文窗口、视觉/推理、成本定价），缓存离线，无启动阻塞。"
+},
+"timestamp-pi": {
+"zh": "每条消息下都有时间戳，页脚有提示缓存倒计时。"
+},
+"@blueocean223/pi-question": {
+"zh": "pi的AskUserQuestion工具：单/多问题，多选，预览，标签导航。"
+},
+"@each1024/pi-final-model": {
+"zh": "使用专用模型重写Pi的最终答案，带有设置、诊断日志和验证完成的闪光效果。"
+},
+"pi-extension-opensandbox": {
+"zh": "服务器端Pi扩展工厂，将内置工具路由到远程OpenSandbox沙箱。"
+},
+"@sherif-fanous/pi-rtk": {
+"zh": "Pi扩展，通过rtk路由shell命令以减少LLM令牌使用。"
+},
+"@daxzeit/pi-jev-vcc-memory-relevance": {
+"zh": "Logit评分的Pi编码代理内存相关性——在你的长期记忆索引上的排名提示（先验，不是裁决），通过JEV（默认）或完全本地的评分器。"
+},
+"pi-deepseek-search-tools": {
+"zh": "DeepSeek Search & Fetch for Pi：通过官方POST /v1/tools/search API的deepseek_search用于实时网络结果，通过POST /v1/tools/fetch的deepseek_fetch用于全页Markdown。需要DeepSeek API密钥（DEEPSEEK_API_KEY或/deepseek-setup）。"
+},
+"pi-impeccable": {
+"zh": "从 Pi 运行无阻塞的卓越技能。"
+},
+"pi-skill-palette": {
+"zh": "为 pi 提供类似 VS Code 的命令面板，用于选择和应用技能。"
+},
+"@thanhpp/pi-context": {
+"zh": ""
+},
+"cache-warm": {
+"zh": "为 Pi 启用提示缓存保持活动状态，避免错过并节省 USD。"
+},
+"@giladbarnea/pi-time-sense": {
+"zh": "为 Pi 代理提供持续的时间感。"
+},
+"@hank-warren/pi-stats": {
+"zh": "一个紧凑的 /stats 仪表板，显示所有时间的 Pi 代币使用情况，包括持久化子代理。"
+},
+"@miadi/agent-pi": {
+"zh": "Pi 的多代理编排套件 - 6 种模式，43 个扩展，11 个主题。"
+},
+"pi-repoprompt-mcp": {
+"zh": "为 Pi 提供高效的 RepoPrompt 集成，具有分支安全的工作空间和标签管理。"
+},
+"pi-tiny-search": {
+"zh": "通过 Monid/TinyFish 为 Pi 提供即时网页搜索和页面抓取。无需浏览器，无需 LLM 摘要 - 只需快速的结构化结果。"
+},
+"@wbline/pi-dynamic-models": {
+"zh": "Pi 编码代理的动态模型发现 - 启动时从任何配置的 API 服务器获取模型。"
+},
+"@gang-of-beads/pi-multi-account": {
+"zh": "pi多账号OAuth切换和Claude订阅计费"
+},
+"@jamesjfoong/pi-ollama": {
+"zh": "在pi中自动发现和注册Ollama模型。无需再手动编辑models.json"
+},
+"pi-subagent-sessions": {
+"zh": "管理Pi中的持久、可恢复的子代理会话"
+},
+"@pixu1980/pi-path-picker": {
+"zh": "pi编码代理的交互式文件路径自动完成 - 箭头键导航、模糊匹配、Tab键完成和/pick命令"
+},
+"@d3ara1n/pi-chat-room": {
+"zh": "pi的代理间消息传递 - 基于@d3ara1n/pi-mesh构建。暴露send_to工具，使代理之间可以互相发送消息；传入的消息作为用户消息以[From: NAME]前缀显示，直到空闲时排队。无角色和顺序感知：只是消息传递"
+},
+"@lilibonk/pi-pane": {
+"zh": "将当前pi TUI会话交给前台浏览器工作台，带有RPC拥有的对话和可选HTTPS访问"
+},
+"pi-agentic-search": {
+"zh": "pi扩展，用于面向代理的排名代码搜索和一键diff上下文包"
+},
+"pi-bifrost-provider": {
+"zh": "为pi编码代理提供Bifrost AI网关服务"
+},
+"pi-cliproxy-search": {
+"zh": "由本地CLIProxyAPI（Codex & Antigravity）和Jina Reader提供动力的Pi编码代理的闪电快多引擎网络搜索和清洁页面抓取扩展"
+},
+"pi-dynamiccontext": {
+"zh": "在只追加槽位账本上声明式生命周期规则，作为pi扩展"
+},
+"pi-git-tui": {
+"zh": "Pi 的交互式 Git diff、暂存、历史和提交 TUI"
+},
+"pi-manage-todo-list": {
+"zh": "一个 pi 扩展，复制 GitHub Copilot 的 manage_todo_list 工具"
+},
+"pi-models-sync-extension": {
+"zh": "从 OpenAI 兼容的 /models 端点同步新的聊天模型 ID 到 Pi 的 models.json"
+},
+"pi-tor-proxy": {
+"zh": "Pi 扩展，通过 Tor 路由 pi 代理请求。它下载并管理自己的 Tor 二进制文件，因此系统上无需安装任何内容"
+},
+"@sfroment/pi-gh-cli": {
+"zh": "将 GitHub gh CLI 包装为单个类型工具的 Pi 扩展（直接 CLI，不是 MCP）"
+},
+"@sugarforever/pi-jev-router": {
+"zh": "Pi 的每轮会话路由器：Jev 在污染上下文之前决定提示是否继续、分叉或启动新会话"
+},
+"@vtstech/pi-openrouter-sync": {
+"zh": "OpenRouter 模型同步扩展用于 Pi 编码代理——从 OpenRouter URL 或 ID 添加模型"
+},
+"avtc-pi-zai-continue": {
+"zh": "在 Z.ai 使用限制重置后自动继续，带有实时倒计时和重试抑制"
+},
+"@better-compact/pi": {
+"zh": "pi 和 Oh My Pi 扩展，通过边界时间修剪改进长会话上下文"
+},
+"@gotgenes/pi-permission-model-judge": {
+"zh": "拒绝优先的 typo-path 模型裁判——pi-permission-system 授权链链接"
+},
+"@ifi/oh-pi-skills": {
+"zh": "pi的按需技能包：网页搜索、调试助手、Git工作流等。"
+},
+"@narumitw/pi-fleet": {
+"zh": "pi扩展，用于启动和连接本地pi会话。"
+},
+"pi-claude-shimmer": {
+"zh": "Claude Code风格的pi工作旋转器——闪烁、思考光芒、令牌计数、停滞检测。"
+},
+"pi-codex-app-server": {
+"zh": "通过Codex App服务器和ChatGPT远程协议暴露Pi编码代理。"
+},
+"pi-interactive-lite": {
+"zh": "pi的轻量级交互式shell替代品：通过tmux通过纯bash驱动终端程序（代理CLI、身份验证流程、需要PTY的任何内容），以及一个最小用户输入工具，提示用户输入自由格式答案。每轮约150个令牌，而不是约。"
+},
+"pi-local-fusion": {
+"zh": "受Devin Local Fusion启发的pi的持久领导/副手编排。"
+},
+"pi-ntfy": {
+"zh": "针对pi编码代理的项目和会话感知NTFY通知。"
+},
+"@realmikekelly/pi-mcp-events": {
+"zh": "Pi的本地MCP事件流，带有空闲唤醒。"
+},
+"pi-agy": {
+"zh": "为Pi提供抗重力/云代码辅助提供商，具有多账户配额故障转移。"
+},
+"pi-figma-remote-auth": {
+"zh": "pi扩展，用于验证和配置Figma远程MCP（pi-mcp-adapter）。"
+},
+"pi-jj": {
+"zh": "Pi 扩展包，用于 Jujutsu 工作流程（检查点、回放和 jj 入门）"
+},
+"pi-quote-jev": {
+"zh": "在 Pi 全屏中选择文本，按 Alt+Q，然后在格式整洁的引用下回复。无需剪贴板。"
+},
+"pi-requesty-provider": {
+"zh": "Requesty 提供程序扩展，用于 pi 编码代理，具有动态模型发现、统一的 /requesty 命令和 /login 支持"
+},
+"pi-sgrep": {
+"zh": "pi 扩展：sgrep 驱动的语义代码搜索（本地索引的 plain-English 检索）"
+},
+"pi-web-core": {
+"zh": "为 Pi 编码代理配置可定制的网络搜索和网络抓取"
+},
+"@victor-software-house/pi-openai-proxy": {
+"zh": "与 OpenAI 兼容的 HTTP 代理，用于 pi 的多提供者模型注册表"
+},
+"@wwwyo/pi-vim": {
+"zh": "为 Pi 的 TUI 编辑器提供 Vim 风格的模态编辑"
+},
+"@yandy0725/pi-web-tools": {
+"zh": "pi 包提供 websearch 和 webfetch 工具"
+},
+"@jaggerxtrm/pi-service-knowledge": {
+"zh": "Pi 扩展：服务知识注册状态 + 偏移通知（自关闭；无注册表时无界面）。从 core/pi-extensions (xtrm-6z6.5) 移至与它镜像的服务知识 Python 包并列"
+},
+"@lebronj/pi-playwright": {
+"zh": "可选的 Playwright 浏览器自动化包，用于 pi"
+},
+"omp-dynamic-reasoning": {
+"zh": "OpenRouter Jev为Pi和Oh My Pi提供的可选、模型感知推理努力路由"
+},
+"pi-everything": {
+"zh": "Windows上pi编码代理的即时全局文件搜索——通过es.exe索引的Everything索引支持（搜索、内容grep、文件夹大小、语法参考、状态）"
+},
+"pi-linehash-edit": {
+"zh": "pi编码代理的无状态校验和保护的行编辑"
+},
+"pi-starline": {
+"zh": "受Starship启发的状态行和Opencode风格的TUI为Pi"
+},
+"zeldoc-pi-provider": {
+"zh": "Zeldoc.ai模型提供程序扩展为Pi编码代理"
+},
+"@apetersson/pi-beacon": {
+"zh": "运行中的Pi实例的权威生命周期状态（空闲/工作/压缩/重试），通过Unix套接字和状态文件公开"
+},
+"@mammothb/pi-memory": {
+"zh": "Pi的VCC对话压缩，由mm-cli支持"
+},
+"orchestrator-autopilot": {
+"zh": "确定性编排器自动驾驶——保持子代理工作队伍满负荷。一个队列存储+生命周期+工具；每个主机只加载其自己的适配器。"
+},
+"@howaboua/pi-github-watch": {
+"zh": "可选的同一会话GitHub评论和Actions运行监视器为Pi"
+},
+"pi-herdr-swarm": {
+"zh": "Herdr支持的Pi子代理：在Herdr窗格中可见、可控制、可恢复的子代理"
+},
+"pi-sap-aicore": {
+"zh": "SAP AI 核心提供者（编排+基础）用于 pi 编码代理"
+},
+"@aaronkyriesenbach/pi-package-manager": {
+"zh": "Pi 包管理器 — 在会话中列出、启用/禁用和自动更新已安装的 Pi 包"
+},
+"@pify/task": {
+"zh": "跟踪 pi 会话中的任务：带循环检测的依赖图、证据门控完成、实时小部件、Claude Code 风格的提醒"
+},
+"@piotr-oles/pi-bash-timeout": {
+"zh": "Pi Agent扩展：注入默认bash超时并在系统提示符中追加超时策略指导"
+},
+"9router-pi": {
+"zh": "为Pi编码代理动态9router模型发现"
+},
+"@jetserge/pi-usage-bars": {
+"zh": "当前Pi提供商的配额、余额和消费指示器"
+},
+"pi-agent-board": {
+"zh": "Pi的代理板仪表盘：调度、监控、查看/回复和附加到后台Pi会话"
+},
+"pi-auto-model-router": {
+"zh": "一个Pi编码代理扩展，对请求进行评分并将工作路由到配置的工作模型和思维水平，同时保留父模型选择"
+},
+"pi-claude-plugins": {
+"zh": "Pi扩展，将Claude市场插件技能从~/.claude/plugins/marketplaces暴露到当前pi会话"
+},
+"pi-exit-summary": {
+"zh": "Pi退出时打印提供者中立的令牌使用摘要的Pi扩展"
+},
+"pi-ntfy-en": {
+"zh": "为pi编码代理的项目和会话感知NTFY通知（英文UI，pi-ntfy的分支）"
+},
+"@spences10/pi-confirm-destructive": {
+"zh": "Git感知的Pi护栏在破坏性shell操作更改或丢失工作之前要求确认"
+},
+"@maxedapps/pi-subagents": {
+"zh": "用于无头侦察/研究/工作子代理的独立Pi扩展"
+},
+"@cpzombie/pi-settings": {
+"zh": "pi 编码代理扩展：原始令牌上下文计数页脚，以及同步设置，用于播种个人模型（本地 llama-cpp）和压缩设置"
+},
+"@mhjerryjin/pi-footer": {
+"zh": "紧凑型 Pi 页脚显示模型、Git、上下文、配额和活动工作/子代理状态"
+},
+"pi-vimmode": {
+"zh": "Vim 模式用于 Pi 编码代理"
+},
+"@prjct.app/pi-markdown": {
+"zh": "修复 PI 代理响应中格式错误的单行 Markdown 代码围栏，以便正确显示代码块"
+},
+"@qmxme/pi-rottweiler": {
+"zh": "pi 的命令保护扩展 - 阻止破坏性 Git 操作、ssh 和整个文件系统的 find"
+},
+"@aliaksei-raketski/pi-statusline": {
+"zh": "Pi 扩展，用于高度可定制的、支持 ANSI 的状态行页脚"
+},
+"@andreaarrighi/pi-meat": {
+"zh": "无需肉骨：为 Pi 提供由 Meat 驱动的可导航阅读差异"
+},
+"@arcanemachine/pi-model-switcher": {
+"zh": "Pi 会话的用户授权代理模型切换"
+},
+"pi-matrix-bridge": {
+"zh": "将 Matrix 集成到 pi（仅 Matrix 的 pi-messenger-bridge 分支）"
+},
+"pi-mlx-models": {
+"zh": "Pi 的本地 MLX 模型启动器扩展"
+},
+"pi-package-manager": {
+"zh": "安装包管理器 — 浏览、安装和删除pi包的web仪表板。添加了/packages快捷命令。"
+},
+"pi-resource-center": {
+"zh": "pi包浏览包、技能、扩展、提示、主题、工具和MCP服务器。"
+},
+"@smoose/pi-persona": {
+"zh": "为您的编码代理添加持久人格和情感状态的pi扩展。"
+},
+"@timmyjl12/pi-subagents": {
+"zh": "Claude Code风格的子代理和工作流程编排pi，具有协调的故障恢复和交互式子会话工作区。tintinweb/pi-subagents的分支。"
+},
+"@aiwayds/pi-ext-fan": {
+"zh": "pi-coding-agent扩展 — @agent拦截，/ext家族存储桶安装器（/ext all，/ext setup，/ext status），/think命令，/init快捷键。"
+},
+"@groeponline/pi-autoresearch": {
+"zh": "Pi扩展和代理技能，用于代码存储库中的有界、基准驱动的自动研究循环。"
+},
+"@meowshed/meow-checks": {
+"zh": "从 declarations 在 .meowpaw/profile.toml 中声明的命令运行存储库的五个验证阶段：格式、lint、检查、测试和构建，报告没有命令的阶段为未解决，从未通过。作为Pi包分发。"
+},
+"omo-claude-auth": {
+"zh": "omo/senpi扩展，封装opencode-claude-auth以重用Claude Code凭证。"
+},
+"pi-seat": {
+"zh": "Pi的多账户管理器：独家OAuth配置文件存储，通过PI_SEAT进行会话固定，以及Anthropic和OpenAI Codex的终端使用计量器。"
+},
+"@99percentpeople/pi-ssh-remote": {
+"zh": "通过可重用的OpenSSH或ssh2传输将Pi的文件和shell工具路由到远程Unix或Windows工作区。"
+},
+"pi-doppelclaude": {
+"zh": "Pi 提供商，通过 Claude Agent SDK 运行您的 Claude Code 订阅作为 pi 模型。"
+},
+"@mrclrchtr/supi-cache": {
+"zh": "检查提示缓存历史并调查回归问题。"
+},
+"pi-studio": {
+"zh": "pi 的双栏浏览器工作空间，支持提示/响应编辑、注释、评论、活跃测验、提示/响应历史、实时预览以及基于 tmux 的 REPL/文档化 REPL 工作流程。"
+},
+"pi-cohort": {
+"zh": "将 Pi 工作委托给专注的子代理：代码审查、侦察、实施、并行审计、保存链和后台作业。"
+},
+"pi-vim": {
+"zh": "为 Pi 的 TUI 编辑器提供 Vim 风格的模态编辑。"
+},
+"@mrclrchtr/supi-extras": {
+"zh": "会话能力控制、提示存储、快捷键和活动指示器。"
+},
+"pi-sensenova-compat": {
+"zh": "SenseNova (TokenPlan) 图像生成和编辑工具，适用于pi：U系列型号，通过一个轻量级扩展实现"
+},
+"@mrclrchtr/supi-settings": {
+"zh": "为 SuPi 包提供项目级与全局设置的统一界面"
 }
 }
 }

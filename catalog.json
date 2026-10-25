@@ -4,8 +4,8 @@
  "catalog_id": "pi-package-adapter",
  "name": "PI package adapter",
  "homepage": "https://pi.dev/packages",
- "generated_at": "2026-10-25T10:38:23Z",
- "updated_at": "2026-10-25T10:38:23Z",
+ "generated_at": "2026-10-25T10:41:26Z",
+ "updated_at": "2026-10-25T10:41:26Z",
  "policy_version": "local-adapter-2",
  "artifact_base_url": null,
  "plugins": [
@@ -1507,12 +1507,7 @@
      "permissions": [],
      "yanked": false
     }
-   ],
-   "i18n": {
-    "zh-CN": {
-     "description": "<p> <img src=\"banner.png\" alt=\"pi-intercom\" width=\"1100\"> </p>"
-    }
-   }
+   ]
   },
   {
    "id": "pi-pkg.mutmutco-pi-plugin",
@@ -15191,12 +15186,7 @@
      "permissions": [],
      "yanked": false
     }
-   ],
-   "i18n": {
-    "zh-CN": {
-     "description": "![banner](https://assets.aliou.me/github/aliou/pi-processes/banner-v0.10.x.png)"
-    }
-   }
+   ]
   },
   {
    "id": "pi-pkg.pi-jar",
@@ -20434,7 +20424,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Minimal Antigravity provider for Pi Coding Agent"
+     "description": "Pi 编码代理的轻量级反重力提供程序"
     }
    }
   },
@@ -20472,7 +20462,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension for exploring a remote HPC/SSH host (via plink) with ls/read/grep tools, gated per-project by /hpc:on and /hpc:off"
+     "description": "Pi 扩展：通过 plink 探索远程 HPC/SSH 主机（使用 ls/read/grep 工具），由 /hpc:on 和 /hpc:off 控制。"
     }
    }
   },
@@ -20547,7 +20537,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Native Anthropic compaction compatibility for Pi"
+     "description": "Pi 的原生 Anthropic 压缩兼容性"
     }
    }
   },
@@ -20579,7 +20569,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Connect independent Pi terminals with live presence, automatic message delivery and clear submission receipts"
+     "description": "通过实时存在、自动消息投递和清晰的提交收据连接独立的 Pi 终端。"
     }
    }
   },
@@ -20617,7 +20607,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension: lightweight subagent runner with streaming execution, live TUI progress card, parallel/chain execution, and zero framework lock-in"
+     "description": "Pi 扩展：轻量级子代理运行器，具有流式执行、实时 TUI 进度卡片、并行/链式执行，无框架锁定。"
     }
    }
   },
@@ -20655,7 +20645,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension: analyze and probe the pi-permission-auto-review classifier. Dry-run or call the model to validate additionalPolicy rules and inspect prompt construction"
+     "description": "Pi 扩展：分析和探测 pi-permission-auto-review 分类器。干运行或调用模型以验证 additionalPolicy 规则并检查提示构造。"
     }
    }
   },
@@ -20687,7 +20677,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "External Claude Code, Codex CLI, Antigravity, Grok Build CLI, Muse Code, and OpenCode delegation for pi"
+     "description": "为 pi 提供外部 Claude Code、Codex CLI、Antigravity、Grok Build CLI、Muse Code 和 OpenCode 委托"
     }
    }
   },
@@ -20750,7 +20740,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Delegate Pi work to focused child agents: code review, scouting, implementation, parallel audits, saved chains, and background jobs"
+     "description": "将 Pi 工作委托给专注的子代理：代码审查、侦察、实施、并行审计、保存链和后台作业。"
     }
    }
   },
@@ -20788,7 +20778,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Vim-style modal editing for Pi's TUI editor"
+     "description": "为 Pi 的 TUI 编辑器提供 Vim 风格的模态编辑。"
     }
    }
   },
@@ -20820,7 +20810,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Session capability controls, prompt stash, shortcuts, and activity indicators"
+     "description": "会话能力控制、提示存储、快捷键和活动指示器。"
     }
    }
   },
@@ -20852,7 +20842,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi provider that runs your Claude Code subscription as pi models via the Claude Agent SDK"
+     "description": "Pi 提供商，通过 Claude Agent SDK 运行您的 Claude Code 订阅作为 pi 模型。"
     }
    }
   },
@@ -20884,7 +20874,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Inspect prompt-cache history and investigate regressions"
+     "description": "检查提示缓存历史并调查回归问题。"
     }
    }
   },
@@ -20917,7 +20907,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Two-pane browser workspace for pi with prompt/response editing, annotations, critiques, active quiz, prompt/response history, live previews, and tmux-backed REPL/literate REPL workflows"
+     "description": "pi 的双栏浏览器工作空间，支持提示/响应编辑、注释、评论、活跃测验、提示/响应历史、实时预览以及基于 tmux 的 REPL/文档化 REPL 工作流程。"
     }
    }
   },
@@ -20949,7 +20939,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "One project/global settings UI for SuPi packages"
+     "description": "为 SuPi 包提供项目级与全局设置的统一界面"
     }
    }
   },
@@ -30733,12 +30723,7 @@
      "permissions": [],
      "yanked": false
     }
-   ],
-   "i18n": {
-    "zh-CN": {
-     "description": "![banner](https://assets.aliou.me/github/aliou/pi-neuralwatt/banner.png)"
-    }
-   }
+   ]
   },
   {
    "id": "pi-pkg.astrofoundry-pi-astro",
@@ -38957,12 +38942,7 @@
      "permissions": [],
      "yanked": false
     }
-   ],
-   "i18n": {
-    "zh-CN": {
-     "description": "<div align=\"center\">"
-    }
-   }
+   ]
   },
   {
    "id": "pi-pkg.pi-subagents-j0k3r",
@@ -40289,7 +40269,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "SenseNova (TokenPlan) image generation and editing for pi: U-series models via a thin extension"
+     "description": "SenseNova (TokenPlan) 图像生成和编辑工具，适用于pi：U系列型号，通过一个轻量级扩展实现"
     }
    }
   },
@@ -40320,7 +40300,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Plan↔Build mode with an independent Review Mode reviewer, questionnaire, subagent explore, todos and shadow-checkpoint rewind for Pi."
+     "description": "Pi的独立审查模式审阅者、问卷、子代理探索、待办事项和阴影检查点回退功能。"
     }
    }
   },
@@ -40352,7 +40332,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Install the CMO.so marketing skills (SEO, AI search, content, social, email, ads, CRO, analytics) into Claude Code, Codex, Pi, Cursor, Gemini CLI, OpenCode, Copilot and other coding agents, for one project or for your user. Also a Pi package."
+     "description": "将CMO.so营销技能（SEO、AI搜索、内容、社交、电子邮件、广告、CRO、分析）安装到Claude Code、Codex、Pi、Cursor、Gemini CLI、OpenCode、Copilot和其他编码代理中，适用于一个项目或您的用户。也是Pi的一个包。"
     }
    }
   },
@@ -40383,7 +40363,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "GigaChat-compatible server connections and user-selected models for pi-coding-agent"
+     "description": "适用于pi-coding-agent的GigaChat兼容服务器连接和用户选择的模型。"
     }
    }
   },
@@ -40414,7 +40394,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Subagent extension for Pi coding agent. Delegate prompts to specialized agents with optional named sessions."
+     "description": "Pi编码代理的子代理扩展。将提示委托给专业代理，可选命名会话。"
     }
    }
   },
@@ -40445,7 +40425,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Web UI for persistent Pi Coding Agent sessions in real workspaces."
+     "description": "真实工作空间中持久Pi编码代理会话的Web UI。"
     }
    }
   },
@@ -40476,7 +40456,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Use Claude Pro/Max subscriptions in [Pi](https://pi.dev) with `@cortexkit/pi-anthropic-auth`. The companion `@cortexkit/opencode-anthropic-auth` package supports [OpenCode](https://opencode.ai) 1 and 2; both integrations use the shared `@cortexkit/anthrop"
+     "description": "使用Claude Pro/Max订阅在[Pi](https://pi.dev)中，使用`@cortexkit/pi-anthropic-auth`。配套的`@cortexkit/opencode-anthropic-auth`包支持[OpenCode](https://opencode.ai) 1和2；两种集成都使用共享的`@cortexkit/anthrop`。"
     }
    }
   },
@@ -40507,7 +40487,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Bridge the OpenCode CLI into Pi Coding Agent"
+     "description": "将OpenCode CLI桥接到Pi编码代理。"
     }
    }
   },
@@ -40538,7 +40518,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Isolated Chromium for Pi and MCP: private approvals, saved profiles and LAN blocking"
+     "description": "Pi和MCP的独立Chromium：私有批准、保存的配置文件和局域网阻止。"
     }
    }
   },
@@ -40569,7 +40549,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Cost-aware request throttling for pi — exponential backoff when $/M or $/min exceeds your cap. Companion to pi-tps."
+     "description": "pi的按成本请求节流：当$/M或$/min超过您的上限时，使用指数退避。pi-tps的配套工具。"
     }
    }
   },
@@ -40601,7 +40581,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Subagents for pi, built like Erlang processes: spawn fresh or forked children on any model, message them, and get their reports pushed back. Survives reloads and crashes."
+     "description": "为pi构建的子代理，类似于Erlang进程：在任何模型上创建新的或分叉的子进程，向它们发送消息，并获取它们的报告。在重新加载和崩溃中存活。"
     }
    }
   },
@@ -40633,7 +40613,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi tool — planner-driven sub-agents: spawn, fetch, steer scoped child agents"
+     "description": "Pi工具—由规划驱动的子代理：创建、获取、引导范围化的子代理"
     }
    }
   },
@@ -40664,7 +40644,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi-native Scaffold workflow tools built on pi-gh"
+     "description": "基于pi-gh构建的Pi原生脚手架工作流程工具"
     }
    }
   },
@@ -40696,7 +40676,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Kimi Code models (K3, K2.8, HighSpeed) in Pi: OAuth shared login with kimi-code CLI, file uploads, and Kimi-native tools"
+     "description": "Pi中的Kimi代码模型（K3、K2.8、HighSpeed）：通过kimi-code CLI进行OAuth共享登录、文件上传和Kimi原生工具"
     }
    }
   },
@@ -40727,7 +40707,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Turn an unfamiliar codebase into a validated reimplementation spec, then synthesize confirmed specs and a product vision into a traceable plan."
+     "description": "将不熟悉的代码库转换为经过验证的重实现规范，然后将已确认的规范和产品愿景合成可追踪的计划"
     }
    }
   },
@@ -40758,7 +40738,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pentect provider extension for Pi"
+     "description": "Pentect提供程序扩展用于Pi"
     }
    }
   },
@@ -40790,7 +40770,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Model switching extension for pi coding agent"
+     "description": "pi编码代理的模型切换扩展"
     }
    }
   },
@@ -40822,7 +40802,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Stronger answers for hard Pi questions via a parallel model panel + judge, built on pi-subagents"
+     "description": "通过并行模型面板+裁判，在pi子代理上构建的针对困难Pi问题的更强答案"
     }
    }
   },
@@ -40854,7 +40834,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Local Actor Kernel for Pi"
+     "description": "Pi的本地Actor内核"
     }
    }
   },
@@ -40886,7 +40866,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Memory management extension for pi coding agent"
+     "description": "pi编码代理的内存管理扩展"
     }
    }
   },
@@ -42024,12 +42004,7 @@
      "permissions": [],
      "yanked": false
     }
-   ],
-   "i18n": {
-    "zh-CN": {
-     "description": "<p> <img src=\"banner.png\" alt=\"pi-intercom\" width=\"1100\"> </p>"
-    }
-   }
+   ]
   },
   {
    "id": "pi-pkg.pi-provider-alibaba-bailian",
@@ -43987,7 +43962,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Minimal subagent runtime for Pi。"
+     "description": "Pi的最小子代理运行时。"
     }
    }
   },
@@ -45343,7 +45318,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Anthropic provider extension for pi, ported from omp (oh-my-pi). Registers a separate `pi-sub-anthropic` provider; pi's built-in anthropic provider is untouched."
+     "description": "Anthropic提供者扩展，为pi移植自omp（oh-my-pi），注册了单独的`pi-sub-anthropic`提供者；pi的内置anthropic提供者保持不变。"
     }
    }
   },
@@ -45375,7 +45350,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension — permission gate for dangerous bash commands (confirm/block with TUI dialog)"
+     "description": "Pi扩展——危险bash命令的权限门（使用TUI对话框确认/阻止）"
     }
    }
   },
@@ -45407,7 +45382,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension that intercepts git push commands that look like accidents (protected branch targets, oversized diffs) and asks the user first"
+     "description": "Pi扩展，拦截看起来像意外的git push命令（受保护分支目标、过大差异），并首先询问用户"
     }
    }
   },
@@ -45470,7 +45445,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi tool that delegates a self-contained sub-task to OpenAI's Codex CLI via `codex exec --json`. Streams structured events as partial output, returns the final agent message. Configurable default model + reasoning effort, with multi-turn session continuity"
+     "description": "Pi工具，通过`codex exec --json`将自包含子任务委托给OpenAI的Codex CLI。以部分输出流式传输结构化事件，返回最终代理消息。可配置默认模型+推理努力，具有多轮会话连续性"
     }
    }
   },
@@ -45502,7 +45477,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "📜 Napkin integration for pi — vault context, knowledge tools, and automatic distillation with git-worktree concurrency safety"
+     "description": "Napkin集成于pi——保险库上下文、知识工具和自动蒸馏，具有git-worktree并发安全性"
     }
    }
   },
@@ -45533,7 +45508,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "An OAuth-only Claude Compat selection for Pi with validated Claude Code-style requests."
+     "description": "Pi的OAuth-only Claude兼容选择，具有验证的Claude Code-style请求。"
     }
    }
   },
@@ -45564,7 +45539,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Cross-agent installer for the feature-forge skill suite — installs the canonical forge pipeline into Claude, Codex, Copilot, Cursor, Gemini, or Pi."
+     "description": "特征锻造技能套件的跨代理安装器——将规范forge管道安装到Claude、Codex、Copilot、Cursor、Gemini或Pi。"
     }
    }
   },
@@ -45596,7 +45571,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Checkpoint/rewind extension for the Pi coding agent — per-tool snapshots, /rewind command, Esc+Esc shortcut, safe restore, redo stack"
+     "description": "Pi编码代理的检查点/回滚扩展——每个工具快照、/rewind命令、Esc+Esc快捷键、安全恢复、重做堆栈"
     }
    }
   },
@@ -45628,7 +45603,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Make host-observed Pi tool-call timing visible to the model"
+     "description": "使主机观察到的Pi工具调用时间对模型可见"
     }
    }
   },
@@ -45659,7 +45634,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Independent Pi role resolution options, contributions and native startup launcher"
+     "description": "独立 Pi 角色解析选项、贡献和原生启动加载器"
     }
    }
   },
@@ -45691,7 +45666,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Shiki-powered terminal diff renderer for pi — syntax-highlighted, word-level diffs in split and unified views."
+     "description": "Shiki 驱动的 pi 终端差异渲染器 —— 分割和统一视图中的语法高亮、词级差异"
     }
    }
   },
@@ -45723,7 +45698,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Shared building blocks for pi extensions: types, utils, headless agent runtime, session store, panel widget, and subagent runtime"
+     "description": "pi 扩展的共享构建块：类型、工具、无头代理运行时、会话存储、面板小部件和子代理运行时"
     }
    }
   },
@@ -45754,7 +45729,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "A persistent side-agent conversation for observing and steering your running Pi agent."
+     "description": "用于观察和引导运行中的 Pi 代理的持久侧代理对话"
     }
    }
   },
@@ -45786,7 +45761,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Deterministic multi-step agent orchestration for pi: a Claude Code-style workflow tool with agent()/parallel()/pipeline() scripts over the shared agent catalog"
+     "description": "pi 的确定性多步代理编排：一个 Claude Code 风格的工作流程工具，具有 agent()/parallel()/pipeline() 脚本，覆盖共享代理目录"
     }
    }
   },
@@ -45818,7 +45793,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "pi extension that auto-generates a concise session title from the first user prompt and shows agent running/idle status in the terminal title."
+     "description": "pi 扩展，自动从第一个用户提示生成简洁的会话标题，并在终端标题中显示代理运行/空闲状态"
     }
    }
   },
@@ -45850,7 +45825,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Minimal Secure Evidence Gateway for Pi Coding Agent — search, web_search, web_fetch, research_search. Intent-based provider routing, quota fallback, dual-LLM research, 4-layer abuse prevention."
+     "description": "Pi 编码代理的持久安全证据网关 —— 搜索、web_search、web_fetch、研究搜索。基于意图的提供者路由、配额回退、双重 LLM 研究、4 层滥用预防"
     }
    }
   },
@@ -45881,7 +45856,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension that bridges the Qoder Agent SDK (official @qoder-ai/qoder-agent-sdk) into Pi as a model provider"
+     "description": "将 Qoder Agent SDK（官方 @qoder-ai/qoder-agent-sdk）桥接到 Pi 作为模型提供者的 pi 扩展"
     }
    }
   },
@@ -45913,7 +45888,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "omp (oh-my-pi) plugin that registers Cursor models as the cursor-sdk provider, backed by @cursor/sdk local and cloud agents"
+     "description": "注册 Cursor 模型作为 cursor-sdk 提供者的 omp（oh-my-pi）插件，由 @cursor/sdk 本地代理和云代理支持"
     }
    }
   },
@@ -45944,7 +45919,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Polished Pi session manager overlay for browsing, searching, resuming, renaming, and safely deleting sessions."
+     "description": "经过抛光的 Pi 会话管理器覆盖层，用于浏览、搜索、恢复、重命名和安全删除会话"
     }
    }
   },
@@ -84982,7 +84957,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "<p align=\"center\"> <a href=\"https://voipi.vercel.app/\"> <img src=\"logo.svg\" alt=\"voipi\" width=\"128\" height=\"128\"> </a> </p>"
+     "description": "<p align=\"center\">&lt;a href=\"https://voipi.vercel.app/&quot;&gt;&lt;img src=\"logo.svg\" alt=\"voipi\" width=\"128\" height=\"128\"&gt;&lt;/a&gt;</p>"
     }
    }
   },
@@ -89543,7 +89518,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Simple, bounded ripgrep/fd-backed grep and find tools for the pi coding agent."
+     "description": "pi编码代理的简单、有界的ripgrep/fd-backed grep和find工具。"
     }
    }
   },
@@ -89574,7 +89549,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi package lifecycle, validation, daemon, tools, profiles, and TUI"
+     "description": "pi包生命周期、验证、守护进程、工具、配置文件和TUI。"
     }
    }
   },
@@ -89606,7 +89581,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Multi-agent swarm for the pi coding agent: board-coordinated peers, an independent harvest verifier, and an optional sandboxed writer. pi extension"
+     "description": "pi编码代理的多代理集群：板协调的节点、独立的收获验证器和可选的沙盒写入器。pi扩展。"
     }
    }
   },
@@ -89638,7 +89613,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Parallel shell jobs and child agents for Pi, with automatic completion notifications and an activity dock"
+     "description": "Pi的并行shell作业和子代理，带有自动完成通知和活动坞。"
     }
    }
   },
@@ -89670,7 +89645,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "A local browser-based custom provider and API-key manager for Pi."
+     "description": "Pi的本地基于浏览器的自定义提供者和API密钥管理器。"
     }
    }
   },
@@ -89701,7 +89676,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "FIFO prompt queue shared across pi sessions — one local model, many terminals, serialized"
+     "description": "pi会话间共享的FIFO提示队列——一个本地模型，多个终端，序列化。"
     }
    }
   },
@@ -89733,7 +89708,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Bind Ctrl+Backspace to Pi's backward word deletion action."
+     "description": "将Ctrl+Backspace绑定到Pi的后退单词删除动作。"
     }
    }
   },
@@ -89764,7 +89739,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Claude Code-shaped batch questions: 1-4 per call, each with a header, 2-4 options, optional multi-select and per-option previews."
+     "description": "Claude Code形状的批量问题：每次调用1-4个，每个问题有标题，2-4个选项，可选的多选和每个选项的预览。"
     }
    }
   },
@@ -89795,7 +89770,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Context-saving MCP extension for Pi Coding Agent with sandboxed code execution, FTS5 knowledge base, and intent-driven search."
+     "description": "Pi Coding Agent的上下文保存MCP扩展，具有沙箱代码执行、FTS5知识库和意图驱动搜索。"
     }
    }
   },
@@ -89826,7 +89801,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "GitLab AI gateway model proxy provider for pi (Anthropic and OpenAI models via GitLab Duo)"
+     "description": "为pi提供的GitLab AI网关模型代理，通过GitLab Duo提供Anthropic和OpenAI模型。"
     }
    }
   },
@@ -89858,7 +89833,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "nanoGPT custom provider extension for the Pi coding agent — lazy discovery of the detailed model catalog (context windows, vision/reasoning, at-cost pricing), cached offline, no startup blocking."
+     "description": "nanoGPT为Pi编码代理的定制提供程序扩展——详细模型目录的懒加载发现（上下文窗口、视觉/推理、成本定价），缓存离线，无启动阻塞。"
     }
    }
   },
@@ -89889,7 +89864,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Timestamps under every message plus a prompt-cache countdown in the footer"
+     "description": "每条消息下都有时间戳，页脚有提示缓存倒计时。"
     }
    }
   },
@@ -89920,7 +89895,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "AskUserQuestion tool for pi: single/multi questions, multiSelect, previews, tab navigation"
+     "description": "pi的AskUserQuestion工具：单/多问题，多选，预览，标签导航。"
     }
    }
   },
@@ -89952,7 +89927,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Rewrite Pi's final answer with a dedicated model, with settings, diagnostic logs, and a verified completion sparkle."
+     "description": "使用专用模型重写Pi的最终答案，带有设置、诊断日志和验证完成的闪光效果。"
     }
    }
   },
@@ -89984,7 +89959,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Server-side Pi extension factory that routes built-in tools to a remote OpenSandbox sandbox"
+     "description": "服务器端Pi扩展工厂，将内置工具路由到远程OpenSandbox沙箱。"
     }
    }
   },
@@ -90015,7 +89990,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension that routes shell commands through rtk to reduce LLM token usage"
+     "description": "Pi扩展，通过rtk路由shell命令以减少LLM令牌使用。"
     }
    }
   },
@@ -90047,7 +90022,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Logit-scored memory relevance for the Pi coding agent — ranked hints (priors, not verdicts) over your long-term memory index, via JEV (default) or a fully local scorer"
+     "description": "Logit评分的Pi编码代理内存相关性——在你的长期记忆索引上的排名提示（先验，不是裁决），通过JEV（默认）或完全本地的评分器。"
     }
    }
   },
@@ -90079,7 +90054,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "DeepSeek Search & Fetch for Pi: deepseek_search for live web results via the official POST /v1/tools/search API and deepseek_fetch for full-page Markdown via POST /v1/tools/fetch. Requires a DeepSeek API key (DEEPSEEK_API_KEY or /deepseek-setup)."
+     "description": "DeepSeek Search & Fetch for Pi：通过官方POST /v1/tools/search API的deepseek_search用于实时网络结果，通过POST /v1/tools/fetch的deepseek_fetch用于全页Markdown。需要DeepSeek API密钥（DEEPSEEK_API_KEY或/deepseek-setup）。"
     }
    }
   },
@@ -90111,7 +90086,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Run Impeccable skills from Pi without blocking the agent."
+     "description": "从 Pi 运行无阻塞的卓越技能。"
     }
    }
   },
@@ -90142,7 +90117,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "VS Code-style command palette for selecting and applying skills in pi"
+     "description": "为 pi 提供类似 VS Code 的命令面板，用于选择和应用技能。"
     }
    }
   },
@@ -99124,12 +99099,7 @@
      "permissions": [],
      "yanked": false
     }
-   ],
-   "i18n": {
-    "zh-CN": {
-     "description": "# pi-context"
-    }
-   }
+   ]
   },
   {
    "id": "pi-pkg.clang.engineer-pi-notify",
@@ -109741,7 +109711,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Opt-in prompt-cache keep-alive for Pi with avoided-miss and USD-saved metrics"
+     "description": "为 Pi 启用提示缓存保持活动状态，避免错过并节省 USD。"
     }
    }
   },
@@ -109772,7 +109742,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Give Pi agents ongoing sense of time."
+     "description": "为 Pi 代理提供持续的时间感。"
     }
    }
   },
@@ -109804,7 +109774,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "A compact /stats dashboard for all-time Pi token usage, including persisted subagents."
+     "description": "一个紧凑的 /stats 仪表板，显示所有时间的 Pi 代币使用情况，包括持久化子代理。"
     }
    }
   },
@@ -109835,7 +109805,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Multi-agent orchestration suite for Pi — 6 modes, 43 extensions, 11 themes"
+     "description": "Pi 的多代理编排套件 - 6 种模式，43 个扩展，11 个主题。"
     }
    }
   },
@@ -109898,7 +109868,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "A token-efficient RepoPrompt integration for Pi with branch-safe workspace and tab management"
+     "description": "为 Pi 提供高效的 RepoPrompt 集成，具有分支安全的工作空间和标签管理。"
     }
    }
   },
@@ -109930,7 +109900,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Instant web search and page fetching for Pi via Monid/TinyFish. No browser, no LLM summarization — just fast structured results."
+     "description": "通过 Monid/TinyFish 为 Pi 提供即时网页搜索和页面抓取。无需浏览器，无需 LLM 摘要 - 只需快速的结构化结果。"
     }
    }
   },
@@ -109962,7 +109932,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Dynamic model discovery for Pi coding agent — fetches models from any configured API server at startup"
+     "description": "Pi 编码代理的动态模型发现 - 启动时从任何配置的 API 服务器获取模型。"
     }
    }
   },
@@ -109994,7 +109964,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Multi-account OAuth switching and Claude subscription billing for pi"
+     "description": "pi多账号OAuth切换和Claude订阅计费"
     }
    }
   },
@@ -110026,7 +109996,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Auto-discover and register Ollama models in pi. No more manual models.json editing."
+     "description": "在pi中自动发现和注册Ollama模型。无需再手动编辑models.json"
     }
    }
   },
@@ -110089,7 +110059,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Manage persistent, resumable child-agent sessions in Pi."
+     "description": "管理Pi中的持久、可恢复的子代理会话"
     }
    }
   },
@@ -110121,7 +110091,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Interactive file path autocomplete for pi coding agent - arrow-key navigation, fuzzy matching, Tab completion, and the /pick command"
+     "description": "pi编码代理的交互式文件路径自动完成 - 箭头键导航、模糊匹配、Tab键完成和/pick命令"
     }
    }
   },
@@ -110153,7 +110123,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Agent-to-agent messaging for pi — built on @d3ara1n/pi-mesh. Exposes the send_to tool so agents can message each other; incoming messages arrive as user messages prefixed [From: NAME], queued until idle. Role-agnostic and order-agnostic: just the messaging"
+     "description": "pi的代理间消息传递 - 基于@d3ara1n/pi-mesh构建。暴露send_to工具，使代理之间可以互相发送消息；传入的消息作为用户消息以[From: NAME]前缀显示，直到空闲时排队。无角色和顺序感知：只是消息传递"
     }
    }
   },
@@ -110184,7 +110154,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Hand the current pi TUI session to a foreground browser workbench, with RPC-owned conversations and optional HTTPS access"
+     "description": "将当前pi TUI会话交给前台浏览器工作台，带有RPC拥有的对话和可选HTTPS访问"
     }
    }
   },
@@ -110215,7 +110185,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension for agent-oriented ranked code search and one-call diff context packs"
+     "description": "pi扩展，用于面向代理的排名代码搜索和一键diff上下文包"
     }
    }
   },
@@ -110246,7 +110216,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "A Bifrost AI Gateway provider for the pi coding agent"
+     "description": "为pi编码代理提供Bifrost AI网关服务"
     }
    }
   },
@@ -110277,7 +110247,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Blazing-fast multi-engine web search & clean page fetch extension for Pi Coding Agent powered by local CLIProxyAPI (Codex & Antigravity) and Jina Reader."
+     "description": "由本地CLIProxyAPI（Codex & Antigravity）和Jina Reader提供动力的Pi编码代理的闪电快多引擎网络搜索和清洁页面抓取扩展"
     }
    }
   },
@@ -127348,7 +127318,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Declarative lifecycle rules over an append-only slot ledger, as a pi extension"
+     "description": "在只追加槽位账本上声明式生命周期规则，作为pi扩展"
     }
    }
   },
@@ -127380,7 +127350,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Interactive Git diff, staging, history, and commit TUI for Pi."
+     "description": "Pi 的交互式 Git diff、暂存、历史和提交 TUI"
     }
    }
   },
@@ -127412,7 +127382,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "A pi extension that replicates GitHub Copilot's manage_todo_list tool"
+     "description": "一个 pi 扩展，复制 GitHub Copilot 的 manage_todo_list 工具"
     }
    }
   },
@@ -127444,7 +127414,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Synchronize new chat-model IDs from an OpenAI-compatible /models endpoint into Pi models.json"
+     "description": "从 OpenAI 兼容的 /models 端点同步新的聊天模型 ID 到 Pi 的 models.json"
     }
    }
   },
@@ -127476,7 +127446,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension that routes pi agent requests through Tor. It downloads and manages its own Tor binary, so nothing needs to be installed on the system."
+     "description": "Pi 扩展，通过 Tor 路由 pi 代理请求。它下载并管理自己的 Tor 二进制文件，因此系统上无需安装任何内容"
     }
    }
   },
@@ -127508,7 +127478,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension wrapping the GitHub gh CLI as a single typed tool (direct CLI, not MCP)."
+     "description": "将 GitHub gh CLI 包装为单个类型工具的 Pi 扩展（直接 CLI，不是 MCP）"
     }
    }
   },
@@ -127540,7 +127510,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Per-turn session router for Pi: Jev decides whether a prompt should continue, fork, or start a new session before it pollutes the context"
+     "description": "Pi 的每轮会话路由器：Jev 在污染上下文之前决定提示是否继续、分叉或启动新会话"
     }
    }
   },
@@ -127572,7 +127542,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "OpenRouter model sync extension for Pi Coding Agent — add models from OpenRouter URLs or IDs"
+     "description": "OpenRouter 模型同步扩展用于 Pi 编码代理——从 OpenRouter URL 或 ID 添加模型"
     }
    }
   },
@@ -127604,7 +127574,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Auto-continue after Z.ai usage limit resets, with a live countdown and retry suppression."
+     "description": "在 Z.ai 使用限制重置后自动继续，带有实时倒计时和重试抑制"
     }
    }
   },
@@ -127635,7 +127605,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "pi and Oh My Pi extension that improves long-session context with boundary-time pruning"
+     "description": "pi 和 Oh My Pi 扩展，通过边界时间修剪改进长会话上下文"
     }
    }
   },
@@ -127667,7 +127637,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Deny-first typo-path model judge — a pi-permission-system Authorizer chain link"
+     "description": "拒绝优先的 typo-path 模型裁判——pi-permission-system 授权链链接"
     }
    }
   },
@@ -127698,7 +127668,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "On-demand skill packs for pi: web-search, debug-helper, git-workflow, and more."
+     "description": "pi的按需技能包：网页搜索、调试助手、Git工作流等。"
     }
    }
   },
@@ -127730,7 +127700,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension for spawning and connecting local Pi sessions."
+     "description": "pi扩展，用于启动和连接本地pi会话。"
     }
    }
   },
@@ -127762,7 +127732,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Claude Code-style working spinner for Pi — shimmer, thinking glow, token count, stall detection"
+     "description": "Claude Code风格的pi工作旋转器——闪烁、思考光芒、令牌计数、停滞检测。"
     }
    }
   },
@@ -127793,7 +127763,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Expose Pi Coding Agent through the Codex App Server and ChatGPT Remote protocols."
+     "description": "通过Codex App服务器和ChatGPT远程协议暴露Pi编码代理。"
     }
    }
   },
@@ -127826,7 +127796,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Lightweight interactive-shell alternative for pi: drive terminal programs (agent CLIs, auth flows, anything needing a PTY) through tmux via plain bash, plus a minimal user_input tool to prompt the user for free-form answers. ~150 tokens/round instead of ~"
+     "description": "pi的轻量级交互式shell替代品：通过tmux通过纯bash驱动终端程序（代理CLI、身份验证流程、需要PTY的任何内容），以及一个最小用户输入工具，提示用户输入自由格式答案。每轮约150个令牌，而不是约。"
     }
    }
   },
@@ -127857,7 +127827,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Persistent lead/sidekick orchestration for Pi, inspired by Devin Local Fusion"
+     "description": "受Devin Local Fusion启发的pi的持久领导/副手编排。"
     }
    }
   },
@@ -127889,7 +127859,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Project and session-aware NTFY notifications for the pi coding agent."
+     "description": "针对pi编码代理的项目和会话感知NTFY通知。"
     }
    }
   },
@@ -127920,7 +127890,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Native MCP Events streams for Pi, with idle wakeups"
+     "description": "Pi的本地MCP事件流，带有空闲唤醒。"
     }
    }
   },
@@ -132362,7 +132332,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Antigravity / Cloud Code Assist provider for Pi with multi-account quota failover"
+     "description": "为Pi提供抗重力/云代码辅助提供商，具有多账户配额故障转移。"
     }
    }
   },
@@ -132393,7 +132363,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension that authenticates and configures Figma Remote MCP for pi-mcp-adapter."
+     "description": "pi扩展，用于验证和配置Figma远程MCP（pi-mcp-adapter）。"
     }
    }
   },
@@ -132425,7 +132395,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension package for Jujutsu workflows (checkpointing, rewind, and jj onboarding)"
+     "description": "Pi 扩展包，用于 Jujutsu 工作流程（检查点、回放和 jj 入门）"
     }
    }
   },
@@ -132457,7 +132427,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Select text in Pi fullscreen, press Alt+Q, and reply below a neatly formatted quote. No clipboard needed."
+     "description": "在 Pi 全屏中选择文本，按 Alt+Q，然后在格式整洁的引用下回复。无需剪贴板。"
     }
    }
   },
@@ -132489,7 +132459,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Requesty provider extension for pi coding agent with dynamic model discovery, unified /requesty command, and /login support"
+     "description": "Requesty 提供程序扩展，用于 pi 编码代理，具有动态模型发现、统一的 /requesty 命令和 /login 支持"
     }
    }
   },
@@ -132521,7 +132491,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "pi extension: sgrep-powered semantic code search (plain-English retrieval over a local index)"
+     "description": "pi 扩展：sgrep 驱动的语义代码搜索（本地索引的 plain-English 检索）"
     }
    }
   },
@@ -132552,7 +132522,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Configurable web search and web fetching for Pi coding agent."
+     "description": "为 Pi 编码代理配置可定制的网络搜索和网络抓取"
     }
    }
   },
@@ -132583,7 +132553,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "OpenAI-compatible HTTP proxy for pi's multi-provider model registry"
+     "description": "与 OpenAI 兼容的 HTTP 代理，用于 pi 的多提供者模型注册表"
     }
    }
   },
@@ -132615,7 +132585,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Vim-style modal editing for Pi's TUI editor"
+     "description": "为 Pi 的 TUI 编辑器提供 Vim 风格的模态编辑"
     }
    }
   },
@@ -132646,7 +132616,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "pi package providing websearch and webfetch tools"
+     "description": "pi 包提供 websearch 和 webfetch 工具"
     }
    }
   },
@@ -132678,7 +132648,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension: service-knowledge registry status + drift notice (self-gating; zero surface without a registry). Relocated from core/pi-extensions (xtrm-6z6.5) to co-locate with the service-knowledge Python package it mirrors."
+     "description": "Pi 扩展：服务知识注册状态 + 偏移通知（自关闭；无注册表时无界面）。从 core/pi-extensions (xtrm-6z6.5) 移至与它镜像的服务知识 Python 包并列"
     }
    }
   },
@@ -132709,7 +132679,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Optional Playwright browser automation package for pi"
+     "description": "可选的 Playwright 浏览器自动化包，用于 pi"
     }
    }
   },
@@ -132740,7 +132710,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Opt-in, model-aware reasoning effort routing with OpenRouter Jev for Pi and Oh My Pi"
+     "description": "OpenRouter Jev为Pi和Oh My Pi提供的可选、模型感知推理努力路由"
     }
    }
   },
@@ -132772,7 +132742,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Instant machine-wide file search for the pi coding agent on Windows — native tools (search, content grep, folder size, syntax reference, status) backed by the Everything index via es.exe"
+     "description": "Windows上pi编码代理的即时全局文件搜索——通过es.exe索引的Everything索引支持（搜索、内容grep、文件夹大小、语法参考、状态）"
     }
    }
   },
@@ -132803,7 +132773,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Stateless checksum-guarded line editing for pi coding agents"
+     "description": "pi编码代理的无状态校验和保护的行编辑"
     }
    }
   },
@@ -132836,7 +132806,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "A Starship-inspired statusline and Opencode-style TUI for Pi."
+     "description": "受Starship启发的状态行和Opencode风格的TUI为Pi"
     }
    }
   },
@@ -132868,7 +132838,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Zeldoc.ai model provider extension for the Pi coding agent"
+     "description": "Zeldoc.ai模型提供程序扩展为Pi编码代理"
     }
    }
   },
@@ -132900,7 +132870,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Authoritative lifecycle state (idle/working/compacting/retrying) for a running Pi instance, exposed via unix socket and state file"
+     "description": "运行中的Pi实例的权威生命周期状态（空闲/工作/压缩/重试），通过Unix套接字和状态文件公开"
     }
    }
   },
@@ -132931,7 +132901,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "VCC conversation compaction for Pi, backed by mm-cli"
+     "description": "Pi的VCC对话压缩，由mm-cli支持"
     }
    }
   },
@@ -132962,7 +132932,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Deterministic orchestrator autopilot — keeps a subagent worker fleet at capacity. One queue store + lifecycle + tools; each host loads only its own adapter."
+     "description": "确定性编排器自动驾驶——保持子代理工作队伍满负荷。一个队列存储+生命周期+工具；每个主机只加载其自己的适配器。"
     }
    }
   },
@@ -134230,7 +134200,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Opt-in same-session GitHub comment and Actions run watches for Pi"
+     "description": "可选的同一会话GitHub评论和Actions运行监视器为Pi"
     }
    }
   },
@@ -134261,7 +134231,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Herdr-backed subagents for Pi: visible, steerable, resumable child agents in Herdr panes"
+     "description": "Herdr支持的Pi子代理：在Herdr窗格中可见、可控制、可恢复的子代理"
     }
    }
   },
@@ -134293,7 +134263,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Installed packages manager — web dashboard for browsing, installing, and removing pi packages from your agent. Adds the /packages slash command."
+     "description": "安装包管理器 — 浏览、安装和删除pi包的web仪表板。添加了/packages快捷命令。"
     }
    }
   },
@@ -134326,7 +134296,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi package for browsing packages, skills, extensions, prompts, themes, tools, and MCP servers"
+     "description": "pi包浏览包、技能、扩展、提示、主题、工具和MCP服务器。"
     }
    }
   },
@@ -134357,7 +134327,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "A pi extension that adds persistent persona and emotional state to your coding agent"
+     "description": "为您的编码代理添加持久人格和情感状态的pi扩展。"
     }
    }
   },
@@ -134389,7 +134359,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Claude Code-style subagents and workflow orchestration for pi, with coordinated fallback recovery and an interactive child-session workspace. Fork of tintinweb/pi-subagents."
+     "description": "Claude Code风格的子代理和工作流程编排pi，具有协调的故障恢复和交互式子会话工作区。tintinweb/pi-subagents的分支。"
     }
    }
   },
@@ -134421,7 +134391,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "pi-coding-agent extension — @agent interception, /ext family-bucket installer (/ext all, /ext setup, /ext status), /think command, /init shortcuts"
+     "description": "pi-coding-agent扩展 — @agent拦截，/ext家族存储桶安装器（/ext all，/ext setup，/ext status），/think命令，/init快捷键。"
     }
    }
   },
@@ -134454,7 +134424,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension and Agent Skill for bounded, benchmark-driven autoresearch loops in code repositories."
+     "description": "Pi扩展和代理技能，用于代码存储库中的有界、基准驱动的自动研究循环。"
     }
    }
   },
@@ -134485,7 +134455,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Runs a repository's five verification stages, format, lint, check, test and build, from the commands it declares in .meowpaw/profile.toml, and reports a stage with no command as unresolved, never as passed. Distributed as a Pi package."
+     "description": "从 declarations 在 .meowpaw/profile.toml 中声明的命令运行存储库的五个验证阶段：格式、lint、检查、测试和构建，报告没有命令的阶段为未解决，从未通过。作为Pi包分发。"
     }
    }
   },
@@ -134516,7 +134486,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "omo/senpi extension that wraps opencode-claude-auth to reuse Claude Code credentials"
+     "description": "omo/senpi扩展，封装opencode-claude-auth以重用Claude Code凭证。"
     }
    }
   },
@@ -134547,7 +134517,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Named multi-account manager for Pi: exclusive OAuth profile store, per-session pinning via PI_SEAT, and terminal usage meters for Anthropic and OpenAI Codex"
+     "description": "Pi的多账户管理器：独家OAuth配置文件存储，通过PI_SEAT进行会话固定，以及Anthropic和OpenAI Codex的终端使用计量器。"
     }
    }
   },
@@ -134578,7 +134548,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Route Pi's file and shell tools to remote Unix or Windows workspaces through reusable OpenSSH or ssh2 transports"
+     "description": "通过可重用的OpenSSH或ssh2传输将Pi的文件和shell工具路由到远程Unix或Windows工作区。"
     }
    }
   },
@@ -134610,7 +134580,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "pi coding agent extensions: raw token context counter footer, plus a setup sync that seeds personal model (local llama-cpp) and compaction settings"
+     "description": "pi 编码代理扩展：原始令牌上下文计数页脚，以及同步设置，用于播种个人模型（本地 llama-cpp）和压缩设置"
     }
    }
   },
@@ -134642,7 +134612,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "A compact Pi footer showing model, Git, context, quotas, and active work/subagent status."
+     "description": "紧凑型 Pi 页脚显示模型、Git、上下文、配额和活动工作/子代理状态"
     }
    }
   },
@@ -134674,7 +134644,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Vim mode for Pi coding agent"
+     "description": "Vim 模式用于 Pi 编码代理"
     }
    }
   },
@@ -134706,7 +134676,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Fix malformed single-line Markdown code fences in PI Agent responses so code blocks display correctly."
+     "description": "修复 PI 代理响应中格式错误的单行 Markdown 代码围栏，以便正确显示代码块"
     }
    }
   },
@@ -134738,7 +134708,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension for a highly customizable, ANSI-aware statusline footer."
+     "description": "Pi 扩展，用于高度可定制的、支持 ANSI 的状态行页脚"
     }
    }
   },
@@ -134770,7 +134740,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Read code changes without the gristle: navigable reading diffs for Pi, powered by Meat."
+     "description": "无需肉骨：为 Pi 提供由 Meat 驱动的可导航阅读差异"
     }
    }
   },
@@ -134802,7 +134772,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "User-authorized agent model switching for Pi sessions"
+     "description": "Pi 会话的用户授权代理模型切换"
     }
    }
   },
@@ -159801,7 +159771,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Bridge Matrix into pi (Matrix-only fork of pi-messenger-bridge)"
+     "description": "将 Matrix 集成到 pi（仅 Matrix 的 pi-messenger-bridge 分支）"
     }
    }
   },
@@ -159833,7 +159803,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Local MLX model launcher extension for Pi"
+     "description": "Pi 的本地 MLX 模型启动器扩展"
     }
    }
   },
@@ -159864,7 +159834,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi Agent extension: inject a default bash timeout and append timeout policy guidance to the system prompt"
+     "description": "Pi Agent扩展：注入默认bash超时并在系统提示符中追加超时策略指导"
     }
    }
   },
@@ -159896,7 +159866,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Dynamic 9router model discovery for Pi Coding Agent"
+     "description": "为Pi编码代理动态9router模型发现"
     }
    }
   },
@@ -159928,7 +159898,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Quota, balance, and spend indicators for current Pi providers"
+     "description": "当前Pi提供商的配额、余额和消费指示器"
     }
    }
   },
@@ -159960,7 +159930,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Agent-board dashboard for Pi: dispatch, monitor, peek/reply, and attach to background Pi sessions."
+     "description": "Pi的代理板仪表盘：调度、监控、查看/回复和附加到后台Pi会话"
     }
    }
   },
@@ -159992,7 +159962,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "A Pi Coding Agent extension that scores requests and routes work to configured worker models and thinking levels while keeping the parent model selected."
+     "description": "一个Pi编码代理扩展，对请求进行评分并将工作路由到配置的工作模型和思维水平，同时保留父模型选择"
     }
    }
   },
@@ -160023,7 +159993,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi extension that prints a provider-neutral token usage summary when Pi exits"
+     "description": "Pi退出时打印提供者中立的令牌使用摘要的Pi扩展"
     }
    }
   },
@@ -160055,7 +160025,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Project and session-aware NTFY notifications for the pi coding agent (English UI, fork of pi-ntfy)"
+     "description": "为pi编码代理的项目和会话感知NTFY通知（英文UI，pi-ntfy的分支）"
     }
    }
   },
@@ -168934,7 +168904,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Git-aware Pi guardrail that asks for confirmation before destructive shell actions can change or lose work"
+     "description": "Git感知的Pi护栏在破坏性shell操作更改或丢失工作之前要求确认"
     }
    }
   },
@@ -168965,7 +168935,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Standalone Pi extension for headless scout/research/worker subagents"
+     "description": "用于无头侦察/研究/工作子代理的独立Pi扩展"
     }
    }
   },
@@ -168996,7 +168966,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "SAP AI Core (orchestration + foundation) provider for the pi coding agent"
+     "description": "SAP AI 核心提供者（编排+基础）用于 pi 编码代理"
     }
    }
   },
@@ -169028,7 +168998,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Pi package manager — list, enable/disable, and auto-update installed Pi packages from within a session"
+     "description": "Pi 包管理器 — 在会话中列出、启用/禁用和自动更新已安装的 Pi 包"
     }
    }
   },
@@ -169060,7 +169030,7 @@
    ],
    "i18n": {
     "zh-CN": {
-     "description": "Track tasks inside pi sessions: dependency graph with cycle detection, evidence-gated completion, live widget, Claude Code-style reminders"
+     "description": "跟踪 pi 会话中的任务：带循环检测的依赖图、证据门控完成、实时小部件、Claude Code 风格的提醒"
     }
    }
   }
