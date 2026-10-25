@@ -1,0 +1,2252 @@
+{
+ "schema": 1,
+ "generated_at": "2026-10-25T09:47:30Z",
+ "releases_base": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download",
+ "release_tag": "pkgs-2026-10-25",
+ "policy": {
+  "licenses": [
+   "0BSD",
+   "AGPL-3.0-only",
+   "AGPL-3.0-or-later",
+   "Apache-2.0",
+   "BSD-2-Clause",
+   "BSD-3-Clause",
+   "CC0-1.0",
+   "GPL-3.0-only",
+   "GPL-3.0-or-later",
+   "ISC",
+   "LGPL-3.0-only",
+   "MIT",
+   "MPL-2.0",
+   "Unlicense"
+  ]
+ },
+ "packages": {
+  "@a-t-h-i/bot-lobby": {
+   "npm": "@a-t-h-i/bot-lobby",
+   "version": "0.6.61",
+   "license": "Apache-2.0",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.a-t-h-i-bot-lobby",
+   "asset": "pi-pkg.a-t-h-i-bot-lobby-0.6.61.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.a-t-h-i-bot-lobby-0.6.61.piplug",
+   "sha256": "27a6af812b6159b0ad178c3606f0ba53cdd8fd240a02439712a8af672f749b25",
+   "size_bytes": 2024898,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "@agent-sh/computer-use-linux": {
+   "npm": "@agent-sh/computer-use-linux",
+   "version": "0.7.25",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.agent-sh-computer-use-linux",
+   "asset": "pi-pkg.agent-sh-computer-use-linux-0.7.25.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.agent-sh-computer-use-linux-0.7.25.piplug",
+   "sha256": "4f91a128f9faa0c6f167aae4f4671d1d83fb98cad5c6dcd53e6bc0aa0852c080",
+   "size_bytes": 639640,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/pi/extension/index.ts"
+   ],
+   "skills": [
+    "src/skills/computer-use-linux/SKILL.md"
+   ]
+  },
+  "@aibyzero/cm-workflow": {
+   "npm": "@aibyzero/cm-workflow",
+   "version": "0.17.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.aibyzero-cm-workflow",
+   "asset": "pi-pkg.aibyzero-cm-workflow-0.17.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.aibyzero-cm-workflow-0.17.1.piplug",
+   "sha256": "19ebbd1a877584aee2c5715cec58184045719f257a05a38e2a03eb5577bb6b47",
+   "size_bytes": 625840,
+   "permissions": [
+    "agent.prompt.inject"
+   ],
+   "extensions": [],
+   "skills": [
+    "src/skills/cm-ai",
+    "src/skills/cm-check",
+    "src/skills/cm-fix",
+    "src/skills/cm-idea",
+    "src/skills/cm-init",
+    "src/skills/cm-notify",
+    "src/skills/cm-prd",
+    "src/skills/cm-refactor",
+    "src/skills/cm-runtime",
+    "src/skills/cm-security",
+    "src/skills/cm-test"
+   ]
+  },
+  "@akagilnc/pi-workflow-roles": {
+   "npm": "@akagilnc/pi-workflow-roles",
+   "version": "0.1.6021",
+   "license": "Apache-2.0",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.akagilnc-pi-workflow-roles",
+   "asset": "pi-pkg.akagilnc-pi-workflow-roles-0.1.6021.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.akagilnc-pi-workflow-roles-0.1.6021.piplug",
+   "sha256": "e234319a576332a73d4aa54b8309895c260addb8452464142cd980a5af385111",
+   "size_bytes": 28573,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/role-runtime.ts"
+   ],
+   "skills": []
+  },
+  "@awebai/oats-pi": {
+   "npm": "@awebai/oats-pi",
+   "version": "0.67.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.awebai-oats-pi",
+   "asset": "pi-pkg.awebai-oats-pi-0.67.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.awebai-oats-pi-0.67.1.piplug",
+   "sha256": "58f6a299f8a393c743207ccd394fecd35b86348f7008429e9073781a571cc6b1",
+   "size_bytes": 15472,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extension/index.ts"
+   ],
+   "skills": []
+  },
+  "@brainervirus/workit-pi": {
+   "npm": "@brainervirus/workit-pi",
+   "version": "8.28.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.brainervirus-workit-pi",
+   "asset": "pi-pkg.brainervirus-workit-pi-8.28.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.brainervirus-workit-pi-8.28.0.piplug",
+   "sha256": "ddd6ca23684dade26dff5f754c5f03d1a29a2cf81ed47972d7ac5e84f0ebe3cd",
+   "size_bytes": 1320284,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/dist/workit.js"
+   ],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "@braintrust/pi-extension": {
+   "npm": "@braintrust/pi-extension",
+   "version": "2.2.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.braintrust-pi-extension",
+   "asset": "pi-pkg.braintrust-pi-extension-2.2.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.braintrust-pi-extension-2.2.1.piplug",
+   "sha256": "29e6736a54534bfbf4bfe5d66ee97f3f9e78c9ea20e93bb6ba8cf3f9ecc46bcd",
+   "size_bytes": 79043,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/index.mjs"
+   ],
+   "skills": []
+  },
+  "@capdiem/pi-todo": {
+   "npm": "@capdiem/pi-todo",
+   "version": "0.3.2",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.capdiem-pi-todo",
+   "asset": "pi-pkg.capdiem-pi-todo-0.3.2.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.capdiem-pi-todo-0.3.2.piplug",
+   "sha256": "4ec5108d46dfa1a1eb961d26f30f61455757d2968e727cb62b30820c6b661beb",
+   "size_bytes": 49268,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.min.js"
+   ],
+   "skills": []
+  },
+  "@cratis/pi": {
+   "npm": "@cratis/pi",
+   "version": "7.112.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.cratis-pi",
+   "asset": "pi-pkg.cratis-pi-7.112.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.cratis-pi-7.112.0.piplug",
+   "sha256": "436df819bda298dfb6729b3e7164039e9f678d74e276a5c1c672591e8eae5d36",
+   "size_bytes": 169542,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts",
+    "src/package/corpus/harnesses/pi/extensions/cratis-hooks/index.ts",
+    "src/package/corpus/harnesses/pi/extensions/cratis-mcp/index.ts",
+    "src/package/corpus/harnesses/pi/extensions/cratis-path-guidance/index.ts",
+    "src/package/corpus/harnesses/pi/extensions/subagent/index.ts"
+   ],
+   "skills": []
+  },
+  "@czottmann/pi-zai-api": {
+   "npm": "@czottmann/pi-zai-api",
+   "version": "1.1.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.czottmann-pi-zai-api",
+   "asset": "pi-pkg.czottmann-pi-zai-api-1.1.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.czottmann-pi-zai-api-1.1.0.piplug",
+   "sha256": "b2ce5e97de02bef17c3af884e4f66be9e0d4d6ad7f69b99a802a57683aab99da",
+   "size_bytes": 9320,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/zai-api.ts"
+   ],
+   "skills": []
+  },
+  "@d3ara1n/pi-context-include": {
+   "npm": "@d3ara1n/pi-context-include",
+   "version": "3.0.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.d3ara1n-pi-context-include",
+   "asset": "pi-pkg.d3ara1n-pi-context-include-3.0.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.d3ara1n-pi-context-include-3.0.0.piplug",
+   "sha256": "89a397bc97de8fc7b098b13a5a3e6a1371579a9780ac6df5d0d5608923b120df",
+   "size_bytes": 42054,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "@d3ara1n/pi-provider-sensenova": {
+   "npm": "@d3ara1n/pi-provider-sensenova",
+   "version": "1.5.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.d3ara1n-pi-provider-sensenova",
+   "asset": "pi-pkg.d3ara1n-pi-provider-sensenova-1.5.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.d3ara1n-pi-provider-sensenova-1.5.1.piplug",
+   "sha256": "1aa301201317832b4fd7dc96863eb09a368718143440447dccfca186997f7adc",
+   "size_bytes": 31232,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "@dietrichgebert/ponytail": {
+   "npm": "@dietrichgebert/ponytail",
+   "version": "5.3.2",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.dietrichgebert-ponytail",
+   "asset": "pi-pkg.dietrichgebert-ponytail-5.3.2.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.dietrichgebert-ponytail-5.3.2.piplug",
+   "sha256": "bff0db31d0428e49ab6ca64697205ba16e559a15cd10c595da417b50a64aac33",
+   "size_bytes": 50246,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/pi-extension/index.js"
+   ],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "@getpipher/vision": {
+   "npm": "@getpipher/vision",
+   "version": "0.5.3",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.getpipher-vision",
+   "asset": "pi-pkg.getpipher-vision-0.5.3.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.getpipher-vision-0.5.3.piplug",
+   "sha256": "6f0fa07d13ba0f802de51466ba483985bfca7bce8c80d541887ddca1179bd721",
+   "size_bytes": 92441,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/vision.ts",
+    "src/extensions/paste.ts"
+   ],
+   "skills": []
+  },
+  "@gonrocca/nodd": {
+   "npm": "@gonrocca/nodd",
+   "version": "0.9.2",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.gonrocca-nodd",
+   "asset": "pi-pkg.gonrocca-nodd-0.9.2.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.gonrocca-nodd-0.9.2.piplug",
+   "sha256": "9c33e87335725453f0d54cb743ff97c887a4b6e213d58a065e06b7fc3b3e93bc",
+   "size_bytes": 208984,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/nodd-kernel.ts",
+    "src/extensions/nodd-gates.ts",
+    "src/extensions/nodd-allow.ts",
+    "src/extensions/nodd-models.ts",
+    "src/extensions/nodd-agents.ts",
+    "src/extensions/nodd-promote.ts"
+   ],
+   "skills": []
+  },
+  "@gotgenes/pi-anthropic-auth": {
+   "npm": "@gotgenes/pi-anthropic-auth",
+   "version": "3.4.3",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.gotgenes-pi-anthropic-auth",
+   "asset": "pi-pkg.gotgenes-pi-anthropic-auth-3.4.3.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.gotgenes-pi-anthropic-auth-3.4.3.piplug",
+   "sha256": "d5bd22fd3beddfb2d7a744d99cd0dfc16f8ab78a243a7fcd56d289ae5beab5ea",
+   "size_bytes": 110680,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "@gotgenes/pi-subagents": {
+   "npm": "@gotgenes/pi-subagents",
+   "version": "25.0.4",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.gotgenes-pi-subagents",
+   "asset": "pi-pkg.gotgenes-pi-subagents-25.0.4.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.gotgenes-pi-subagents-25.0.4.piplug",
+   "sha256": "af5ea75c004150f03896a5d3d4f3b8dadc2cf1b78c118b68c116f38837e794cf",
+   "size_bytes": 551133,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "@gtrabanco/pi-nan-provider": {
+   "npm": "@gtrabanco/pi-nan-provider",
+   "version": "1.3.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.gtrabanco-pi-nan-provider",
+   "asset": "pi-pkg.gtrabanco-pi-nan-provider-1.3.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.gtrabanco-pi-nan-provider-1.3.0.piplug",
+   "sha256": "922473b474d93e145c57044aa569fc802a9a3c93ab816e53a84b4a3469cb750b",
+   "size_bytes": 187580,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "@injaneity/pi-computer-use": {
+   "npm": "@injaneity/pi-computer-use",
+   "version": "0.5.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.injaneity-pi-computer-use",
+   "asset": "pi-pkg.injaneity-pi-computer-use-0.5.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.injaneity-pi-computer-use-0.5.1.piplug",
+   "sha256": "02fc859a4571129f3ba23a8d4462593eb80fcbb46026fcbd48a50ad0729054d4",
+   "size_bytes": 19369,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/computer-use.ts"
+   ],
+   "skills": []
+  },
+  "@juicesharp/rpiv-args": {
+   "npm": "@juicesharp/rpiv-args",
+   "version": "2.15.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.juicesharp-rpiv-args",
+   "asset": "pi-pkg.juicesharp-rpiv-args-2.15.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.juicesharp-rpiv-args-2.15.0.piplug",
+   "sha256": "2f5b508dfd6a5c825c511e4fdcc90b69031a70dc569857828390d7eae7584cb7",
+   "size_bytes": 49184,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "@juicesharp/rpiv-btw": {
+   "npm": "@juicesharp/rpiv-btw",
+   "version": "2.15.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.juicesharp-rpiv-btw",
+   "asset": "pi-pkg.juicesharp-rpiv-btw-2.15.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.juicesharp-rpiv-btw-2.15.0.piplug",
+   "sha256": "336ff561ee485879a3335c33ab053e1ce84e1efc163a9930aebd5af61188cae3",
+   "size_bytes": 78946,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "@llblab/pi-state-flow": {
+   "npm": "@llblab/pi-state-flow",
+   "version": "0.26.5",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.llblab-pi-state-flow",
+   "asset": "pi-pkg.llblab-pi-state-flow-0.26.5.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.llblab-pi-state-flow-0.26.5.piplug",
+   "sha256": "8b3ba23a8f3ac393019689ad28ff65678c24736b75f7ba05abbf7cc5714b6774",
+   "size_bytes": 41613,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/dist/pi-state-flow/index.js"
+   ],
+   "skills": [
+    "src/dist/skills"
+   ]
+  },
+  "@llblab/pi-telegram": {
+   "npm": "@llblab/pi-telegram",
+   "version": "0.58.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.llblab-pi-telegram",
+   "asset": "pi-pkg.llblab-pi-telegram-0.58.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.llblab-pi-telegram-0.58.1.piplug",
+   "sha256": "04cfe2bf7d741a191a1267327bded1d62660b356f23c8b3bae782d551766340a",
+   "size_bytes": 88712,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/dist/pi-telegram/index.js"
+   ],
+   "skills": [
+    "src/dist/skills"
+   ]
+  },
+  "@ludi-uni/ludi-agent-kit": {
+   "npm": "@ludi-uni/ludi-agent-kit",
+   "version": "0.4.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.ludi-uni-ludi-agent-kit",
+   "asset": "pi-pkg.ludi-uni-ludi-agent-kit-0.4.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.ludi-uni-ludi-agent-kit-0.4.0.piplug",
+   "sha256": "4770dd76d26743285fef7ac407d087f614f78667e4c750b44511f3b083b21f04",
+   "size_bytes": 177325,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/adapters/pi/loop-guard/index.js",
+    "src/adapters/pi/orchestrator-ext/index.js"
+   ],
+   "skills": [
+    "src/skills/pi-workflow",
+    "src/skills/project-management",
+    "src/skills/visual-verification"
+   ]
+  },
+  "@narumitw/pi-lsp": {
+   "npm": "@narumitw/pi-lsp",
+   "version": "0.49.10",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.narumitw-pi-lsp",
+   "asset": "pi-pkg.narumitw-pi-lsp-0.49.10.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.narumitw-pi-lsp-0.49.10.piplug",
+   "sha256": "c543f6fc88880bd6175f56b60e5e4e605f64db1c4863eef0d8a9402cf14a7ae5",
+   "size_bytes": 188247,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/index.ts"
+   ],
+   "skills": []
+  },
+  "@ollama/pi-web-search": {
+   "npm": "@ollama/pi-web-search",
+   "version": "0.0.5",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.ollama-pi-web-search",
+   "asset": "pi-pkg.ollama-pi-web-search-0.0.5.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.ollama-pi-web-search-0.0.5.piplug",
+   "sha256": "551d2c7aebb3382b66997de428f73a29c71747c481c2e2434c43e98837f16b3b",
+   "size_bytes": 8335,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "@pi-unipi/command-enchantment": {
+   "npm": "@pi-unipi/command-enchantment",
+   "version": "2.20.5",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-unipi-command-enchantment",
+   "asset": "pi-pkg.pi-unipi-command-enchantment-2.20.5.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-unipi-command-enchantment-2.20.5.piplug",
+   "sha256": "09d8000fb431ac737e635fae4dc89321e9cb9953d18532e2cbcc94ee4111df02",
+   "size_bytes": 38352,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "@pi-unipi/skill-registry": {
+   "npm": "@pi-unipi/skill-registry",
+   "version": "3.0.0-alpha.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-unipi-skill-registry",
+   "asset": "pi-pkg.pi-unipi-skill-registry-3.0.0-alpha.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-unipi-skill-registry-3.0.0-alpha.0.piplug",
+   "sha256": "b361f3cf4f907af3a7116fdfcb869deb4a134ee2b8feeebca364688d2808a108",
+   "size_bytes": 106551,
+   "permissions": [
+    "agent.prompt.inject"
+   ],
+   "extensions": [],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "@postman/postman-plugin": {
+   "npm": "@postman/postman-plugin",
+   "version": "0.4.1",
+   "license": "Apache-2.0",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.postman-postman-plugin",
+   "asset": "pi-pkg.postman-postman-plugin-0.4.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.postman-postman-plugin-0.4.1.piplug",
+   "sha256": "63d1b2743efbeb3a89bc08842f3b4e58fc3f466e1b5eae07a53c37e4ab820034",
+   "size_bytes": 307846,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/dist/pi-extension.js"
+   ],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "@raindrop-ai/pi-agent": {
+   "npm": "@raindrop-ai/pi-agent",
+   "version": "0.2.5",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.raindrop-ai-pi-agent",
+   "asset": "pi-pkg.raindrop-ai-pi-agent-0.2.5.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.raindrop-ai-pi-agent-0.2.5.piplug",
+   "sha256": "eff2baf3bf75a6837c959b79bfdf1f4c994d36728db4fd1fd4273dd2b9043cfa",
+   "size_bytes": 457568,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/extension.js"
+   ],
+   "skills": []
+  },
+  "@realvendex/pi-token-router": {
+   "npm": "@realvendex/pi-token-router",
+   "version": "0.2.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.realvendex-pi-token-router",
+   "asset": "pi-pkg.realvendex-pi-token-router-0.2.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.realvendex-pi-token-router-0.2.0.piplug",
+   "sha256": "2fe2633db775cbe5b7417588030750c5a6e3a62db1bf4b44f8d8c2e2dfb59b03",
+   "size_bytes": 33215,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/index.ts",
+    "src/extensions/logger.ts"
+   ],
+   "skills": []
+  },
+  "@router-for-me/pi-cliproxyapi-provider": {
+   "npm": "@router-for-me/pi-cliproxyapi-provider",
+   "version": "1.4.23",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.router-for-me-pi-cliproxyapi-provider",
+   "asset": "pi-pkg.router-for-me-pi-cliproxyapi-provider-1.4.23.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.router-for-me-pi-cliproxyapi-provider-1.4.23.piplug",
+   "sha256": "c51ff5b3311e7f47386c2afacf227138e53c8b93f4c9e9cb3a47cf6e1272153c",
+   "size_bytes": 165308,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/index.ts",
+    "src/extensions/tps.ts"
+   ],
+   "skills": []
+  },
+  "@spences10/pi-redact": {
+   "npm": "@spences10/pi-redact",
+   "version": "0.0.15",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.spences10-pi-redact",
+   "asset": "pi-pkg.spences10-pi-redact-0.0.15.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.spences10-pi-redact-0.0.15.piplug",
+   "sha256": "aa0f4f49bfde5de2c42a3fc0575b8da3a6d6e8f883939a7ef4c2ea80112f20e6",
+   "size_bytes": 30810,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/index.js"
+   ],
+   "skills": []
+  },
+  "@sreetej510/pi-usage": {
+   "npm": "@sreetej510/pi-usage",
+   "version": "0.13.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.sreetej510-pi-usage",
+   "asset": "pi-pkg.sreetej510-pi-usage-0.13.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.sreetej510-pi-usage-0.13.0.piplug",
+   "sha256": "7399fc0b90c69f9c2011fa818ce6ae2b33ec84d1dc6113eeadb829cc10a4bf28",
+   "size_bytes": 41043,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/index.js"
+   ],
+   "skills": []
+  },
+  "@sting8k/pi-vcc": {
+   "npm": "@sting8k/pi-vcc",
+   "version": "0.10.2",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.sting8k-pi-vcc",
+   "asset": "pi-pkg.sting8k-pi-vcc-0.10.2.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.sting8k-pi-vcc-0.10.2.piplug",
+   "sha256": "4d12e47c8406d72f7eed39154b1ffacd89f990c9e0a0327987f06b9522f3d2d5",
+   "size_bytes": 263251,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "@tintinweb/pi-tasks": {
+   "npm": "@tintinweb/pi-tasks",
+   "version": "0.9.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.tintinweb-pi-tasks",
+   "asset": "pi-pkg.tintinweb-pi-tasks-0.9.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.tintinweb-pi-tasks-0.9.1.piplug",
+   "sha256": "824cae0b27d51800674234bb63ad6e08b287af333f1e0d2af8096ada9eaac1f5",
+   "size_bytes": 154707,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "@tmustier/pi-usage-extension": {
+   "npm": "@tmustier/pi-usage-extension",
+   "version": "0.9.5",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.tmustier-pi-usage-extension",
+   "asset": "pi-pkg.tmustier-pi-usage-extension-0.9.5.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.tmustier-pi-usage-extension-0.9.5.piplug",
+   "sha256": "1f9d0c622bd1d504b37ef670bdcfb69672acfcbcd03afab935805025982fdc7e",
+   "size_bytes": 796074,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "@yandy0725/pi-memory": {
+   "npm": "@yandy0725/pi-memory",
+   "version": "2.5.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.yandy0725-pi-memory",
+   "asset": "pi-pkg.yandy0725-pi-memory-2.5.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.yandy0725-pi-memory-2.5.1.piplug",
+   "sha256": "edd4c4585c0f84e08a9b32d979efe6031bcfecba72c02bb05484032216dae5f6",
+   "size_bytes": 272365,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "awesome-pi-themes": {
+   "npm": "awesome-pi-themes",
+   "version": "1.2.19",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.awesome-pi-themes",
+   "asset": "pi-pkg.awesome-pi-themes-1.2.19.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.awesome-pi-themes-1.2.19.piplug",
+   "sha256": "00d295146d2d7bcc3f982e51acdb78d1770b5951b525de26beeaa7b780468276",
+   "size_bytes": 29274,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/look-pack.ts"
+   ],
+   "skills": []
+  },
+  "billion-context-pi": {
+   "npm": "billion-context-pi",
+   "version": "0.1.83",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.billion-context-pi",
+   "asset": "pi-pkg.billion-context-pi-0.1.83.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.billion-context-pi-0.1.83.piplug",
+   "sha256": "0fe67e71c4de357543d049bca55e3991839d04ac6aa075f62363e2ab918b746c",
+   "size_bytes": 3998800,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/index.js"
+   ],
+   "skills": []
+  },
+  "bladebro": {
+   "npm": "bladebro",
+   "version": "4.6.5",
+   "license": "Apache-2.0",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.bladebro",
+   "asset": "pi-pkg.bladebro-4.6.5.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.bladebro-4.6.5.piplug",
+   "sha256": "70685e10f671758aa71ebc8694bba6ebbdc550739c306f36b9745e009935bbb5",
+   "size_bytes": 26885,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/pi-extension.ts"
+   ],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "cc-safety-net": {
+   "npm": "cc-safety-net",
+   "version": "2.6.19",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.cc-safety-net",
+   "asset": "pi-pkg.cc-safety-net-2.6.19.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.cc-safety-net-2.6.19.piplug",
+   "sha256": "1484af48b9f1a434da7c4e6fa295c16b0b50516a80e0bd0a3f2068aaa409e860",
+   "size_bytes": 16522,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/pi/index.js"
+   ],
+   "skills": []
+  },
+  "donsetch": {
+   "npm": "donsetch",
+   "version": "4.10.2",
+   "license": "AGPL-3.0-only",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.donsetch",
+   "asset": "pi-pkg.donsetch-4.10.2.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.donsetch-4.10.2.piplug",
+   "sha256": "71d7330114d3c6d754b0386e25fdea19729d0a312ce41041de26323801628776",
+   "size_bytes": 101450,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/pi-extension.ts"
+   ],
+   "skills": []
+  },
+  "gentle-engram": {
+   "npm": "gentle-engram",
+   "version": "0.4.2",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.gentle-engram",
+   "asset": "pi-pkg.gentle-engram-0.4.2.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.gentle-engram-0.4.2.piplug",
+   "sha256": "92c85c4c83116748b5562710335dc01ad8a2ca2f084cf199622d9392a3438c5f",
+   "size_bytes": 1605931,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "glimpseui": {
+   "npm": "glimpseui",
+   "version": "0.8.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.glimpseui",
+   "asset": "pi-pkg.glimpseui-0.8.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.glimpseui-0.8.1.piplug",
+   "sha256": "6e23c05a371d9e7fd5820ce5dfd9805a4ae1734fa22a501bbf8211cef911bdd8",
+   "size_bytes": 44885,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "leos-agent": {
+   "npm": "leos-agent",
+   "version": "12.2026101109.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.leos-agent",
+   "asset": "pi-pkg.leos-agent-12.2026101109.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.leos-agent-12.2026101109.0.piplug",
+   "sha256": "b2f586924f700a39136aba5864380eb5684ea42732736083b02b83b3955f523b",
+   "size_bytes": 964082,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/pi-extension.js"
+   ],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "opencode-agent-skill": {
+   "npm": "opencode-agent-skill",
+   "version": "16.16.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.opencode-agent-skill",
+   "asset": "pi-pkg.opencode-agent-skill-16.16.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.opencode-agent-skill-16.16.0.piplug",
+   "sha256": "ce6766ec2509b467bb7b7907779c5409ed47a704b47a944208f11674cd0c5c5c",
+   "size_bytes": 812228,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/pi/extensions/ues.ts",
+    "src/pi/extensions/ues-loop-recovery.ts"
+   ],
+   "skills": [
+    "src/global-config/skills"
+   ]
+  },
+  "osdy-pi": {
+   "npm": "osdy-pi",
+   "version": "1.11.18",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.osdy-pi",
+   "asset": "pi-pkg.osdy-pi-1.11.18.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.osdy-pi-1.11.18.piplug",
+   "sha256": "98474dd7c4406065813e801a3a0254e100e942eba6de341af23f590c5fbaeb2f",
+   "size_bytes": 1598085,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/osdy-pi.ts"
+   ],
+   "skills": []
+  },
+  "pi-advisor-flow": {
+   "npm": "pi-advisor-flow",
+   "version": "0.14.2",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-advisor-flow",
+   "asset": "pi-pkg.pi-advisor-flow-0.14.2.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-advisor-flow-0.14.2.piplug",
+   "sha256": "95d0fd26b94cc2d65e6efdb86bd31046ca2c0b403907bcc49452a3baddd368e1",
+   "size_bytes": 384067,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/index.js"
+   ],
+   "skills": []
+  },
+  "pi-alibaba-models": {
+   "npm": "pi-alibaba-models",
+   "version": "1.1.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-alibaba-models",
+   "asset": "pi-pkg.pi-alibaba-models-1.1.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-alibaba-models-1.1.1.piplug",
+   "sha256": "a2acc96f5d02f3e53ef693fcac478bd686d1e8e7e3b45ba929d3e9a8431f85e7",
+   "size_bytes": 59006,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/alibaba.ts"
+   ],
+   "skills": []
+  },
+  "pi-ask-user": {
+   "npm": "pi-ask-user",
+   "version": "0.17.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-ask-user",
+   "asset": "pi-pkg.pi-ask-user-0.17.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-ask-user-0.17.0.piplug",
+   "sha256": "c085a1d58ee7298a894c65c62da6b6f85adbfb14c2677fe3b9dfcfe2215f80c5",
+   "size_bytes": 192140,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "pi-atelier": {
+   "npm": "pi-atelier",
+   "version": "0.16.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-atelier",
+   "asset": "pi-pkg.pi-atelier-0.16.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-atelier-0.16.0.piplug",
+   "sha256": "1b5c985694d27d5d15abeb07e23f10fc5f214b0f3c7e21aaafdc416a327567bc",
+   "size_bytes": 49101,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-autoresearch": {
+   "npm": "pi-autoresearch",
+   "version": "1.9.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-autoresearch",
+   "asset": "pi-pkg.pi-autoresearch-1.9.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-autoresearch-1.9.0.piplug",
+   "sha256": "43e7537e7112a6a84d004137a6a502bc123500efcb94101bfb1d1961f9e407d2",
+   "size_bytes": 219497,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/extensions/pi-autoresearch/commands.ts",
+    "src/extensions/pi-autoresearch/compaction.ts",
+    "src/extensions/pi-autoresearch/hooks.ts",
+    "src/extensions/pi-autoresearch/index.ts",
+    "src/extensions/pi-autoresearch/jsonl.ts",
+    "src/extensions/pi-autoresearch/paths.ts",
+    "src/extensions/pi-autoresearch/shortcuts.ts"
+   ],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "pi-bifrost": {
+   "npm": "pi-bifrost",
+   "version": "0.5.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-bifrost",
+   "asset": "pi-pkg.pi-bifrost-0.5.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-bifrost-0.5.0.piplug",
+   "sha256": "d18aa9363214fb16f1e57b45f80200e2b990bb9cead70e3ab636e943eeedebad",
+   "size_bytes": 327326,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-blackhole": {
+   "npm": "pi-blackhole",
+   "version": "0.5.16",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-blackhole",
+   "asset": "pi-pkg.pi-blackhole-0.5.16.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-blackhole-0.5.16.piplug",
+   "sha256": "5dd23ed08f9ed05d70f8a377587d21ed0cbdb0480a4e9573092e93b164490d8b",
+   "size_bytes": 651487,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/index.js"
+   ],
+   "skills": []
+  },
+  "pi-btw": {
+   "npm": "pi-btw",
+   "version": "0.8.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-btw",
+   "asset": "pi-pkg.pi-btw-0.8.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-btw-0.8.0.piplug",
+   "sha256": "81d24690e523829f58d9ecd043295e6c4c626ac3fc9d5eaf364accb3601f3225",
+   "size_bytes": 145656,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/extensions/btw.ts"
+   ],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "pi-cache-optimizer": {
+   "npm": "pi-cache-optimizer",
+   "version": "2.10.4",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-cache-optimizer",
+   "asset": "pi-pkg.pi-cache-optimizer-2.10.4.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-cache-optimizer-2.10.4.piplug",
+   "sha256": "822677c19e21a93be2873e7e71729c4aab725779af18f5ea49ccdec694f6f5e6",
+   "size_bytes": 911712,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-caveman": {
+   "npm": "pi-caveman",
+   "version": "1.0.12",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-caveman",
+   "asset": "pi-pkg.pi-caveman-1.0.12.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-caveman-1.0.12.piplug",
+   "sha256": "08cd62e6e3bebcd246ee6158a1736d73e620caa9456b215332000c25707c52a1",
+   "size_bytes": 25579,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/caveman.ts"
+   ],
+   "skills": []
+  },
+  "pi-chrome": {
+   "npm": "pi-chrome",
+   "version": "0.15.57",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-chrome",
+   "asset": "pi-pkg.pi-chrome-0.15.57.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-chrome-0.15.57.piplug",
+   "sha256": "49de4a01024dae744a3f534ee0d92566ad9f691b025d1c15f0fff80612d875df",
+   "size_bytes": 332987,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/chrome-profile-bridge/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-cliproxyapi-provider": {
+   "npm": "pi-cliproxyapi-provider",
+   "version": "0.15.58",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-cliproxyapi-provider",
+   "asset": "pi-pkg.pi-cliproxyapi-provider-0.15.58.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-cliproxyapi-provider-0.15.58.piplug",
+   "sha256": "bfa1881bef6e5828b6acd50670dcee68eb432a6c20ec6ba3eab9b4a6bf3113b4",
+   "size_bytes": 15810,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-cloudflare": {
+   "npm": "pi-cloudflare",
+   "version": "0.11.15",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-cloudflare",
+   "asset": "pi-pkg.pi-cloudflare-0.11.15.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-cloudflare-0.11.15.piplug",
+   "sha256": "7410b16e341e249f3f03d9e783a1109014664583f9c1dbc19bd41b9125350c51",
+   "size_bytes": 1366779,
+   "permissions": [
+    "agent.prompt.inject"
+   ],
+   "extensions": [],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "pi-cmux": {
+   "npm": "pi-cmux",
+   "version": "0.2.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-cmux",
+   "asset": "pi-pkg.pi-cmux-0.2.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-cmux-0.2.0.piplug",
+   "sha256": "4c9df1a7921516d7f251815ab58bc939b2fb13ca268f86b5aa9f90f2d67f0941",
+   "size_bytes": 168191,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-codex-goal": {
+   "npm": "pi-codex-goal",
+   "version": "0.6.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-codex-goal",
+   "asset": "pi-pkg.pi-codex-goal-0.6.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-codex-goal-0.6.1.piplug",
+   "sha256": "8def979d407cc3a13d21014b0f5587f767eccaa8869d0ff8306019c8eaa09e05",
+   "size_bytes": 7066,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-commandcode-provider": {
+   "npm": "pi-commandcode-provider",
+   "version": "0.7.10",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-commandcode-provider",
+   "asset": "pi-pkg.pi-commandcode-provider-0.7.10.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-commandcode-provider-0.7.10.piplug",
+   "sha256": "01def79fadd73986accbd21826eddc5d10ad83e19b0c5d4eb2aff7adb26bd1d4",
+   "size_bytes": 281389,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-compact-tools": {
+   "npm": "pi-compact-tools",
+   "version": "0.16.6",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-compact-tools",
+   "asset": "pi-pkg.pi-compact-tools-0.16.6.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-compact-tools-0.16.6.piplug",
+   "sha256": "4fa57745504d72a9fbf2dc687ad0005a55f9f6b422d7abd151c9b1da32086e0c",
+   "size_bytes": 338098,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/compact-tools.ts"
+   ],
+   "skills": []
+  },
+  "pi-context": {
+   "npm": "pi-context",
+   "version": "2.3.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-context",
+   "asset": "pi-pkg.pi-context-2.3.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-context-2.3.0.piplug",
+   "sha256": "72969b0c0ece35cdaa96dd6af6f3ed8462c6049a8264d4ef893554db74ac169a",
+   "size_bytes": 109614,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/src/index.ts",
+    "src/src/context.ts"
+   ],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "pi-context-view": {
+   "npm": "pi-context-view",
+   "version": "0.8.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-context-view",
+   "asset": "pi-pkg.pi-context-view-0.8.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-context-view-0.8.0.piplug",
+   "sha256": "ff9e659df193984585343804f6060dbcccd5c280649e63875e73ceb67399df2b",
+   "size_bytes": 585448,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-coralbricks-provider": {
+   "npm": "pi-coralbricks-provider",
+   "version": "1.0.38",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-coralbricks-provider",
+   "asset": "pi-pkg.pi-coralbricks-provider-1.0.38.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-coralbricks-provider-1.0.38.piplug",
+   "sha256": "623e320cfcb2d9a689bb21ac1c63d5253285f9bc38ca96453517bc92a440f251",
+   "size_bytes": 118307,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-daddy": {
+   "npm": "pi-daddy",
+   "version": "0.49.3",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-daddy",
+   "asset": "pi-pkg.pi-daddy-0.49.3.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-daddy-0.49.3.piplug",
+   "sha256": "5563146de075e1cfa552a79932fafdac8e008bc3e24f07b26f5073c3efd6a71c",
+   "size_bytes": 483234,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/grants.ts"
+   ],
+   "skills": []
+  },
+  "pi-dashscope": {
+   "npm": "pi-dashscope",
+   "version": "1.0.5",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-dashscope",
+   "asset": "pi-pkg.pi-dashscope-1.0.5.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-dashscope-1.0.5.piplug",
+   "sha256": "cab873e188320bf3d6b51b2bf5760f628a8c45b3e23693d8efe7b619c3eb080c",
+   "size_bytes": 11309,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-do-always": {
+   "npm": "pi-do-always",
+   "version": "0.23.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-do-always",
+   "asset": "pi-pkg.pi-do-always-0.23.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-do-always-0.23.0.piplug",
+   "sha256": "23fc91af9c6f824dfc1739a95b250e0e327d6e03cb22e1df05411f6792b8973b",
+   "size_bytes": 259326,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/pi-do-always/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-durable-subagents": {
+   "npm": "pi-durable-subagents",
+   "version": "1.4.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-durable-subagents",
+   "asset": "pi-pkg.pi-durable-subagents-1.4.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-durable-subagents-1.4.1.piplug",
+   "sha256": "126c490c7051d966b0e5ec8a44e1977e81aa2f99b83c258bd0762b762e493214",
+   "size_bytes": 1454339,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.js"
+   ],
+   "skills": []
+  },
+  "pi-extension-nvidia-nim": {
+   "npm": "pi-extension-nvidia-nim",
+   "version": "1.17.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-extension-nvidia-nim",
+   "asset": "pi-pkg.pi-extension-nvidia-nim-1.17.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-extension-nvidia-nim-1.17.0.piplug",
+   "sha256": "cc8b9f85b748c443926d9f06079469e95edb13bc94b64777fda05321162fca7c",
+   "size_bytes": 414023,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-extension-qwen-token-plan-cn-ex": {
+   "npm": "pi-extension-qwen-token-plan-cn-ex",
+   "version": "0.1.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-extension-qwen-token-plan-cn-ex",
+   "asset": "pi-pkg.pi-extension-qwen-token-plan-cn-ex-0.1.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-extension-qwen-token-plan-cn-ex-0.1.0.piplug",
+   "sha256": "d8a6f43d1025d76b827bb6e248fece2d385aaf57614621f2a7e16fb92658d701",
+   "size_bytes": 65808,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-fireworks": {
+   "npm": "pi-fireworks",
+   "version": "0.1.2",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-fireworks",
+   "asset": "pi-pkg.pi-fireworks-0.1.2.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-fireworks-0.1.2.piplug",
+   "sha256": "4d77d908eb43c988f213486be3db07a2715fea4a18eed3249341d6158fb39d9c",
+   "size_bytes": 18123,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-free": {
+   "npm": "pi-free",
+   "version": "2.8.5",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-free",
+   "asset": "pi-pkg.pi-free-2.8.5.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-free-2.8.5.piplug",
+   "sha256": "43f32d7f32428cc66c19e78fed205be132e450626e7b700c4aad7d49e6b77fa6",
+   "size_bytes": 3859310,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/index.js"
+   ],
+   "skills": []
+  },
+  "pi-goal-list-loop-audit": {
+   "npm": "pi-goal-list-loop-audit",
+   "version": "0.39.52",
+   "license": "AGPL-3.0-only",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-goal-list-loop-audit",
+   "asset": "pi-pkg.pi-goal-list-loop-audit-0.39.52.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-goal-list-loop-audit-0.39.52.piplug",
+   "sha256": "f4bf81a1902a5f09a905d2262a854e0f1b15227bbfd80568df9611c7d8c7dbc8",
+   "size_bytes": 1215123,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/extensions/loops/goal.ts"
+   ],
+   "skills": [
+    "src/skills/glla-delegate"
+   ]
+  },
+  "pi-goal-x": {
+   "npm": "pi-goal-x",
+   "version": "0.34.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-goal-x",
+   "asset": "pi-pkg.pi-goal-x-0.34.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-goal-x-0.34.0.piplug",
+   "sha256": "cda1209c87303f731af17a392e858f4c42bdfb7bde7ca86517b18e42aa61ad55",
+   "size_bytes": 901464,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/goal.ts"
+   ],
+   "skills": []
+  },
+  "pi-herdr-agents": {
+   "npm": "pi-herdr-agents",
+   "version": "3.3.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-herdr-agents",
+   "asset": "pi-pkg.pi-herdr-agents-3.3.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-herdr-agents-3.3.1.piplug",
+   "sha256": "7f49a3623abb0573d7b66e0add4def47bfcd52380ecc2ba22aa1d00ee0d801a3",
+   "size_bytes": 183703,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/pi-extension/subagents/index.ts"
+   ],
+   "skills": [
+    "src/skills"
+   ]
+  },
+  "pi-interview": {
+   "npm": "pi-interview",
+   "version": "0.14.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-interview",
+   "asset": "pi-pkg.pi-interview-0.14.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-interview-0.14.0.piplug",
+   "sha256": "11b9753a012c950d9b6f42ca7fa9ab6aa85ecd509f0a35e38273c161a8fb4a88",
+   "size_bytes": 380540,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-lean-ctx": {
+   "npm": "pi-lean-ctx",
+   "version": "3.11.4",
+   "license": "Apache-2.0",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-lean-ctx",
+   "asset": "pi-pkg.pi-lean-ctx-3.11.4.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-lean-ctx-3.11.4.piplug",
+   "sha256": "02e38ecaf075e10ef9ad1b3fe3177ea82f1f11a8c752520167bccd1c675e5698",
+   "size_bytes": 718097,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-lingual": {
+   "npm": "pi-lingual",
+   "version": "0.6.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-lingual",
+   "asset": "pi-pkg.pi-lingual-0.6.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-lingual-0.6.0.piplug",
+   "sha256": "3357217e0ed2f7f8ab630c889403581beafa320791ede2482e6704f55921f47a",
+   "size_bytes": 1894573,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/dist/extension.js"
+   ],
+   "skills": [
+    "src/skills/lingual-tuner"
+   ]
+  },
+  "pi-llama-cpp": {
+   "npm": "pi-llama-cpp",
+   "version": "0.19.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-llama-cpp",
+   "asset": "pi-pkg.pi-llama-cpp-0.19.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-llama-cpp-0.19.1.piplug",
+   "sha256": "88cdb48e798791f9120242ed121348ca412e2edee0462c1a1375961c39b16918",
+   "size_bytes": 321355,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-lmstudio": {
+   "npm": "pi-lmstudio",
+   "version": "1.5.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-lmstudio",
+   "asset": "pi-pkg.pi-lmstudio-1.5.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-lmstudio-1.5.0.piplug",
+   "sha256": "462b3215bdd427b6e7c8f1e413b23e08af85b9a808ce94b48ebb12c85c3d46ae",
+   "size_bytes": 10939,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/pi-lmstudio/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-memory": {
+   "npm": "pi-memory",
+   "version": "0.4.2",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-memory",
+   "asset": "pi-pkg.pi-memory-0.4.2.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-memory-0.4.2.piplug",
+   "sha256": "6099bf3ac4056a69539322dbe21659b24acee0e32dfe1b21758e11f5eb60b4a6",
+   "size_bytes": 108382,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-muse-msp": {
+   "npm": "pi-muse-msp",
+   "version": "0.2.7",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-muse-msp",
+   "asset": "pi-pkg.pi-muse-msp-0.2.7.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-muse-msp-0.2.7.piplug",
+   "sha256": "c0fe0d46cbc38dedcb96306ce8979ea3e44f4754258361c7baaaf380d21d734c",
+   "size_bytes": 147657,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/muse-msp.ts"
+   ],
+   "skills": []
+  },
+  "pi-nvidia-nim": {
+   "npm": "pi-nvidia-nim",
+   "version": "1.1.23",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-nvidia-nim",
+   "asset": "pi-pkg.pi-nvidia-nim-1.1.23.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-nvidia-nim-1.1.23.piplug",
+   "sha256": "5c8016940bca87e9ca1c568a9ed84a5cfa7a3ea9f121767a2ed845191718c7c7",
+   "size_bytes": 41759,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-observational-memory": {
+   "npm": "pi-observational-memory",
+   "version": "3.1.4",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-observational-memory",
+   "asset": "pi-pkg.pi-observational-memory-3.1.4.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-observational-memory-3.1.4.piplug",
+   "sha256": "0532ec5beb161deab13c3e0076fcb6e4e1103e7bf9dc6d4568757a00104eb57b",
+   "size_bytes": 228629,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-open-tui": {
+   "npm": "pi-open-tui",
+   "version": "0.3.11",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-open-tui",
+   "asset": "pi-pkg.pi-open-tui-0.3.11.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-open-tui-0.3.11.piplug",
+   "sha256": "a29fd1a8b49e8f5486b20e03852f986bad771ff0eba48814f25e0f81fdc30185",
+   "size_bytes": 140856,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/open-tui/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-openai-toolkit": {
+   "npm": "pi-openai-toolkit",
+   "version": "0.24.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-openai-toolkit",
+   "asset": "pi-pkg.pi-openai-toolkit-0.24.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-openai-toolkit-0.24.0.piplug",
+   "sha256": "9b8905e83ad6c8dcd7218ac1a9e33e89119a7b9da5ba2faff3e93d58d4aa39c0",
+   "size_bytes": 531430,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/extension-runtime.ts",
+    "src/src/web-search/extension.ts",
+    "src/src/image-generation/extension.ts",
+    "src/src/codex-fast/extension.ts",
+    "src/src/codex-astra/extension.ts",
+    "src/src/responses-websocket/extension.ts"
+   ],
+   "skills": []
+  },
+  "pi-powerline-footer": {
+   "npm": "pi-powerline-footer",
+   "version": "0.21.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-powerline-footer",
+   "asset": "pi-pkg.pi-powerline-footer-0.21.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-powerline-footer-0.21.0.piplug",
+   "sha256": "70899ddfdc8ece3629939c4dd6a1616ce4ca982553ed3618902d6a13d858522f",
+   "size_bytes": 505565,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-provider-litellm": {
+   "npm": "pi-provider-litellm",
+   "version": "4.5.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-provider-litellm",
+   "asset": "pi-pkg.pi-provider-litellm-4.5.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-provider-litellm-4.5.0.piplug",
+   "sha256": "5815e52f8c5120833a4f9d0edfc9765f3a50856da4ef7204d9d54efac91cca31",
+   "size_bytes": 435575,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-qwen_dashscope": {
+   "npm": "pi-qwen_dashscope",
+   "version": "1.1.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-qwen_dashscope",
+   "asset": "pi-pkg.pi-qwen_dashscope-1.1.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-qwen_dashscope-1.1.0.piplug",
+   "sha256": "ffe6c6abef0fc87304a25183bbd204959dc2b9d16960f270f7aab4126e456569",
+   "size_bytes": 28445,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-router": {
+   "npm": "pi-router",
+   "version": "0.5.9",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-router",
+   "asset": "pi-pkg.pi-router-0.5.9.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-router-0.5.9.piplug",
+   "sha256": "48a6732fa47f38fbd97959987e73fdeee1088b9773cc921a8071c622e319b726",
+   "size_bytes": 1183965,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-rtk-optimizer": {
+   "npm": "pi-rtk-optimizer",
+   "version": "0.9.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-rtk-optimizer",
+   "asset": "pi-pkg.pi-rtk-optimizer-0.9.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-rtk-optimizer-0.9.0.piplug",
+   "sha256": "79e319e0741069a3b952d19405aacfc0c3da9735ade3186152875b02b27ccd95",
+   "size_bytes": 286011,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-sensenova": {
+   "npm": "pi-sensenova",
+   "version": "1.1.2",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-sensenova",
+   "asset": "pi-pkg.pi-sensenova-1.1.2.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-sensenova-1.1.2.piplug",
+   "sha256": "608573febfba89b9e22807bfaf97466e309e72e092059d977c95aae9e1c57010",
+   "size_bytes": 28988,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/sensenova.ts"
+   ],
+   "skills": []
+  },
+  "pi-simplify": {
+   "npm": "pi-simplify",
+   "version": "0.2.3",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-simplify",
+   "asset": "pi-pkg.pi-simplify-0.2.3.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-simplify-0.2.3.piplug",
+   "sha256": "75d3777744f036383e3feaef719fe0093aa4b67ea7c88c5acb4b8c79e30e10fd",
+   "size_bytes": 23739,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/index.js"
+   ],
+   "skills": []
+  },
+  "pi-smart-compact": {
+   "npm": "pi-smart-compact",
+   "version": "10.6.2",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-smart-compact",
+   "asset": "pi-pkg.pi-smart-compact-10.6.2.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-smart-compact-10.6.2.piplug",
+   "sha256": "7104740f9da547553645805a8f0ea3618f72b9b373520828f442de04cdbe0229",
+   "size_bytes": 1698188,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/dist/index.js"
+   ],
+   "skills": []
+  },
+  "pi-straw-boss": {
+   "npm": "pi-straw-boss",
+   "version": "0.42.1",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-straw-boss",
+   "asset": "pi-pkg.pi-straw-boss-0.42.1.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-straw-boss-0.42.1.piplug",
+   "sha256": "135931e4681df8d24178b3e063dddbaaa994cde2968c0f9486551bfec13063a9",
+   "size_bytes": 576729,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts",
+    "src/src/balance.ts",
+    "src/src/blocked.ts"
+   ],
+   "skills": []
+  },
+  "pi-subdir-context": {
+   "npm": "pi-subdir-context",
+   "version": "1.1.7",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-subdir-context",
+   "asset": "pi-pkg.pi-subdir-context-1.1.7.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-subdir-context-1.1.7.piplug",
+   "sha256": "3f1ff7409db323ee02fb98e13349123a7f88cf3a9350794b47b40e24317c922e",
+   "size_bytes": 8879,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-token-speed": {
+   "npm": "pi-token-speed",
+   "version": "0.12.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-token-speed",
+   "asset": "pi-pkg.pi-token-speed-0.12.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-token-speed-0.12.0.piplug",
+   "sha256": "2160fcb0e7d3f20875934f7a9d2bb74306e9dd5380364a79cfb9f0dd3a4d7742",
+   "size_bytes": 224655,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-tokenrouter": {
+   "npm": "pi-tokenrouter",
+   "version": "1.5.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-tokenrouter",
+   "asset": "pi-pkg.pi-tokenrouter-1.5.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-tokenrouter-1.5.0.piplug",
+   "sha256": "c00e5c498b7d7aed0c9b5eedcc5a2cbcb8681a4007b7027f7f08af11b561b191",
+   "size_bytes": 80181,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-tool-repair": {
+   "npm": "pi-tool-repair",
+   "version": "0.3.9",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-tool-repair",
+   "asset": "pi-pkg.pi-tool-repair-0.3.9.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-tool-repair-0.3.9.piplug",
+   "sha256": "7f8a8df1f388b7547029941282c78f5675f17fcd7e08ab2b53036bdbd8e158f6",
+   "size_bytes": 113488,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/tool-repair.ts"
+   ],
+   "skills": []
+  },
+  "pi-web-search": {
+   "npm": "pi-web-search",
+   "version": "1.7.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-web-search",
+   "asset": "pi-pkg.pi-web-search-1.7.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-web-search-1.7.0.piplug",
+   "sha256": "8e07d8dab9d3274cdd0f5f0d50ca9e58a5543aaceb3f539ac54bcf61b64db264",
+   "size_bytes": 101438,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/src/index.ts"
+   ],
+   "skills": []
+  },
+  "pi-xai-oauth": {
+   "npm": "pi-xai-oauth",
+   "version": "1.7.3",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-xai-oauth",
+   "asset": "pi-pkg.pi-xai-oauth-1.7.3.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-xai-oauth-1.7.3.piplug",
+   "sha256": "13ee180f76113a2652c39acb6d9b490f5deaada9bdab0d858d284e2da7ac63ef",
+   "size_bytes": 702894,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/xai-oauth.ts",
+    "src/extensions/xai/abort.ts",
+    "src/extensions/xai/auth.ts",
+    "src/extensions/xai/bounded-body.ts",
+    "src/extensions/xai/catalog.ts",
+    "src/extensions/xai/constants.ts",
+    "src/extensions/xai/device-auth.ts",
+    "src/extensions/xai/image-edit.ts"
+   ],
+   "skills": []
+  },
+  "pi-zentui": {
+   "npm": "pi-zentui",
+   "version": "0.32.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-zentui",
+   "asset": "pi-pkg.pi-zentui-0.32.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-zentui-0.32.0.piplug",
+   "sha256": "c432e6710c0e61a6d24619893c32b6c38a9b63673e672d15854aac6f82eb67ed",
+   "size_bytes": 1252257,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/zentui/accent-rail-editor.ts",
+    "src/extensions/zentui/average-token-rate.ts",
+    "src/extensions/zentui/codex-quota-display.ts",
+    "src/extensions/zentui/codex-quota-headers.ts",
+    "src/extensions/zentui/codex-quota.ts",
+    "src/extensions/zentui/completion-menu.ts",
+    "src/extensions/zentui/component-colors.ts",
+    "src/extensions/zentui/component-settings.ts"
+   ],
+   "skills": []
+  },
+  "pi-zhipu-usage": {
+   "npm": "pi-zhipu-usage",
+   "version": "0.3.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pi-zhipu-usage",
+   "asset": "pi-pkg.pi-zhipu-usage-0.3.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pi-zhipu-usage-0.3.0.piplug",
+   "sha256": "59fc0e31d5ea523e4b12ae024217093570f532f58de6a43cc69bc60c67cea982",
+   "size_bytes": 18237,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/glm-usage.ts"
+   ],
+   "skills": []
+  },
+  "pine-of-glass": {
+   "npm": "pine-of-glass",
+   "version": "0.18.3",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.pine-of-glass",
+   "asset": "pi-pkg.pine-of-glass-0.18.3.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.pine-of-glass-0.18.3.piplug",
+   "sha256": "ea5556cd835d8dc7df5382df9a0e9359742bc80f315895765480777785537c22",
+   "size_bytes": 106927,
+   "permissions": [
+    "agent.extension"
+   ],
+   "extensions": [
+    "src/extensions/pi-contextimate/heuristic-config.ts",
+    "src/extensions/pi-contextimate/index.ts",
+    "src/extensions/pi-contextimate/message-size.ts",
+    "src/extensions/pi-contextimate/metric-rows.ts",
+    "src/extensions/pi-contextimate/prompt-parsing.ts",
+    "src/extensions/pi-contextimate/render.ts",
+    "src/extensions/pi-contextimate/report.ts",
+    "src/extensions/pi-contextimate/request-messages.ts"
+   ],
+   "skills": []
+  },
+  "principal-pi-skills": {
+   "npm": "principal-pi-skills",
+   "version": "4.14.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.principal-pi-skills",
+   "asset": "pi-pkg.principal-pi-skills-4.14.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.principal-pi-skills-4.14.0.piplug",
+   "sha256": "f14582a64e50f0d96d633a4d982965b9dfd3a5c036365ca862eccd785c07ce9c",
+   "size_bytes": 173399,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/extensions/bootstrap.ts",
+    "src/extensions/resume.ts",
+    "src/extensions/workflow.ts",
+    "src/extensions/codemode.ts"
+   ],
+   "skills": [
+    "src/decide",
+    "src/architect",
+    "src/plan",
+    "src/build",
+    "src/review",
+    "src/test-review",
+    "src/debug",
+    "src/investigate",
+    "src/git-ops"
+   ]
+  },
+  "superpowers-zh": {
+   "npm": "superpowers-zh",
+   "version": "1.8.0",
+   "license": "MIT",
+   "npm_integrity": null,
+   "plugin_id": "pi-pkg.superpowers-zh",
+   "asset": "pi-pkg.superpowers-zh-1.8.0.piplug",
+   "tag": "pkgs-2026-10-25",
+   "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-2026-10-25/pi-pkg.superpowers-zh-1.8.0.piplug",
+   "sha256": "cb273e9f22dacfe93b52a4178e0b27b1df9a13277f92bb962718d651e8a0855c",
+   "size_bytes": 560712,
+   "permissions": [
+    "agent.extension",
+    "agent.prompt.inject"
+   ],
+   "extensions": [
+    "src/.pi/extensions/superpowers.ts"
+   ],
+   "skills": [
+    "src/skills"
+   ]
+  }
+ },
+ "excluded": {
+  "@mutmutco/pi-plugin": "NONE",
+  "pi-ollama-cloud": "NONE",
+  "pi-lore": "NONE",
+  "@pi-archimedes/core": "NONE"
+ }
+}
