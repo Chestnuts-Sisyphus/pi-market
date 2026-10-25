@@ -2182,5 +2182,2857 @@
   "path": "D:\\AI\\PI\\pi-market\\packages\\pi-pkg.pi-context-2.3.0.piplug",
   "license": "MIT",
   "npmIntegrity": null
+ },
+ "@janvitos/pi-plan-build": {
+  "name": "@janvitos/pi-plan-build",
+  "id": "pi-pkg.janvitos-pi-plan-build",
+  "version": "0.1.120",
+  "ok": true,
+  "sizeBytes": 566446,
+  "shasum": "d83e273b01bc97858c3a16ddf10238204f29a793143af4b9ed3b023ec7d6bf30",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-8NBOUU2j4l791e21TsMpWUktaFK6GIbKjywzipFnsSlCTG9kvM3pZk98cLfmUx+mkjTdeuh+3OrAkSsGLNTZ+g==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.janvitos-pi-plan-build-0.1.120.piplug"
+ },
+ "@tunnckocore/pi-gpt-fast-mode": {
+  "name": "@tunnckocore/pi-gpt-fast-mode",
+  "id": "pi-pkg.tunnckocore-pi-gpt-fast-mode",
+  "version": "0.4.0",
+  "ok": true,
+  "sizeBytes": 14631,
+  "shasum": "852eb23db7853972217cebfd5f8522f3449cf2ccf60c4558ed25c90af983f0b8",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-khXuT034bIBaFhk/xnQmwFMFjVuwMmEW/hjskoBF4m2omq1DkUiIxoP5V4CZDuGhBi9oRC5kM1rU+p/ydwymXQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.tunnckocore-pi-gpt-fast-mode-0.4.0.piplug"
+ },
+ "@arhen/pi-core-subagent": {
+  "name": "@arhen/pi-core-subagent",
+  "id": "pi-pkg.arhen-pi-core-subagent",
+  "version": "1.3.68",
+  "ok": true,
+  "sizeBytes": 240847,
+  "shasum": "504c2e1d1aef695b7f1c2b2c7dd6a50167fcfe8666dc3db82f524bbbceaef12f",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-Xyte5FtO9ztO4gXLuIWiouxoJ0xZ5T1kDz+eXRBaDEGg5cfknxDBTJZ9KsdgDzLzIsjcVjtH2UnYfqczcWK0hQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.arhen-pi-core-subagent-1.3.68.piplug"
+ },
+ "pi-web-codex": {
+  "name": "pi-web-codex",
+  "id": "pi-pkg.pi-web-codex",
+  "version": "0.1.34",
+  "ok": true,
+  "sizeBytes": 16373,
+  "shasum": "31ea305c341647f2972bc248ecefaca1b0ba5275fe29998fa7a4d04d8ea2ce12",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/pi-web-codex.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-EGmTBZpZGWdf5os6D50CY23uqKVi7Ov5eb1omz2GAPHwM+oY84w/kMpHLXz92HsRpxCeUplEkb730yFappGeRw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-web-codex-0.1.34.piplug"
+ },
+ "@erichll/pi-auto-review": {
+  "name": "@erichll/pi-auto-review",
+  "id": "pi-pkg.erichll-pi-auto-review",
+  "version": "0.27.2",
+  "ok": true,
+  "sizeBytes": 354351,
+  "shasum": "6d307c82d42992f976357fd7a8570219f34b7377033f9271d8e6e388835fab65",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-EKIRvEsXfgP2jMRKOc/BFe9+bHZQf/0NGJxS8cRe08UKcOwk0JSW+FHjWd+5j+BGmQcIZeGanXCvxzSUTKXCqg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.erichll-pi-auto-review-0.27.2.piplug"
+ },
+ "pi-tokenrouter-provider": {
+  "name": "pi-tokenrouter-provider",
+  "id": "pi-pkg.pi-tokenrouter-provider",
+  "version": "0.1.0",
+  "ok": true,
+  "sizeBytes": 18340,
+  "shasum": "8187dab6b2cec1158b97193b4d8cc4fd637891a42659f87f7f3088fd7de7d4fe",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-WVBtla7pmD91lYr5yoSsHTl1C02NM2OnHTS2JKH95MXY2MRkqbA8dsTf4KwpQuho00w1H7nvpHdiBa/3ZoqvQA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-tokenrouter-provider-0.1.0.piplug"
+ },
+ "@upstash/context7-pi": {
+  "name": "@upstash/context7-pi",
+  "id": "pi-pkg.upstash-context7-pi",
+  "version": "0.1.3",
+  "ok": true,
+  "sizeBytes": 8657,
+  "shasum": "169f5dc7b256b62ba6ea19dedb0c9691c43a8100cbc7983dd3d2300e3d573500",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/context7.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-tILBBP0zPv5Sk0lpoxwXgIjz14vg2EjWdQusZX8mV6duJcjS93uwQ6Wr9BFiOXnImuG1js5zhXL4YLaKBbdLeQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.upstash-context7-pi-0.1.3.piplug"
+ },
+ "@agentapprove/pi": {
+  "name": "@agentapprove/pi",
+  "id": "pi-pkg.agentapprove-pi",
+  "version": "0.1.13",
+  "ok": true,
+  "sizeBytes": 83499,
+  "shasum": "478863c7ac6bbacd942b313efd81487e327c5293ebae3ee65456dacd3da1ae6e",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "SEE LICENSE IN LICENSE",
+  "npmIntegrity": "sha512-uVYd5cQ/YOWlPbZaT6Cg546PJw3QjndU7wDrGZiWo6Bh+qV4MNQu1+LZqgqcfKgzwRyWPqNyf+CqC1KYFKgLMw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.agentapprove-pi-0.1.13.piplug"
+ },
+ "pi-messenger-swarm": {
+  "name": "pi-messenger-swarm",
+  "id": "pi-pkg.pi-messenger-swarm",
+  "version": "0.26.9",
+  "ok": true,
+  "sizeBytes": 494586,
+  "shasum": "3eba9f686fbb8fb23ba2f99ef19dc81b10c10bcf34d7423d9d52aa087077c192",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-F5jOqyocbeRG9s8pQItUCW06utzbG5aqEb+DeTmgOLegb7bD/mYbjdwbLQimGbUlIAYAEG8n2KnN/fRERJbMCA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-messenger-swarm-0.26.9.piplug"
+ },
+ "@reedchan/statusline": {
+  "name": "@reedchan/statusline",
+  "id": "pi-pkg.reedchan-statusline",
+  "version": "1.11.3",
+  "ok": true,
+  "sizeBytes": 90530,
+  "shasum": "d19bada0354d8190fc032b70a2a503f79851fed47037eb274563fe0250eb1996",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/statusline/index.ts",
+   "src/extensions/statusline/render.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-4GdRhNgnjZTtGa67nK/ZDctujt3bN0Dy5T+HVWU4B1uVXD1PUhx69srDp83qXqzmgkpNW2EPZGmSivgtjtLz3w==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.reedchan-statusline-1.11.3.piplug"
+ },
+ "@alexeiled/pi-model-router": {
+  "name": "@alexeiled/pi-model-router",
+  "id": "pi-pkg.alexeiled-pi-model-router",
+  "version": "0.16.0",
+  "ok": true,
+  "sizeBytes": 410892,
+  "shasum": "ce73f6ac67225c09713724111dc036cc61f1114678357f0ea8f2a7be2076c57b",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-QzuNS9pklxjyPbuShBfo3+IbaKF7k1k/nanH2DTbCKa/gGzn0nEb6PuCOomqEDfGJany7X38vIz0ZE0AUMT+Qw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.alexeiled-pi-model-router-0.16.0.piplug"
+ },
+ "pi-dashscope-native": {
+  "name": "pi-dashscope-native",
+  "id": "pi-pkg.pi-dashscope-native",
+  "version": "0.3.0",
+  "ok": true,
+  "sizeBytes": 41673,
+  "shasum": "418a6639da99b7179393e4a065d9704d3f9bb650758498abf0a9a0b7694ca9de",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-JELPAk9J7vjeN6gk0xDmDOfPSX6b1bO70Rph/N+akc+kI+MR3DyEqLmjY/NzZgeTseL0ARuivvLlx1+R713DIw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-dashscope-native-0.3.0.piplug"
+ },
+ "@deathbeam/pi-delegate": {
+  "name": "@deathbeam/pi-delegate",
+  "id": "pi-pkg.deathbeam-pi-delegate",
+  "version": "0.0.32",
+  "ok": true,
+  "sizeBytes": 117068,
+  "shasum": "1d2a1dd3e788dc45a3408f1d7b406cd4504522f5dee3243ecabca64554f46c5a",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-H08kfzZl2tqhpU4G0Mj/YZD9+mIk5/kXg04QO/8fMQ24lsH1TUOIZTxyj1aIA1pBAE/O8FR4QjafT8/a/qa+BQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.deathbeam-pi-delegate-0.0.32.piplug"
+ },
+ "pi-add-dir": {
+  "name": "pi-add-dir",
+  "id": "pi-pkg.pi-add-dir",
+  "version": "1.3.1",
+  "ok": true,
+  "sizeBytes": 82316,
+  "shasum": "bd3306c0664e7608bbc13373028b75d1e51964787b02734667917bea706dc96a",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/pi-add-dir/index.ts",
+   "src/extensions/pi-add-dir/suggestions.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-y1kLHZEgP9xkBY2PeaVhrIntJTf0mSBCOPVfzzdjiJi03mkNcqcTouDLtmLXm5aOwNl5WCjR6Kw5eaMnj2kE2g==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-add-dir-1.3.1.piplug"
+ },
+ "pi-voicekit": {
+  "name": "pi-voicekit",
+  "id": "pi-pkg.pi-voicekit",
+  "version": "0.6.5",
+  "ok": true,
+  "sizeBytes": 816000,
+  "shasum": "445629bdaa0123c591bef781e3cd93eabb731fe7533079256bb778e836aeb3b7",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/voice.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-k7QIdRNPCGg2S4DlFVPF0bLI7Fo5P9TKEdiC04EiRmdDsgZ9iEohR0/ghHCeJ6MWGijcxFDUePYUaiZGdG2W5A==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-voicekit-0.6.5.piplug"
+ },
+ "@yusukeshib/pi-babysit": {
+  "name": "@yusukeshib/pi-babysit",
+  "id": "pi-pkg.yusukeshib-pi-babysit",
+  "version": "0.6.26",
+  "ok": true,
+  "sizeBytes": 301278,
+  "shasum": "42f1bf1688b6571e858a0b98a6e89db9856b1a23ed4efd93a63d1d679713dad1",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-J//J+6ofZyD3/Sv9ZbprRuvV3yQssnP8FERywOEzCBlvVJxUQrgn3okXt2nelsmr1IhN+LsKbZgOdfk5IvjZaQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.yusukeshib-pi-babysit-0.6.26.piplug"
+ },
+ "pi-effort": {
+  "name": "pi-effort",
+  "id": "pi-pkg.pi-effort",
+  "version": "0.1.0",
+  "ok": true,
+  "sizeBytes": 53463,
+  "shasum": "7a897c909e131272badfccbd99a148c17eb09701742d2d1f2c7520db1c83c104",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "Apache-2.0",
+  "npmIntegrity": "sha512-99yEZfx7Jy0ZAFspC/egrjD7riSDm2JYBCYIvgUoMIdwVCUt1abtVmCHkRRg7H/PUJ8jNmg8sjbbbSyMFsXglA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-effort-0.1.0.piplug"
+ },
+ "pi-fovea": {
+  "name": "pi-fovea",
+  "id": "pi-pkg.pi-fovea",
+  "version": "0.31.7",
+  "ok": true,
+  "sizeBytes": 533014,
+  "shasum": "aa3dd4717a3a54819827d0f8ffec434ce930ee8f6ea9d0ed16ab8f459ac4728f",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-MQ0WU1EgYy1OHzuXxt1H8+5lrdW6Xba8R8+uGCSeWk0Ke9qwVV0SPWr16tZzi071+gBQXLZuXSTotfOeT1h7aA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-fovea-0.31.7.piplug"
+ },
+ "pi-jar": {
+  "name": "pi-jar",
+  "id": "pi-pkg.pi-jar",
+  "version": "0.3.3",
+  "ok": true,
+  "sizeBytes": 122583,
+  "shasum": "25f7dc54999f4ce0a672f30cdf6526e13ef12b8d8c6c8f9432cfe6a607cd3549",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-rFE1slUmAvjCnRTdHBjZ+1Oe+11/lBLYg5IseI61aDHnMJ4XilsHhVvvhzyOt5JDMCwFSU8FG3tYJOhydIMgcg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-jar-0.3.3.piplug"
+ },
+ "@bachi/pi-coder": {
+  "name": "@bachi/pi-coder",
+  "id": "pi-pkg.bachi-pi-coder",
+  "version": "2.5.4",
+  "ok": true,
+  "sizeBytes": 3837225,
+  "shasum": "e41479511e09ab13ff66006db80139156a44c110dd1ad2459837ff3f84bbdde4",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/bash-command-collapse.ts",
+   "src/extensions/below-editor-after-statusline.ts",
+   "src/extensions/clear-command.ts",
+   "src/extensions/cwd-statusline.ts",
+   "src/extensions/exit-command.ts",
+   "src/extensions/folder-history.ts",
+   "src/extensions/init-command.ts",
+   "src/extensions/prompt-editor.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-hMVtVAUSoRaYUOuJKkPB4CLQvOfKX7MfK/rxtYTplAHtaTGpvBIuSskSStcEW6W9Z77jYOHrx+JJY4svTEP4cw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.bachi-pi-coder-2.5.4.piplug"
+ },
+ "@trevonistrevon/pi-loop": {
+  "name": "@trevonistrevon/pi-loop",
+  "id": "pi-pkg.trevonistrevon-pi-loop",
+  "version": "0.7.18",
+  "ok": true,
+  "sizeBytes": 1415499,
+  "shasum": "3a0e8453d6cea943ce25c359c751f1dc52daa208569289333f735a3a00e2ea1d",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-RkNmea3fmRlCqpexTD3xjXSJ8YSwhspOjlq1HNFhWtOC3HeAp6k/a2VFF2MtBaj87yMV7MPb0IYCexryo5RGKg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.trevonistrevon-pi-loop-0.7.18.piplug"
+ },
+ "pi-verdict": {
+  "name": "pi-verdict",
+  "id": "pi-pkg.pi-verdict",
+  "version": "0.15.0",
+  "ok": true,
+  "sizeBytes": 171659,
+  "shasum": "8f1c3cf33c519d47a136b8f708c2404af457171cfdc8ed650e45a4822d3926b3",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/pi-verdict.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-dTlB+EExz+uCU68AIW19HnH7OFAxnlD006KIVaCgfhg6sTLaYd3zIUvZ0yd38bXTXZAU08mLKZlnw5oAVyxXsw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-verdict-0.15.0.piplug"
+ },
+ "specpi": {
+  "name": "specpi",
+  "id": "pi-pkg.specpi",
+  "version": "0.37.1",
+  "ok": true,
+  "sizeBytes": 184729,
+  "shasum": "b5df7512c6d51dbd9cc43859008599b59865b7e1c6ceb633e2a10cf90c744da7",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/jev-advisor/broker.mjs",
+   "src/extensions/jev-advisor/client.mjs",
+   "src/extensions/jev-advisor/config.mjs",
+   "src/extensions/jev-advisor/consent.mjs",
+   "src/extensions/jev-advisor/gate.mjs",
+   "src/extensions/jev-advisor/index.ts",
+   "src/extensions/jev-advisor/key-source.mjs",
+   "src/extensions/jev-advisor/layer.mjs"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-VxrRCOZNC96FZ3MlHvzv3Begl14aYAlTu+iVaBJN71SZuvfYCNGrZU2A03L2P7iRe9z368H6Iotr88al+wBSDg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.specpi-0.37.1.piplug"
+ },
+ "@quandev104/pi-style": {
+  "name": "@quandev104/pi-style",
+  "id": "pi-pkg.quandev104-pi-style",
+  "version": "0.5.13",
+  "ok": true,
+  "sizeBytes": 150638,
+  "shasum": "d735e0f4373d8c5bdd36f6e66fce0cb1eb35ff1d1350ca97472ced11a66a3f3c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extension-src/pi-style/pi/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-Elnl31djyHnU/819nQkamr/s7gQT79gjMQ1gSPThNpglreN2nZTIWdz+FwqBio1nNkWgC0IREeeXWa9vu8pfzw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.quandev104-pi-style-0.5.13.piplug"
+ },
+ "@drix10/agent-flow": {
+  "name": "@drix10/agent-flow",
+  "id": "pi-pkg.drix10-agent-flow",
+  "version": "1.2.7",
+  "ok": true,
+  "sizeBytes": 1187512,
+  "shasum": "5317ebac6215adec21adec2960df095b6c68b7386a51ea642f15325cb336be6e",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/index.js"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-tx2PpI3m2EjPdz9kZV3bH/2rHCu+ag6J/PF9gdQUMDsl9IuRkquuYVcOJBrbEfBW1/ZWgCfTV4DY9S//z8tkXw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.drix10-agent-flow-1.2.7.piplug"
+ },
+ "@monotykamary/pi-retry": {
+  "name": "@monotykamary/pi-retry",
+  "id": "pi-pkg.monotykamary-pi-retry",
+  "version": "0.11.3",
+  "ok": true,
+  "sizeBytes": 142612,
+  "shasum": "f3c373c24d154d2f9286155ac7e16170e30262db85c6c2d255da596a5a612cc8",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/retry.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-ooGwhWVQu+2oIDBy9VM8yo5Kr1e68/ZBuPXiOLjquwIi3oLyqpn344+4r/gbosBt6gOsp5+vsDZQalvNY4RwNA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.monotykamary-pi-retry-0.11.3.piplug"
+ },
+ "@nguyenquangthai/pi-omp-theme": {
+  "name": "@nguyenquangthai/pi-omp-theme",
+  "id": "pi-pkg.nguyenquangthai-pi-omp-theme",
+  "version": "1.0.26",
+  "ok": true,
+  "sizeBytes": 619548,
+  "shasum": "f46c6b038469d082563708b86f6ad284a7d821fddf931bbd6f7af0eaa293f845",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/extensions/pi-omp-theme.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-JMXETWk+4Zdz5FACxJYbqBtySPNZH/dV1i2DUKFgtuS1jQ0w6wpzMOQZ2XDTSGUcLH3KYgtV6csa/92RRyyzAw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.nguyenquangthai-pi-omp-theme-1.0.26.piplug"
+ },
+ "pi-nvidia": {
+  "name": "pi-nvidia",
+  "id": "pi-pkg.pi-nvidia",
+  "version": "0.2.1",
+  "ok": true,
+  "sizeBytes": 21563,
+  "shasum": "7b9f6bb7269ec725109b381fd86998c6ba481134c1a50c1a8b9914fe7b9de377",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/nvidia.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-iT21q71mmSuOriflgmrwICtWUysmxpDmumxnwANCqzeMOrnzaQaW9OQUuFW4lSUeB/UjcSFpd6IORuGuVaMxcQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-nvidia-0.2.1.piplug"
+ },
+ "@the-librarian/pi-extension": {
+  "name": "@the-librarian/pi-extension",
+  "id": "pi-pkg.the-librarian-pi-extension",
+  "version": "1.33.6",
+  "ok": true,
+  "sizeBytes": 68464,
+  "shasum": "99ded8111ef436cfa28f631c369b581d4608e06ce44406564b6fba6a874e3c1d",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/librarian/index.ts"
+  ],
+  "skills": [],
+  "license": "Apache-2.0",
+  "npmIntegrity": "sha512-bxts00PFMbZ/Gw+3P95Ad2qFtUpEgvoY4wMiCmiSReh0dNGCqCEgIDf2yJocjWW6PCaiCY/S4nBgkoBpob1MoQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.the-librarian-pi-extension-1.33.6.piplug"
+ },
+ "pi-optchat": {
+  "name": "pi-optchat",
+  "id": "pi-pkg.pi-optchat",
+  "version": "0.9.2",
+  "ok": true,
+  "sizeBytes": 438699,
+  "shasum": "ab6f4f6f74f08842e2f8ba59a45e01896b56ed0b637164306668b918c6f47244",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-sG2wkJYXiJiXiryu9wx/IXaYhU50wiv0sYVCTZwC34dnJKOiLynTpib5eNRJZLvKNEYJEfdLLnfdci88lqmJzA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-optchat-0.9.2.piplug"
+ },
+ "@cr1ms0n/pi-subagent": {
+  "name": "@cr1ms0n/pi-subagent",
+  "id": "pi-pkg.cr1ms0n-pi-subagent",
+  "version": "0.13.0",
+  "ok": true,
+  "sizeBytes": 16347,
+  "shasum": "5c0818bba3110af9dcc64ddd64edcdc2995e4c0aeef0823db463c456810511e1",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/subagent.ts",
+   "src/extensions/task.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-SPNmgnVSruX3R1S0wLFs33lEXbnjVlIfymbTAoFpRWgLPtV8IV8yZ8frrLfagGy+K4ouJe8aNObT2tgn+g0wfw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.cr1ms0n-pi-subagent-0.13.0.piplug"
+ },
+ "@blackbelt-technology/pi-anthropic-messages": {
+  "name": "@blackbelt-technology/pi-anthropic-messages",
+  "id": "pi-pkg.blackbelt-technology-pi-anthropic-messages",
+  "version": "0.3.4",
+  "ok": true,
+  "sizeBytes": 61711,
+  "shasum": "bcdf6f365efeb54fc24807ff45bce140db5aee7e2636a346d3a5f2e61853b76f",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-aqAGbHghmrDMM1AjQQ9e5446ETKTtgCFEAiDDLq75tLtiLD1XZfijhO0Fzu1vVNC9D1q1NbfNpowu9++/qA07A==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.blackbelt-technology-pi-anthropic-messages-0.3.4.piplug"
+ },
+ "@pi-kaush/pi-tool-call-markers": {
+  "name": "@pi-kaush/pi-tool-call-markers",
+  "id": "pi-pkg.pi-kaush-pi-tool-call-markers",
+  "version": "0.3.19",
+  "ok": true,
+  "sizeBytes": 147018,
+  "shasum": "6f6377d29e61ae1b0bd7f54a5a986f23f07eefd9a5d7e0587c04a4490a0d28c9",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts",
+   "src/src/thinking-block-merger.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-VUVwsIFZhvfC86PK1//fwGpEkvq39XybF5uTAVjeJ2j2Xi2/ZkurvwcvMUmQlGUPLb9xzBkm/kenA8aG0B8Gag==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-kaush-pi-tool-call-markers-0.3.19.piplug"
+ },
+ "@bacnh85/pi-sub": {
+  "name": "@bacnh85/pi-sub",
+  "id": "pi-pkg.bacnh85-pi-sub",
+  "version": "0.1.55",
+  "ok": true,
+  "sizeBytes": 109268,
+  "shasum": "ce1174fc707d44e3dbe5a8e9cf26830a32bcf7fed0fcf8c8f07150bb4547f45c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-7OS45QLoDQxAIzEANyoTmT10rNWNzSSlFZM5qSOOFKW9JbHQdFalFQTSaFKxFRDX/HcaS+VltnFP6ebJt/cSlg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.bacnh85-pi-sub-0.1.55.piplug"
+ },
+ "pi-vision-handoff": {
+  "name": "pi-vision-handoff",
+  "id": "pi-pkg.pi-vision-handoff",
+  "version": "0.10.11",
+  "ok": true,
+  "sizeBytes": 221624,
+  "shasum": "69acb836d13a6c5674a7d9ce963a38a81d78bde59aa3e6d6108db6ce77563221",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/vision-handoff.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-GGVMypr1HygCWEytmugeLuOR32GsgUxFxhz7EsfHd9kxbPi8VZpt5ZmhemkGo6VuKLkd2qzHgmuVp6PbAJVY+w==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-vision-handoff-0.10.11.piplug"
+ },
+ "@valdo766hi/pi-lazy-skill-tool": {
+  "name": "@valdo766hi/pi-lazy-skill-tool",
+  "id": "pi-pkg.valdo766hi-pi-lazy-skill-tool",
+  "version": "0.3.1",
+  "ok": true,
+  "sizeBytes": 173307,
+  "shasum": "f2a4447c332470dbad046a68eae3578325e9070877412b282e3cffd564e0caa2",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "Apache-2.0",
+  "npmIntegrity": "sha512-qutX5NUdgBlXV2JJtUo3pCJl9reGQ5+nWDFvaNjGgbNwbqXdkg8azkOTXfvqyx5KGxN9NHoZP+t0cKIUYVxNFQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.valdo766hi-pi-lazy-skill-tool-0.3.1.piplug"
+ },
+ "pi-patty-bg-tasks": {
+  "name": "pi-patty-bg-tasks",
+  "id": "pi-pkg.pi-patty-bg-tasks",
+  "version": "1.1.6",
+  "ok": true,
+  "sizeBytes": 224046,
+  "shasum": "972a39bc7ad183d86ecacedb0499251fe049a3f3f44a3285d8a284ec542bb2a0",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-RuYGIvkO6hqXqT1DUBRKMZuvMP4A90QubnzaCMl+iwZTeIYlHnAFeXbXG3zyVKObNPnnNZ1N7WY4VCKKrh/GUg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-patty-bg-tasks-1.1.6.piplug"
+ },
+ "@henryqw/pi-deps": {
+  "name": "@henryqw/pi-deps",
+  "id": "pi-pkg.henryqw-pi-deps",
+  "version": "3.2.4",
+  "ok": true,
+  "sizeBytes": 14208,
+  "shasum": "8bc99a8bcdf745deef3d5f7eb01acf71cf172ebf67ae3fe630a2896cc893f06b",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/deps.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-gIn2nczFh2v+hssgPhdcUlkAebxQHmE1sY9Mc8mZVHsKFElvh3RgiSDmuMfUueh8vCKKqx8IMlUUwiXxHn7hmA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.henryqw-pi-deps-3.2.4.piplug"
+ },
+ "pi-moonshot": {
+  "name": "pi-moonshot",
+  "id": "pi-pkg.pi-moonshot",
+  "version": "1.0.6",
+  "ok": true,
+  "sizeBytes": 7259,
+  "shasum": "7fb97d5dbda1d58a0fbeef03f6b8235673c2fad58d518eac0a72b390008f823e",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-p9P5PG3Eh7mKXRnXoiOWv2GiyJgYdWMbWNuHWDTW+IUj1QoTRm+FvdaN6R6v1/M3r3ll41JvI+DSoizy+fEywA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-moonshot-1.0.6.piplug"
+ },
+ "@henryqw/pi-ask-question": {
+  "name": "@henryqw/pi-ask-question",
+  "id": "pi-pkg.henryqw-pi-ask-question",
+  "version": "3.2.2",
+  "ok": true,
+  "sizeBytes": 8497,
+  "shasum": "6cdaa10f120d24260b4bb691fad95ac376c367ea60963d89cf177193457cac99",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/ask-question.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-4X7BmSr8AC4/rRCOA0qu/+5X9y9kNTT+j3+7xKvPUd5L82mG4jAL3Ea0213f4ZAK4ad86TOSU8Hu5nYwxnp3MA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.henryqw-pi-ask-question-3.2.2.piplug"
+ },
+ "@jopqior/pi-subagents": {
+  "name": "@jopqior/pi-subagents",
+  "id": "pi-pkg.jopqior-pi-subagents",
+  "version": "8.0.0",
+  "ok": true,
+  "sizeBytes": 602543,
+  "shasum": "b8db6d3c3249d4d3073c25186aa802abcde68f73bdfb68820a9d12fa38718b04",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-px+Q/EohaaiRm0O4Z0VdHZmci2uj9NMDjq1JqjX8l3nSzdzTrrf0D6qevjmpV1HBvtHKQRiH1eEbi8gCaCPz8Q==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.jopqior-pi-subagents-8.0.0.piplug"
+ },
+ "@zephyrdeng/pi-review": {
+  "name": "@zephyrdeng/pi-review",
+  "id": "pi-pkg.zephyrdeng-pi-review",
+  "version": "0.19.0",
+  "ok": true,
+  "sizeBytes": 327875,
+  "shasum": "d09c2ee549319f1fe9469494b5b44e9cadf69cc6f036a2af72277788dcce3a2a",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/review.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-rRdDcL6lR0MXEEX5I9dW8is1bLEUHMj76k9juhcOQsr73tvswMijohk/+J3lRcLQkKse0skoZcjT8kjvYGQ+mw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.zephyrdeng-pi-review-0.19.0.piplug"
+ },
+ "ck-pi-zen-session": {
+  "name": "ck-pi-zen-session",
+  "id": "pi-pkg.ck-pi-zen-session",
+  "version": "0.1.27",
+  "ok": true,
+  "sizeBytes": 172255,
+  "shasum": "cbb14193f94db4d25e5588aa55191cd8ae2976da22648e7c4ee61dc8cbbf2285",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-df0Varfkd9odqQPS2Qbw4fMCyZYRB3+vVF/aAx33Zuw0Q5V0Y6QdbR9AcFJccFPmCVZJW7rRfTgNmD717HWmZw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.ck-pi-zen-session-0.1.27.piplug"
+ },
+ "pi-better-plan": {
+  "name": "pi-better-plan",
+  "id": "pi-pkg.pi-better-plan",
+  "version": "0.9.1",
+  "ok": true,
+  "sizeBytes": 96598,
+  "shasum": "00f8a67725452a78c05bc429ae54cd19b72c62f69ee39c0a67c00b67d87872c7",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-KdmZUXTrZJLDmhDh/IVCImkbDjFu41bMimP5rqWs6kezfnh1VYn+9AzU7Jky+VIq1/jTzq0DS7EBegYC7JS+SA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-better-plan-0.9.1.piplug"
+ },
+ "pi-jarvis": {
+  "name": "pi-jarvis",
+  "id": "pi-pkg.pi-jarvis",
+  "version": "1.14.0",
+  "ok": true,
+  "sizeBytes": 1873743,
+  "shasum": "f43c636bacc312e4bc8c774f689ac93597f7f76a0f8837690c632584f40d5b8e",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-CN8j1VCUIRP5aEsX5j7J5R+S6oOKoMI5VDTCtvfehpdoqCRrvx4euicEgDeOMpRcx4OGF3pxPD07bOOD7+wA3A==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-jarvis-1.14.0.piplug"
+ },
+ "ohmyjev": {
+  "name": "ohmyjev",
+  "id": "pi-pkg.ohmyjev",
+  "version": "0.12.0",
+  "ok": true,
+  "sizeBytes": 123296,
+  "shasum": "0b1b58ff5c8d6209f47c5595492d6158f31e90ff4e12db0f2a890eea92b93bc0",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/adapters/pi.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-dqdUi32RnN4xIU6V46XjRW1j4p446SjKQmku8X98dIdYxzXiFQCM9IN2V+xbVHR/UzaNnD6sNSzKsc1gi2yJLA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.ohmyjev-0.12.0.piplug"
+ },
+ "pi-ansicat": {
+  "name": "pi-ansicat",
+  "id": "pi-pkg.pi-ansicat",
+  "version": "0.5.0",
+  "ok": true,
+  "sizeBytes": 118018,
+  "shasum": "1801dc20242258abd575eefc745efb067f3750b5431ce2220cf37d499bff6195",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-xQ/heHSymd1jJmjkJZURhKq8jkCjrr28z9uPrEB3jdLEe3rZypYuz1h30sUg6hP+uypS8MC0XC3tr26+H5na5Q==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-ansicat-0.5.0.piplug"
+ },
+ "notesoup": {
+  "name": "notesoup",
+  "id": "pi-pkg.notesoup",
+  "version": "0.53.2",
+  "ok": true,
+  "sizeBytes": 122909,
+  "shasum": "066b7280aba60b98a16bad1f39ac2f30589da9852a59e04196852d1420054a6b",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/plugins/pi/index.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-xjAmBb0M/N8F2S/BPKNDJFVTIosgbupl2eFYe2/PkuuEReScc5Ycfkvz5pZa0aJkf84nm+IVAPtg9fvQyPybxA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.notesoup-0.53.2.piplug"
+ },
+ "pi-matt-subagent": {
+  "name": "pi-matt-subagent",
+  "id": "pi-pkg.pi-matt-subagent",
+  "version": "0.14.2",
+  "ok": true,
+  "sizeBytes": 93951,
+  "shasum": "885c36921da8ad34f5e534827b2e07e747a0de9898312e92943bca95344f6aab",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/subagent.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-hrltTC0DYcQJz+OYgwsOv55KFpSxHVa7ldxu6e0Vp6SsTv9PaJ4E/D4PW5xCjBgT4+pumUs8SrOXZYwQLqEp2A==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-matt-subagent-0.14.2.piplug"
+ },
+ "pi-tsgw": {
+  "name": "pi-tsgw",
+  "id": "pi-pkg.pi-tsgw",
+  "version": "1.3.3",
+  "ok": true,
+  "sizeBytes": 427126,
+  "shasum": "8e12cc35c70ba7b1e2b58bef60aa9934e7487a812d353b54058059ac961e6ce4",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-GM1Kn06QsfuEDqg2vVjYcO5HaPkTPqq8i0jK1LoHJJjnoJfy/z75IvhKt+S21dMw+4AnWelRl2OkqNG69w1zpw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-tsgw-1.3.3.piplug"
+ },
+ "@ayulab/pi-rewind": {
+  "name": "@ayulab/pi-rewind",
+  "id": "pi-pkg.ayulab-pi-rewind",
+  "version": "0.4.6",
+  "ok": true,
+  "sizeBytes": 152994,
+  "shasum": "a044b94956a4fa81537d5e7a4a0c2f9ce6fbb7e34e9d6514ad435b20e7fab7bf",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.js"
+  ],
+  "skills": [],
+  "license": "GPL-3.0",
+  "npmIntegrity": "sha512-pRinWV6H7JV/+gPePwlI00Pb99KhTKXDzefwqPxVnF7QvzrYfe2KHgYJV7efYNI4yJEgbnJNHrNGZR/n3EAhBA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.ayulab-pi-rewind-0.4.6.piplug"
+ },
+ "@danmademe/pi-provider-litellm": {
+  "name": "@danmademe/pi-provider-litellm",
+  "id": "pi-pkg.danmademe-pi-provider-litellm",
+  "version": "0.14.1",
+  "ok": true,
+  "sizeBytes": 66532,
+  "shasum": "70fe3898e1ac49676e9ed781177ec76138207bcd91ed5e10c0d234643b1334a0",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-8k7oUU4xP9/b6uer2i/9qbZC0/21/yzUOXzHhFBIa6cQjqskAL03M2a84Jqxo4CVrxNqg8mj0H+OP4EM7SnecA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.danmademe-pi-provider-litellm-0.14.1.piplug"
+ },
+ "@casualjim/pi-pstack": {
+  "name": "@casualjim/pi-pstack",
+  "id": "pi-pkg.casualjim-pi-pstack",
+  "version": "0.1.22",
+  "ok": true,
+  "sizeBytes": 963987,
+  "shasum": "46d09c1ebdffa36a7da357fdaea4189e30e170b158de1ce7963e18e3a065e9de",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/pstack/config.ts",
+   "src/extensions/pstack/index.ts",
+   "src/extensions/pstack/roles.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-D8ZFGhZg4M8QGUwwui9vRdt5xqCM0wufdk+1lE0zzY0Oyd03qo27Uiqq5BBiTKdw8zJVsfm0BcrCNAS3q55yCw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.casualjim-pi-pstack-0.1.22.piplug"
+ },
+ "toolflow": {
+  "name": "toolflow",
+  "id": "pi-pkg.toolflow",
+  "version": "3.3.5",
+  "ok": true,
+  "sizeBytes": 341670,
+  "shasum": "4f0b4935c2b65911b7360795895429598876c19731ce1e69610f1ab51b0e7cd5",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-J1Qvi+svGMYu//FtXmA3gjwUT3QK62kwveHmx1N6/Bk3RZzs9fQMzH2f2ec8qglzdJ7Hvo2AstwhPNRiwurNNQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.toolflow-3.3.5.piplug"
+ },
+ "@kvidzibo/pi-mem": {
+  "name": "@kvidzibo/pi-mem",
+  "id": "pi-pkg.kvidzibo-pi-mem",
+  "version": "0.17.0",
+  "ok": true,
+  "sizeBytes": 478348,
+  "shasum": "fd287bf92991d1908ed3e55b413fc69769691e77db797a18343b43bf208a9dc1",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-k1CqI4RUI2hNm/BN4Ac0scMNPPsrBl2FlHgGNij+q5o3Fx95In4EKs7xoiRDt5o858ILG0p/jiJAAJS26EL+KA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.kvidzibo-pi-mem-0.17.0.piplug"
+ },
+ "@magiusche/pi-webview": {
+  "name": "@magiusche/pi-webview",
+  "id": "pi-pkg.magiusche-pi-webview",
+  "version": "0.7.1",
+  "ok": true,
+  "sizeBytes": 1174363,
+  "shasum": "5cadb34a671baf229e5ad6623f45186e2996b6272ba6a081404551e9ec7c06fd",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/extension.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-G5Q4VM+NXukvxKLXTRyYRHvHPQ5wL7cJxRh2gPRpvJi3ylh2JtdqDtPkslakqmnguzh+RrHPXZJ35ydpM1XUmw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.magiusche-pi-webview-0.7.1.piplug"
+ },
+ "immune-brain": {
+  "name": "immune-brain",
+  "id": "pi-pkg.immune-brain",
+  "version": "5.5.1",
+  "ok": true,
+  "sizeBytes": 328117,
+  "shasum": "d5b6041aabd4e13d4328728aaa9f38321c6e03ea3badec3702172fa55bdf1ae9",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/plugins/immune-brain/.pi-extension/imm-canary-enroll.ts",
+   "src/plugins/immune-brain/.pi-extension/imm-canary-work.ts",
+   "src/plugins/immune-brain/.pi-extension/imm-unattended-batch.ts",
+   "src/plugins/immune-brain/.pi-extension/pi-canary-assurance-progression.ts",
+   "src/plugins/immune-brain/.pi-extension/pi-canary-assurance.ts",
+   "src/plugins/immune-brain/.pi-extension/pi-canary-interaction.ts",
+   "src/plugins/immune-brain/.pi-extension/pi-canary-invocations.ts",
+   "src/plugins/immune-brain/.pi-extension/pi-canary-native-review.ts"
+  ],
+  "skills": [
+   "src/plugins/immune-brain/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-oJprYPYWe0xGE68RLIAnC7h+hNl/qQvEKF7+hLYhkdGpwZYqpX20iSUNlkVSMnhmD9qkp48DkrzYcVqT1UNO4A==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.immune-brain-5.5.1.piplug"
+ },
+ "atlas-project-harness": {
+  "name": "atlas-project-harness",
+  "id": "pi-pkg.atlas-project-harness",
+  "version": "0.2.0-beta.6",
+  "ok": true,
+  "sizeBytes": 302624,
+  "shasum": "f534f1e8605dc3665663ae74d0bdd39fdea8d8dab55f98c383763d14f2d90324",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/pi.ts"
+  ],
+  "skills": [
+   "src/skills/atlas-apply",
+   "src/skills/atlas-design-review",
+   "src/skills/atlas-e2e",
+   "src/skills/atlas-grill",
+   "src/skills/atlas-prd",
+   "src/skills/atlas-release",
+   "src/skills/atlas-structure",
+   "src/skills/frontend-design"
+  ],
+  "license": "Apache-2.0",
+  "npmIntegrity": "sha512-vMh6Lq/TeG53xTcPxWidxsJEmEobUVx8oCFtXhgTGqgk1SFSMwm/t9/WqXMwZVxby3rYUj5bBS/wIONJ2VmzRg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.atlas-project-harness-0.2.0-beta.6.piplug"
+ },
+ "pi-sessions": {
+  "name": "pi-sessions",
+  "id": "pi-pkg.pi-sessions",
+  "version": "0.21.0",
+  "ok": true,
+  "sizeBytes": 740423,
+  "shasum": "52dc330bf0b8d1169596521035547fe46949a348aaf7fadf02f99bccf4444b64",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/pi-sessions.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-prvznH+7ohdd7AWNq9fjTbWpwwLVMD4a91an9oUFoQSAghzCNF+uuofPMXfMTUQ9cp4eDYB0V4uc3vr6DOl4hw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-sessions-0.21.0.piplug"
+ },
+ "@maxiaochao/pi-herdr-subagents": {
+  "name": "@maxiaochao/pi-herdr-subagents",
+  "id": "pi-pkg.maxiaochao-pi-herdr-subagents",
+  "version": "0.7.5",
+  "ok": true,
+  "sizeBytes": 49245,
+  "shasum": "62067bfdf560ae45785afbae0fbe391557ab90d24915d2b599e04cfef31c70f8",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/herdr-subagents.ts"
+  ],
+  "skills": [],
+  "license": "NONE",
+  "npmIntegrity": "sha512-g6yH+oFhOVVu5AwMceQ8Fa5uGPIXrWAHh3FQsgTn1m7u2uemWkE0xlj4rGi0KBa1XGmkT2qLc1EOTvH/R2UH2Q==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.maxiaochao-pi-herdr-subagents-0.7.5.piplug"
+ },
+ "@zenodinh/pi-provider-qoder": {
+  "name": "@zenodinh/pi-provider-qoder",
+  "id": "pi-pkg.zenodinh-pi-provider-qoder",
+  "version": "0.2.0",
+  "ok": true,
+  "sizeBytes": 514072,
+  "shasum": "7e0c0429f26aed0f27371e14ac8710dfa6c2f8ca7115d8a91243fca3614c07d2",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-mdypmkantQ7oUkF8KGuRLe/dd5K0PeWAKX84NCtXQPCPYZYols146qlaNfPNMiRRGjTo1Z9FjafEWZpgscfSxg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.zenodinh-pi-provider-qoder-0.2.0.piplug"
+ },
+ "@monotykamary/pi-tps": {
+  "name": "@monotykamary/pi-tps",
+  "id": "pi-pkg.monotykamary-pi-tps",
+  "version": "1.3.18",
+  "ok": true,
+  "sizeBytes": 60147,
+  "shasum": "cd146f9a085d242f8513dca173097976a1794d8eec0832114a92056e61121b2b",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/pi-tps/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-OsMrV2KCUdM9p0eJUutmXTHEUtOR9Rs0nW9p9wyXmqbl5Gn/QS+zBWeTue/5Y9tTe0haC4mVWZbsDthZykhX6g==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.monotykamary-pi-tps-1.3.18.piplug"
+ },
+ "@henryqw/pi-codegraph": {
+  "name": "@henryqw/pi-codegraph",
+  "id": "pi-pkg.henryqw-pi-codegraph",
+  "version": "0.7.3",
+  "ok": true,
+  "sizeBytes": 27044,
+  "shasum": "c9868b08bf76c054c4f1d867d52a709943881cfca4f3a6e572a3f442324c5ccf",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/codegraph.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-Y1jzUWWNUfheOM7sO/NMyu+q63vpFrWeRTnWkLmhl1TxFWDgeJHXKLMyqZ+30TzNjCfBu/tK0Tw7wIfl0jT7XA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.henryqw-pi-codegraph-0.7.3.piplug"
+ },
+ "@mrclrchtr/supi-claude-md": {
+  "name": "@mrclrchtr/supi-claude-md",
+  "id": "pi-pkg.mrclrchtr-supi-claude-md",
+  "version": "11.0.1",
+  "ok": true,
+  "sizeBytes": 5039,
+  "shasum": "89f72c3205d09113fe669c1bfde5502ee22b4ed3bdb79a68b4f81d6189f5afbb",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/extension.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-uyaViPBxcTwtQjX8MtBGAZFyMT05wj8UTq0jXGUGuXOCZoT+Dqs6IPZkxAjRk6bdgyXzRrH3tb//ZryRuAh3Aw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.mrclrchtr-supi-claude-md-11.0.1.piplug"
+ },
+ "pi-scenes": {
+  "name": "pi-scenes",
+  "id": "pi-pkg.pi-scenes",
+  "version": "0.13.0",
+  "ok": true,
+  "sizeBytes": 143157,
+  "shasum": "c4f088c4e15ea1bf0cefaa05d7efa229185755b8a06bf7ddf16c42885e70288d",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/scenes.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-sLG6aFHn7Wn97LKYVR1iKrBRlFwqI7b6StFhDUful0EXazBHMqagakRRs0GgwHEmeCSvn2LQY6SIZUkgHeVR+Q==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-scenes-0.13.0.piplug"
+ },
+ "@sevten/pi-data-masking": {
+  "name": "@sevten/pi-data-masking",
+  "id": "pi-pkg.sevten-pi-data-masking",
+  "version": "0.10.1",
+  "ok": true,
+  "sizeBytes": 745955,
+  "shasum": "be1b5c277d2ba8438515a1cbab82867a43edaf045888a75900a034228a9d8b69",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-NZrCnsayDeFSOtYCkKKod6pbwQhHVoGdXllKueIeTNWbNjZPTYCkoqd9rfGnLHdpXh0NEqtE2+dqyppByHpRwg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.sevten-pi-data-masking-0.10.1.piplug"
+ },
+ "@tmustier/pi-ralph-wiggum": {
+  "name": "@tmustier/pi-ralph-wiggum",
+  "id": "pi-pkg.tmustier-pi-ralph-wiggum",
+  "version": "0.2.4",
+  "ok": true,
+  "sizeBytes": 52245,
+  "shasum": "2ba42c040fab3cb8c5d645ccff989827e95faed7585deee35790e3ffcaacbb17",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [
+   "src/SKILL.md"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-2jiKQsCjJt+SadHNNadroABd4d5DOXyPqFO6O/yowXc+xu+7w5lqCLaVXe+2iZxqhTg5WLjiXpQupjY6ThaoQQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.tmustier-pi-ralph-wiggum-0.2.4.piplug"
+ },
+ "pi-invisible-continue": {
+  "name": "pi-invisible-continue",
+  "id": "pi-pkg.pi-invisible-continue",
+  "version": "0.3.18",
+  "ok": true,
+  "sizeBytes": 13342,
+  "shasum": "90045ccd43a99db4500975e8c35ffee815589171c0a3f8c266c2d2117b21596f",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/continue.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-n9PASHXc7+qR31KwDkox8fCMOd1rkMNbFWTfVL87ISqCT4pU+wJ6Xrgw3wiQhs2D3DoqxZ2zxzVhbN0vn7eQlw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-invisible-continue-0.3.18.piplug"
+ },
+ "@heyhuynhgiabuu/pi-task": {
+  "name": "@heyhuynhgiabuu/pi-task",
+  "id": "pi-pkg.heyhuynhgiabuu-pi-task",
+  "version": "0.13.0",
+  "ok": true,
+  "sizeBytes": 1262912,
+  "shasum": "609984968d9d6526f0add9536760ce7848223b8d5ced072021296ebe5d58af92",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-FEY4k48ok5r81WOH6pzj+AMuiOlIdNFuLv1iGHDw6Tis80lic996Zw0ks8lwwwc8LztGQXxmRCjdA48QJMubQw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.heyhuynhgiabuu-pi-task-0.13.0.piplug"
+ },
+ "@bismawy/pi-jev-eye": {
+  "name": "@bismawy/pi-jev-eye",
+  "id": "pi-pkg.bismawy-pi-jev-eye",
+  "version": "0.4.0",
+  "ok": true,
+  "sizeBytes": 222803,
+  "shasum": "d0d45f0a9b0fb3fea15178f9a1632bbb9be65ddbba94d409ef7f34a2760e01ac",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-pe4D3wq0N1crHRmxEJGTZ2VnyL/78NyCeOVCHvqajQuLQZUQBHEuxL6prbr/KxzMBy7R/SrT8JZhzLiPto9RaA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.bismawy-pi-jev-eye-0.4.0.piplug"
+ },
+ "pi-autosuggestions": {
+  "name": "pi-autosuggestions",
+  "id": "pi-pkg.pi-autosuggestions",
+  "version": "0.8.28",
+  "ok": true,
+  "sizeBytes": 104842,
+  "shasum": "5dff9a6155416b042058542ae99a8ebc623ba6d0e66b733805db7bae03b3bbf9",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/autosuggestions.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-XsChR8ZUvUkAN8Oy1hqdiwI2R0TShx/jmZlVSWN1utaXs1Lu58w2eDBwpqnyLx16Z/JmxdKPUxNDDetJIq8V1Q==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-autosuggestions-0.8.28.piplug"
+ },
+ "@vigolium/piolium": {
+  "name": "@vigolium/piolium",
+  "id": "pi-pkg.vigolium-piolium",
+  "version": "0.0.15",
+  "ok": true,
+  "sizeBytes": 2365718,
+  "shasum": "c98d1c630dded1b81da5fa1d2c40f92e5117c0c7e9be8daa09afd23c06dcfc98",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/piolium/index.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-J50YoOrDNQb/GGzZyJDMtOxY/fHN4wVloM9GJNx/6rdO+umDwaV4bpBu6LQ+WMdC9kKsJP35gESqKhw7SS2jFg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.vigolium-piolium-0.0.15.piplug"
+ },
+ "pi-provider-qoder-cn": {
+  "name": "pi-provider-qoder-cn",
+  "id": "pi-pkg.pi-provider-qoder-cn",
+  "version": "0.2.22",
+  "ok": true,
+  "sizeBytes": 189659,
+  "shasum": "cf63d08ebc7c7e14058edbe47ee5c58cf5e8d8662d63bf58a1d53a7666ed2ba9",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-WervzvpZGAaTn+JEOqNs60dUV+CE2soLnvppK0diVrC5peVJBqq3KQlmeSXDaIYw4L9Napw3/LCJLVAyEPWFfw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-provider-qoder-cn-0.2.22.piplug"
+ },
+ "@nathan33/nao-skill": {
+  "name": "@nathan33/nao-skill",
+  "id": "pi-pkg.nathan33-nao-skill",
+  "version": "0.18.4",
+  "ok": true,
+  "sizeBytes": 30208,
+  "shasum": "bb71285ed9aab9d239805e5e35da5f16f6550a7422b0487b63f7e35530f5baa5",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/.agents/skills/nao-fleet/SKILL.md",
+   "src/.agents/skills/frontend-design/SKILL.md"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-rzP9tuEuN4qoX3KZ0J3sj+VPko6ewGwOxH1nRicWbltvt54qKHYemLefRIhkn83928DeXnovv5sb2FsQjUkq2A==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.nathan33-nao-skill-0.18.4.piplug"
+ },
+ "@sreetej510/pi-prompt-manager": {
+  "name": "@sreetej510/pi-prompt-manager",
+  "id": "pi-pkg.sreetej510-pi-prompt-manager",
+  "version": "0.13.0",
+  "ok": true,
+  "sizeBytes": 9867,
+  "shasum": "b4d88005b40bb37f6bfa0f5b274631bc788646cad88dc4059202724e445167d8",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-p8pd1FXxvjABRtop7S7QMGlMGHTE+47zsSH6KiPcWDYJSS2G+akQCt9HkOOt8ss4C2k3+vivVYI9/UxrcE5paQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.sreetej510-pi-prompt-manager-0.13.0.piplug"
+ },
+ "pi-jev-compaction": {
+  "name": "pi-jev-compaction",
+  "id": "pi-pkg.pi-jev-compaction",
+  "version": "1.0.0",
+  "ok": true,
+  "sizeBytes": 97749,
+  "shasum": "49c624fc7879bbeba7f1edcca3a0818691dcffd11455bff1b38427112dcf8698",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/extension.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-xhDEDm41mr6b87wTK4vj2qbp3fkThct+FdjMNAsBa5JEzY1tpG4fHx3lvFysDOlncDrHqsooobbyrRWVFONBsg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-jev-compaction-1.0.0.piplug"
+ },
+ "pi-bansos": {
+  "name": "pi-bansos",
+  "id": "pi-pkg.pi-bansos",
+  "version": "0.7.1",
+  "ok": true,
+  "sizeBytes": 118230,
+  "shasum": "ded1b81890af1e972199100d2b0531bad768040324e52cff42ebdb6e5fbaddb2",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts",
+   "src/extensions/upstream-health.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-kN9q/viHhVb2vtTcPbjgXWIRUK0Dlr6GBTpokzk02UtTyEHEn5Ak5gHJmhPLp//HMH9nHALzsJO3OOQKYz8SnQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-bansos-0.7.1.piplug"
+ },
+ "pi-tui-status-beautifier": {
+  "name": "pi-tui-status-beautifier",
+  "id": "pi-pkg.pi-tui-status-beautifier",
+  "version": "1.7.6",
+  "ok": true,
+  "sizeBytes": 49659,
+  "shasum": "76cb41bb75a7ddde8a18fb752077b4250519897ca5686cbade9be1ae43ce5154",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/tui-status-beautifier.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-cnzpZ5exwZe9iOtPugEaCrGZcaqqi73n3F0nqilhu5sRXY8TcswFfkWPnmIgM455GZES4LAnd4lg+n3ZoKx4Bg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-tui-status-beautifier-1.7.6.piplug"
+ },
+ "pi-ui-extension": {
+  "name": "pi-ui-extension",
+  "id": "pi-pkg.pi-ui-extension",
+  "version": "1.9.7",
+  "ok": true,
+  "sizeBytes": 287106,
+  "shasum": "a2e1ebcd982e7a09f3aec88913e461312d76c634a131bf551509fc5529a977ad",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-c09oW6MMgPbpfnudD6rtK9Ot7wrNwyhLIihQWR5yZkbs68eXrcKGziEUKZOJujIVcIVc/RRxC09jCOI/lPbtMA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-ui-extension-1.9.7.piplug"
+ },
+ "arcmira": {
+  "name": "arcmira",
+  "id": "pi-pkg.arcmira",
+  "version": "0.6.2",
+  "ok": true,
+  "sizeBytes": 72903,
+  "shasum": "21d5f12f6ea2f04340306027e0028cb902ec3b2444ed0b3fdd1361d2222f1e7b",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "Apache-2.0",
+  "npmIntegrity": "sha512-lH7Zz6SsddXP3tHQV0O/CeQsJG4g81Am0HGwLgSvyHL+McsrnaCcKJcd8ZAHSwxhqoZm/RjQJa7u3EHNgbAP4Q==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.arcmira-0.6.2.piplug"
+ },
+ "@inaiii/pi-preset": {
+  "name": "@inaiii/pi-preset",
+  "id": "pi-pkg.inaiii-pi-preset",
+  "version": "0.6.3",
+  "ok": true,
+  "sizeBytes": 174031,
+  "shasum": "48512949112be78bd8b52b0177a38fdf2b08651cc15b746443e250dee2579a88",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/background.ts",
+   "src/extensions/language-tutor.ts",
+   "src/extensions/session-title.ts",
+   "src/extensions/usage.ts",
+   "src/extensions/lib/background-dialog.ts",
+   "src/extensions/lib/background-notifications.ts",
+   "src/extensions/lib/config-store.ts",
+   "src/extensions/lib/model-config.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-Fm8MAvgz9j+9Nthn+hB4SgMfaeLD4qW5HBbvrIOy4j0UWBVVmzkzk3xQj9Z1Va52sBFyj2HGKNYXXeYR/Bu5fA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.inaiii-pi-preset-0.6.3.piplug"
+ },
+ "pi-provider-antigravity": {
+  "name": "pi-provider-antigravity",
+  "id": "pi-pkg.pi-provider-antigravity",
+  "version": "0.28.0",
+  "ok": true,
+  "sizeBytes": 317175,
+  "shasum": "98b9840324f8d11ae0b7b75dfddf731c8eb13f9eb6b7659d82b77538f33c4666",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-sn5OyQ5pRzV/f3n3goi+VtOgLGKKLQPRyqWepPeUQM+TTspe0/IMYVqEnVkKiAllKUKY0xEpTd45xROE5ptYdA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-provider-antigravity-0.28.0.piplug"
+ },
+ "@sreetej510/pi-hpc-tools": {
+  "name": "@sreetej510/pi-hpc-tools",
+  "id": "pi-pkg.sreetej510-pi-hpc-tools",
+  "version": "0.13.0",
+  "ok": true,
+  "sizeBytes": 99265,
+  "shasum": "ade2a17b6d153cd0cf57cb50e5171074e20db2ab5bd81d477c831099a03dd1e0",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-nd8JZQE79smvrK6ozqCqIZ4ZvRfdfVVl8BePYlaO2M2icO4DiDNmGcWJ2Ime1NczkGwCgTlCf96rBtWmP5LHtA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.sreetej510-pi-hpc-tools-0.13.0.piplug"
+ },
+ "pi-gemini-multimodal": {
+  "name": "pi-gemini-multimodal",
+  "id": "pi-pkg.pi-gemini-multimodal",
+  "version": "0.1.21",
+  "ok": true,
+  "sizeBytes": 19630,
+  "shasum": "7db29423c0c3a7f6d08bbe47e201fc779310081a5e92310538f17aa76ee7e0f4",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-u0XpWfTy7uupKAB1Jso/nnW6KLxWZoKOj9wgy2NOdfBVdnrcHnlo0fZWKd6LOzjbE38lrYQ/rmuZWkOuHY5uGA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-gemini-multimodal-0.1.21.piplug"
+ },
+ "pi-anthropic-compat": {
+  "name": "pi-anthropic-compat",
+  "id": "pi-pkg.pi-anthropic-compat",
+  "version": "0.0.17",
+  "ok": true,
+  "sizeBytes": 135793,
+  "shasum": "8f672bcad88db461276e30288e08112c520042bc83781ee3a42ab3f4869056af",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-ePpb7SJTv4XLAL/qqCZsAaEero5khWR61Tj7m2nK2BV/kKXAy8bSVNJjUoPe0HN8vDiGr6B73cRpZNWVs4ic1A==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-anthropic-compat-0.0.17.piplug"
+ },
+ "@bytetrue/pi-subagent": {
+  "name": "@bytetrue/pi-subagent",
+  "id": "pi-pkg.bytetrue-pi-subagent",
+  "version": "0.18.0",
+  "ok": true,
+  "sizeBytes": 149789,
+  "shasum": "8f997fe5db90609ad852d8f2884300d435f42cdc5b1e070f84e9c8fc176bfb3f",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-Yl2fey+eN5T7cPg8ZEn7hchb4kg2HvsNGo0SfZm9l73vJ8exuz92+NfPuk81uS8fhu7jjhS2w6cwzHR8jG98AQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.bytetrue-pi-subagent-0.18.0.piplug"
+ },
+ "@geohar/pi-permissions-analyzer": {
+  "name": "@geohar/pi-permissions-analyzer",
+  "id": "pi-pkg.geohar-pi-permissions-analyzer",
+  "version": "0.3.1",
+  "ok": true,
+  "sizeBytes": 127207,
+  "shasum": "158da774ffaa999549a8b491af5615cb7527b95688c10676ed452ad86d72b9aa",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-niFxUKflZzH04y52X2gDc32sVKx3D/dJvsA78bcopr+Ht5RAD7B+/MYavW+pSZU2X4oo5QQUh8NSD43AxibYWA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.geohar-pi-permissions-analyzer-0.3.1.piplug"
+ },
+ "pi-vim": {
+  "name": "pi-vim",
+  "id": "pi-pkg.pi-vim",
+  "version": "0.14.2",
+  "ok": true,
+  "sizeBytes": 233721,
+  "shasum": "31f313eb39df987272ec5f0d0146c354bb9ddbe2a14322577b974e411c6a8577",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-CFSKJvOCNToueIMyBgsujT+gHa4sAlLOnT4VYZ6iCGKJ7M24eCVWFKKnnMt6tmP1rDE6T7k/AqBrb6LWzCzRaQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-vim-0.14.2.piplug"
+ },
+ "@vimhead.dev/pi-norn": {
+  "name": "@vimhead.dev/pi-norn",
+  "id": "pi-pkg.vimhead.dev-pi-norn",
+  "version": "0.1.0-tip.0",
+  "ok": true,
+  "sizeBytes": 4994,
+  "shasum": "d71c75258b0aa2699ec55d4afca481701992fde6c7d5b207ff958369b1904d8c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-5McfvRBKSUkD/cNcrmGHS73zQR8zNJXfLNArgO6bY5GsDOOpt175k/+z4lltsOo3ZA4i4pvGVCAQ+U8lwl2s1w==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.vimhead.dev-pi-norn-0.1.0-tip.0.piplug"
+ },
+ "pi-extensions-i18n": {
+  "name": "pi-extensions-i18n",
+  "id": "pi-pkg.pi-extensions-i18n",
+  "version": "0.9.0",
+  "ok": true,
+  "sizeBytes": 50772,
+  "shasum": "6a12f1b08af0cc2c725560cdfe70bd39ddb6c2f6ef7f014a256432bdb9b33420",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [
+   "src/SKILL.md"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-jQu3a175bDUfFX5rQupMgz9zSbfj9hY2Mct5cegJJrqwBplQbUtfmKDqwiUV43XhEZ5Fw7tzX8HKw7Bxqp5T0w==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-extensions-i18n-0.9.0.piplug"
+ },
+ "pi-grok-cli": {
+  "name": "pi-grok-cli",
+  "id": "pi-pkg.pi-grok-cli",
+  "version": "0.9.4",
+  "ok": true,
+  "sizeBytes": 267622,
+  "shasum": "ee4d50b2d31fce4bb3a3533852a460574cf959a9c372645255aa9b15b8b902cd",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-iGynHVQD24jlykODCGWGtQoHXoKVTq87BKp7szGJyqrHKp0/oRUbhQbiFeOJ1DwoDhZgFXx4e/M1Cv0OjmkjZw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-grok-cli-0.9.4.piplug"
+ },
+ "@casualjim/pi-caveman": {
+  "name": "@casualjim/pi-caveman",
+  "id": "pi-pkg.casualjim-pi-caveman",
+  "version": "0.2.23",
+  "ok": true,
+  "sizeBytes": 81080,
+  "shasum": "908cc0d7edfc118a87975ce2f81c0e2cb9cfeb64febeb75d0fbd1b93186dc8eb",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/caveman/index.ts",
+   "src/extensions/caveman/mode-state.ts",
+   "src/extensions/caveman/roles.ts",
+   "src/extensions/caveman/rules.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-i3LiNcii9AocH4xB5i/TlcvVqnBEeHZFCPknhwI1GTtlR3qnWq9JnIJqK+ivWMfO7YO+arRTAJWYYzNTlhftsw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.casualjim-pi-caveman-0.2.23.piplug"
+ },
+ "incitaciones": {
+  "name": "incitaciones",
+  "id": "pi-pkg.incitaciones",
+  "version": "0.14.1",
+  "ok": true,
+  "sizeBytes": 703129,
+  "shasum": "88f4160fff2e1c19c3deb8ce940fae21e718ba4255161ad8ddd85a81ee407298",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/pi-package/skills"
+  ],
+  "license": "CC-BY-4.0",
+  "npmIntegrity": "sha512-d0Bb2/4mIOMRI03fM77ERBKvjmud5iNf0mIn+z2Hvj09dL0yKr9Oi8Ga0U2WrLVIT2pDlbM5/8slGWFHv3aLfw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.incitaciones-0.14.1.piplug"
+ },
+ "saasufy-agent-skills": {
+  "name": "saasufy-agent-skills",
+  "id": "pi-pkg.saasufy-agent-skills",
+  "version": "1.36.0",
+  "ok": true,
+  "sizeBytes": 324432,
+  "shasum": "2232787afa7a92c5f2ad98f1398fd0741930724c7011261e6c86a05614732e98",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "NONE",
+  "npmIntegrity": "sha512-Vi7pfWQcY4DX3FiauFgp193zl+zFKBpFcSH20xueN8jcNHs51A9pvzm/cGtg7WDuOrqC5iZ7HZ9+zj7FQAmqOA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.saasufy-agent-skills-1.36.0.piplug"
+ },
+ "@monotykamary/pi-vcc": {
+  "name": "@monotykamary/pi-vcc",
+  "id": "pi-pkg.monotykamary-pi-vcc",
+  "version": "0.8.15",
+  "ok": true,
+  "sizeBytes": 272670,
+  "shasum": "7ec491fbcf1340f6ac45d34dab06354f48f040b81872f11d8adca3c7fb1f7b7a",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "NONE",
+  "npmIntegrity": "sha512-z59ig3Mv/WyOXatAqbga4tikNMisQr8zFsgQBSUnFPxAk0xt6wrUas+PhquddCUMi2vVCCwnd+F1SGFj5zD7Hw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.monotykamary-pi-vcc-0.8.15.piplug"
+ },
+ "@andrewjacop/pi-herdr": {
+  "name": "@andrewjacop/pi-herdr",
+  "id": "pi-pkg.andrewjacop-pi-herdr",
+  "version": "0.6.0",
+  "ok": true,
+  "sizeBytes": 594884,
+  "shasum": "39e788fef5bc419ea67a3977cab317ddd450ef1241cbac613a9731bca18c2b0c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-+Xd9LsZMFj+7L657NG0/rGJ4EMT8nhrvLxjYBo/DP9FzNeisJeD3tWZemadbT1MjPV1+igvIAFnbRGUS4xlGmw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.andrewjacop-pi-herdr-0.6.0.piplug"
+ },
+ "pi-anchor": {
+  "name": "pi-anchor",
+  "id": "pi-pkg.pi-anchor",
+  "version": "1.0.1",
+  "ok": true,
+  "sizeBytes": 302175,
+  "shasum": "fcf413a74cacb626fed408656f13258d8c6539a46eb86b6bbb523b0bd757efbd",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/extension.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-ou/Pz+HAr96P4hmRZ31sdefpQf3Gv6KRK6eojcDG0wVc0gjcPsvV3aRVyAn6VgA5X+A8xyV9mn75Ku9+1pCeAA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-anchor-1.0.1.piplug"
+ },
+ "pi-tui-footer": {
+  "name": "pi-tui-footer",
+  "id": "pi-pkg.pi-tui-footer",
+  "version": "1.4.2",
+  "ok": true,
+  "sizeBytes": 141770,
+  "shasum": "079628b1d71142951225b23b027f6fc3ca3128620ebd05511e9026eb3bbd8105",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/config.ts",
+   "src/extensions/editor.ts",
+   "src/extensions/footer.ts",
+   "src/extensions/git.ts",
+   "src/extensions/header.ts",
+   "src/extensions/icons.ts",
+   "src/extensions/index.ts",
+   "src/extensions/peek.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-aCSfWYzcWNS9ngDuXXuNsxhjln+usD64jwIBqvMmcojvYA9bi+U9ZJlJC0LzhJpMxFEtlO/pq92X/HS6rTemfA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-tui-footer-1.4.2.piplug"
+ },
+ "@bermudi/pi-delegate": {
+  "name": "@bermudi/pi-delegate",
+  "id": "pi-pkg.bermudi-pi-delegate",
+  "version": "0.6.1",
+  "ok": true,
+  "sizeBytes": 957677,
+  "shasum": "1cf06ebca704d30fb1ffc800b9ed536f9bb6e2d0ad1eb6846f946fb790a126cd",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/delegate.ts"
+  ],
+  "skills": [],
+  "license": "NONE",
+  "npmIntegrity": "sha512-9f2fv1dmNGB4vSUTfeCPH08F6U2nbYEn7oNbbXKJ155QQvU3nLMw0ZkN0YUrOyD1jMXJe82TGUsrebsjPR3xXw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.bermudi-pi-delegate-0.6.1.piplug"
+ },
+ "pi-pretty-tui": {
+  "name": "pi-pretty-tui",
+  "id": "pi-pkg.pi-pretty-tui",
+  "version": "0.3.0",
+  "ok": true,
+  "sizeBytes": 285593,
+  "shasum": "da92c9a6f93ed22782ffd73f0c3ebf9bcc110b5c30cba0846755c892a7b0d062",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-YPjz7uvmIlETDrI0lf3CkLzLMHNqDn6v97FbTSwLqmAJuwciDT3GvVqRERS94iOs0v5ugx5/3KxOR5CVr8A9yA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-pretty-tui-0.3.0.piplug"
+ },
+ "@juanibiapina/pi-extension-settings": {
+  "name": "@juanibiapina/pi-extension-settings",
+  "id": "pi-pkg.juanibiapina-pi-extension-settings",
+  "version": "0.10.0",
+  "ok": true,
+  "sizeBytes": 35652,
+  "shasum": "181613c0f09524eb980eda9c90dae613adf0b5b20d80e560bffa8471f8549b53",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-lMfrk+USyNN7s1kvM4Q1ssmByae1Rtv3mSHkgizGgIk0qtFHJpSDYDoe+abXPxmjkQ/y49nkcs9eskQnzT/PWA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.juanibiapina-pi-extension-settings-0.10.0.piplug"
+ },
+ "@astrosheep/pi-quota": {
+  "name": "@astrosheep/pi-quota",
+  "id": "pi-pkg.astrosheep-pi-quota",
+  "version": "0.13.0",
+  "ok": true,
+  "sizeBytes": 118524,
+  "shasum": "3a6d5420655c7741bd788fc05024ce56167e38632706632bfb8ff81c9ec161b1",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "NONE",
+  "npmIntegrity": "sha512-Q5qvJP6OTGlJxR7if1nClQOSDuCxcBVCS5Jy0zUMnJrN5A9ZXPvYyE+1mnwtnq5RZagGgZN/2THBD8oEJ0IN9g==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.astrosheep-pi-quota-0.13.0.piplug"
+ },
+ "pi-zip": {
+  "name": "pi-zip",
+  "id": "pi-pkg.pi-zip",
+  "version": "0.4.15",
+  "ok": true,
+  "sizeBytes": 384558,
+  "shasum": "be593a6d0dc0bc46e3066b3f17de6be023a3e9bf13990b1fa0ffade639332ad9",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-BUXBhu7GyC1iHKMAKFjPgQhsakRzeqi12kdxpvhvOACStLLcxBa3RzYutvmTD8yNGdN1bJHQEWEIt4kohIeNfg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-zip-0.4.15.piplug"
+ },
+ "oira666_pi-subagent": {
+  "name": "oira666_pi-subagent",
+  "id": "pi-pkg.oira666_pi-subagent",
+  "version": "0.7.3",
+  "ok": true,
+  "sizeBytes": 772106,
+  "shasum": "3ab362181afb2436fcd0cba49ce5c5d90da688087a971602920aa542af45f57f",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-udlSGvGPKxdR0uCwpOs2toJXbb+EuJQFeIC61sgbdEX+b61KWv89jLhlISCQCfLo8UUvG+vlaBoY11g3Eu+JTA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.oira666_pi-subagent-0.7.3.piplug"
+ },
+ "pi-openrouter-session": {
+  "name": "pi-openrouter-session",
+  "id": "pi-pkg.pi-openrouter-session",
+  "version": "1.1.2",
+  "ok": true,
+  "sizeBytes": 14775,
+  "shasum": "2be9e8cd7f266362238c19b568850283bf2b891e807b52238f8b392e0440868c",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/openrouter-session.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-Zq1oevUwMGpNT1ivgU1iaAL5DBK7KuAFZNLKIVQlbWaYaH/RUw6EP+ay52tPJrI9MjkUe/lgxVa9l4m+HgCi4A==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-openrouter-session-1.1.2.piplug"
+ },
+ "pi-aia-asf": {
+  "name": "pi-aia-asf",
+  "id": "pi-pkg.pi-aia-asf",
+  "version": "0.13.5",
+  "ok": true,
+  "sizeBytes": 465600,
+  "shasum": "7818834cf2fe0f3abfb74d63cea793f288343058389c0a1b5df1befb5f86986a",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [
+   "src/skills/aia-asf"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-ts/L9Jj3WpXO//i2cVNZr7lLS1mYxExc61uf6JnAO7RnwbY2pSO3gk48QoM3Bqc6aB9zVMrXUqj5Es6jxdPBvw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-aia-asf-0.13.5.piplug"
+ },
+ "pi-context-prune": {
+  "name": "pi-context-prune",
+  "id": "pi-pkg.pi-context-prune",
+  "version": "2.1.0",
+  "ok": true,
+  "sizeBytes": 725602,
+  "shasum": "e32497e882db39f0f869c90621695cc821abf4ddb4411528a4389eb9756b55c7",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-4bCvuma/5kHwAM1lxabXlcOe/FG+FO2XCMhORDlV5sSVKoGV37zM+3H+p4j1EasARqKTrniWWVR4FJaiEVePrg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-context-prune-2.1.0.piplug"
+ },
+ "pi-tool-display": {
+  "name": "pi-tool-display",
+  "id": "pi-pkg.pi-tool-display",
+  "version": "0.5.0",
+  "ok": true,
+  "sizeBytes": 359136,
+  "shasum": "88218eee9bac976a9a60fa6b25d66387ae5ce38dd7ff01da2651480df62f74a2",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-XiDiQ+pCiiR977DZgGKrOTDhGfJO/t8mmMM46tW+9G+BWHmvEl2fxlGpdhSGcvj++m37zvCS/CQG4xKg87Lsuw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-tool-display-0.5.0.piplug"
+ },
+ "@alasano/pi-linear": {
+  "name": "@alasano/pi-linear",
+  "id": "pi-pkg.alasano-pi-linear",
+  "version": "0.5.0",
+  "ok": true,
+  "sizeBytes": 398241,
+  "shasum": "e7b5698a84e2305e73c76da3c17f49cb909c59d11ca6c6d7b628162b4f26c8a5",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/client.ts",
+   "src/extensions/index.ts",
+   "src/extensions/params.ts",
+   "src/extensions/selections.ts",
+   "src/extensions/settings.ts",
+   "src/extensions/types.ts",
+   "src/extensions/util.ts",
+   "src/extensions/tools/comments.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-w2eI91cSxPYSquU9R/D3mB5577T7hGeE4wCf0p5EN16CUUODbGnV5d2kVxHuqOoSBKUMjBL5JI9vH8R2ssgEsQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.alasano-pi-linear-0.5.0.piplug"
+ },
+ "pi-wokey": {
+  "name": "pi-wokey",
+  "id": "pi-pkg.pi-wokey",
+  "version": "0.7.1",
+  "ok": true,
+  "sizeBytes": 375676,
+  "shasum": "b4b481485b9f7bd6c063958451548dfc83ae20fc70e25de8d6653a484baab047",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "Apache-2.0",
+  "npmIntegrity": "sha512-bw/9TWTomwfFEkmAi7ViF0F2RRAP+lrvk8GOA4a9lPOoW398NI4SYMupELnkXVC+sTY+Cwx7mTgiuQNSwPtatA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-wokey-0.7.1.piplug"
+ },
+ "@tmustier/pi-skill-creator": {
+  "name": "@tmustier/pi-skill-creator",
+  "id": "pi-pkg.tmustier-pi-skill-creator",
+  "version": "0.3.4",
+  "ok": true,
+  "sizeBytes": 19277,
+  "shasum": "9a6f76d804acee9d23797574f34d679c4219779d5f351623d9587d2beee9bc1b",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/SKILL.md"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-Cw4pUtinAtKYcWVdrt+y8pTrZnwltj0N9vzLqa5SJIu571k/ioVXnFRUyOi72p1NjIbDkRddr3LidV2RZpSQXg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.tmustier-pi-skill-creator-0.3.4.piplug"
+ },
+ "pi-condense": {
+  "name": "pi-condense",
+  "id": "pi-pkg.pi-condense",
+  "version": "2.13.1",
+  "ok": true,
+  "sizeBytes": 1052216,
+  "shasum": "d2400a268b69fa82205c4f4e03bea8dafc05ff8dd1d95e529ed303ba07c394c3",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-ogYSwaS9BO3UEQDXAdKz9+Iivo2lk6f2sSc4cOTE4WrJ2aw+ea2cfp4Qqveecvgpl/1bSerPKsGdo40sxp6TYg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-condense-2.13.1.piplug"
+ },
+ "@dorokuma/herdsman-pi": {
+  "name": "@dorokuma/herdsman-pi",
+  "id": "pi-pkg.dorokuma-herdsman-pi",
+  "version": "0.15.0",
+  "ok": true,
+  "sizeBytes": 182288,
+  "shasum": "3a44dc824297e3cae09f606ea95097de3fadc50e2a804a8d95e524a044a08159",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-87qeYRLohgWya/h5SshP+gGK4X+h1XXnTGNiqw4WqF8wfOY9pMUnpemXiOYTITNYXcUI7D9sRjVhySlA6zfYMA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.dorokuma-herdsman-pi-0.15.0.piplug"
+ },
+ "@monotykamary/pi-better-grok": {
+  "name": "@monotykamary/pi-better-grok",
+  "id": "pi-pkg.monotykamary-pi-better-grok",
+  "version": "0.3.11",
+  "ok": true,
+  "sizeBytes": 129204,
+  "shasum": "04a822222d3c5107f8773158af558a45af6e68f62a8349c14919e00aa7a9e2e0",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-wN5ash5KGXWPxLgYq+Js5UXxvIQ9zZ+Rd24nWDLXC5eVgcNgxN30c7cgLehu6Z0MbBbMISYGzs+akz84HfWRaQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.monotykamary-pi-better-grok-0.3.11.piplug"
+ },
+ "pi-hide-providers": {
+  "name": "pi-hide-providers",
+  "id": "pi-pkg.pi-hide-providers",
+  "version": "0.1.25",
+  "ok": true,
+  "sizeBytes": 53983,
+  "shasum": "88b8c70c1ed437ba60a1cc9d02891513701bc0a5869d2e2c486ee90b7a1da970",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/hide-providers.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-6CffWCZfYoUgqkKNFzApUg9jytxa48oCKd3jxLvkwfziamRcRBvCTz+/ZZh/dTXC2LzN+jpYOSkvsZVBm6Ul4w==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-hide-providers-0.1.25.piplug"
+ },
+ "@hank-warren/pi-cliproxyapi-provider": {
+  "name": "@hank-warren/pi-cliproxyapi-provider",
+  "id": "pi-pkg.hank-warren-pi-cliproxyapi-provider",
+  "version": "0.5.0",
+  "ok": true,
+  "sizeBytes": 168538,
+  "shasum": "e8d7358d227c66ccc19d9eadcd8df46aa4161e07f22226f0bd2d1cdcc11e5a53",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-4srQCR20Qdy1Io1oF9gVOSGoFTfi7vg38AN/kKIcwmuCHJ+5t+SyeX8FSMd1qsLj6u7dz3QXk83f3wtmIseUZA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.hank-warren-pi-cliproxyapi-provider-0.5.0.piplug"
+ },
+ "@samfp/pi-memory": {
+  "name": "@samfp/pi-memory",
+  "id": "pi-pkg.samfp-pi-memory",
+  "version": "1.6.1",
+  "ok": true,
+  "sizeBytes": 249203,
+  "shasum": "4213884d9ac10cbbe0b1741483d286f247705ccd863aa80c2cbdbc440972b781",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-Va1P3z52sYonHUtkcdJqrooN4nn6dsEzN3siwpMyJ7YKYAocQoL1EXeFC3oyHZ1fAK+49Yiqmw3JL9k/EJSy9g==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.samfp-pi-memory-1.6.1.piplug"
+ },
+ "@zgltyq/pi-provider-kimi-code": {
+  "name": "@zgltyq/pi-provider-kimi-code",
+  "id": "pi-pkg.zgltyq-pi-provider-kimi-code",
+  "version": "0.4.1",
+  "ok": true,
+  "sizeBytes": 54840,
+  "shasum": "013557aaa96fff99aa2006d247b977dac1fed44b1a070af64b052b00e73a2ebd",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-DmnSd83/70jJF3UlvSPoXWGccfcWtHz6cVw9oW9NOKh7qqpHxBEz3LZQSeKsT1YPTTZITxw7EkPXfPyAQezsng==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.zgltyq-pi-provider-kimi-code-0.4.1.piplug"
+ },
+ "@weave-os/router": {
+  "name": "@weave-os/router",
+  "id": "pi-pkg.weave-os-router",
+  "version": "0.2.29",
+  "ok": true,
+  "sizeBytes": 217926,
+  "shasum": "390a2cb3a48f59b1be824cad9c7a56a9ff2b3cf566682d808f6eae360afffa95",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/pi-router/src/index.ts"
+  ],
+  "skills": [
+   "src/pi-router/skills"
+  ],
+  "license": "Apache-2.0",
+  "npmIntegrity": "sha512-2BdeuuMcxC3oIdj9X3uTDc+VDHEhp8kkwDxf127a+M/tdzzPiETr1XK0NddOE1hyaMer7qRmoqP2K8NHALQcuQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.weave-os-router-0.2.29.piplug"
+ },
+ "pi-web-simple": {
+  "name": "pi-web-simple",
+  "id": "pi-pkg.pi-web-simple",
+  "version": "0.13.1",
+  "ok": true,
+  "sizeBytes": 69808,
+  "shasum": "8ccec00d93d712bbfc3035e719dad1913218e08f55e7ca736b3541e112f1d9d5",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-wCF4+RTEnhcnSKlPEOpvbgvTphuQ1Sl7Ko3OvEFXKugQQ8RfiqF6AbJbqQz3nkABD0kEVCfIgOzA1AYtqIN2Ew==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-web-simple-0.13.1.piplug"
+ },
+ "@alexeiled/pi-plan-exec": {
+  "name": "@alexeiled/pi-plan-exec",
+  "id": "pi-pkg.alexeiled-pi-plan-exec",
+  "version": "2.1.0",
+  "ok": true,
+  "sizeBytes": 845891,
+  "shasum": "e07ebfa22e892a221f406f1b5f23a503e1a74aba3c192571c5d037b61c259b8d",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-vZDd9nXmWJt/bhrnzvhz4zTLt1KrpZ8TB7xSDw5Ab+S5OX5uC1VrHNyy3JVoyHr0dfvT+v5+agxdPgMC5FnfBg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.alexeiled-pi-plan-exec-2.1.0.piplug"
+ },
+ "specpi-jev-guard": {
+  "name": "specpi-jev-guard",
+  "id": "pi-pkg.specpi-jev-guard",
+  "version": "0.4.0",
+  "ok": true,
+  "sizeBytes": 108240,
+  "shasum": "8ad1b523868d9fffccf9b8fb051e8828460bad39b0b3deeb5f8df2a67ad233e3",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/jev-guard.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-lex4Sq/EpoiZA/lcPMgwMhDpePqf6Jkf/vOisdw1Mj72Z6UqTanSTHQyKlNTxkh9CN4h1mMf3ljcxrT51cQlFQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.specpi-jev-guard-0.4.0.piplug"
+ },
+ "pi-xai": {
+  "name": "pi-xai",
+  "id": "pi-pkg.pi-xai",
+  "version": "0.18.0",
+  "ok": true,
+  "sizeBytes": 822630,
+  "shasum": "4364b1ef8bf7952d76a7ba03b24e1a7432974ecc7792a4267026b0fee0da19d3",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-ITPC3FxfSIhCtAKTsbWk73BK3dkHfuTKBFNAjYszwx1JU5ceirK4pEoxO49kF5JAfrxGkwW1dBgTjVpTxLs9rw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-xai-0.18.0.piplug"
+ },
+ "@tmustier/pi-tab-status": {
+  "name": "@tmustier/pi-tab-status",
+  "id": "pi-pkg.tmustier-pi-tab-status",
+  "version": "0.1.5",
+  "ok": true,
+  "sizeBytes": 121681,
+  "shasum": "223ca07d60fd1d21e4146bad1b73e638f07f1b4e043a01f6193985548baf4e7b",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/tab-status.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-uq4t3CgVcrSZZEXv/z+Dr+2KUZ2QNenwBNYSJ7PNkrXCFT2xEnKi3kSS4WsslZFrga1dwzC1m3srzyO/M2vPLQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.tmustier-pi-tab-status-0.1.5.piplug"
+ },
+ "@alphazede/bearing-lite": {
+  "name": "@alphazede/bearing-lite",
+  "id": "pi-pkg.alphazede-bearing-lite",
+  "version": "2.0.2",
+  "ok": true,
+  "sizeBytes": 230969,
+  "shasum": "8791d8c0450b8b96ac1f22a07c53caa6f91405abfc7e85cc237fcbb52e9174aa",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "Apache-2.0",
+  "npmIntegrity": "sha512-eKsDwewCM2rFM3fR9qef96qlpgzsXZ0aW93KKunzGOyE80N7byjQYOeYcmhilt72qDuMHODmryCLUjUMatAumQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.alphazede-bearing-lite-2.0.2.piplug"
+ },
+ "@flowot/pi-pition": {
+  "name": "@flowot/pi-pition",
+  "id": "pi-pkg.flowot-pi-pition",
+  "version": "0.7.0",
+  "ok": true,
+  "sizeBytes": 34311,
+  "shasum": "19751e4cecebd00f1c373ccb3a68bfb0a3b066fd4a8fa4714bc8ccefebbab1ec",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/pition.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-AcMUbOGAgltfvdilXd3X8BMZeM8i+q7ELwASKfmS7WJgtr2HbD/K5JMvGA+6sI60/Y52pDKzDLntdR/7CCPckQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.flowot-pi-pition-0.7.0.piplug"
+ },
+ "opensec-pi-subagents": {
+  "name": "opensec-pi-subagents",
+  "id": "pi-pkg.opensec-pi-subagents",
+  "version": "0.20.9",
+  "ok": true,
+  "sizeBytes": 699196,
+  "shasum": "66f4f371f3e5128e94dbda9f5fdde5cbdce343db300b83f6b71f3c6fbb7c0d9a",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist-bun/index.js"
+  ],
+  "skills": [],
+  "license": "Apache-2.0",
+  "npmIntegrity": "sha512-ihl5P/ZGCYt9nYeAn2/mndWsanwiERhiG0V037YptfgfoCWIKiBPMElI6ZeF0kpQqHn5gl8gim5jFRGl2nhGKA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.opensec-pi-subagents-0.20.9.piplug"
+ },
+ "@ferris1225/pi-subagents": {
+  "name": "@ferris1225/pi-subagents",
+  "id": "pi-pkg.ferris1225-pi-subagents",
+  "version": "4.3.34",
+  "ok": true,
+  "sizeBytes": 538106,
+  "shasum": "f53b9d1eac9fcc286d737a17d0f86493060290c362f5491b3f1fb496ab0ef83c",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-Fbx19c2coS7Nohp9Z8pfEYpbNDoWYym2VXLJu4EtaoAaMEf2ukDsNTSQYx3HvXIjDKWuX3wE9ibEUMMB1/Bagg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.ferris1225-pi-subagents-4.3.34.piplug"
+ },
+ "pi-minimal-footer": {
+  "name": "pi-minimal-footer",
+  "id": "pi-pkg.pi-minimal-footer",
+  "version": "0.7.1",
+  "ok": true,
+  "sizeBytes": 56994,
+  "shasum": "ca26371090f47375b66e18f628f11dd690932850e4910b77b7b3c55d92f90e62",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts",
+   "src/extensions/lib/usage-limits.ts",
+   "src/extensions/lib/usage-providers.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-qJiB3b8bBXIiNeGSd/fVfCW33xZyCKsIkTLXMGLLCGlBDwvkOfxLp3uelvmmMr27VM6yfBn1jjNjBrLwIdBdGQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-minimal-footer-0.7.1.piplug"
+ },
+ "@shopify/ai-toolkit": {
+  "name": "@shopify/ai-toolkit",
+  "id": "pi-pkg.shopify-ai-toolkit",
+  "version": "2.2.0",
+  "ok": true,
+  "sizeBytes": 7770882,
+  "shasum": "2ef6f60dee8ab4a13a2bf52a49b03b3664dee9771ceafdbcae4f1fcd327bb787",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-YiDVQfPmbVt+IbvO+xfkIZK62bVTvIikFHk5xrbuUTjr+QElKh71eIsZ1sp6eEezPjvIGk4hoEPPYmXtzr6r3w==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.shopify-ai-toolkit-2.2.0.piplug"
+ },
+ "pi-auto-model": {
+  "name": "pi-auto-model",
+  "id": "pi-pkg.pi-auto-model",
+  "version": "0.9.1",
+  "ok": true,
+  "sizeBytes": 123513,
+  "shasum": "c5353076f6ffd07d26c196f0dd38c1a6e5e5f2620326537c9c96f39069571991",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/auto-model.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-c1xwvjH6W9URmhgnCJjbE7S1mWtuGtWvRkPQ/q+hy/y9EF50GA2mmhLv3R22A71yVCjkHCH+LyuQBPjMpvzRiQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-auto-model-0.9.1.piplug"
+ },
+ "@ikuma.cloud/pix-usage": {
+  "name": "@ikuma.cloud/pix-usage",
+  "id": "pi-pkg.ikuma.cloud-pix-usage",
+  "version": "0.0.12",
+  "ok": true,
+  "sizeBytes": 88826,
+  "shasum": "2a9df6ec04a706a421c6f063ec7c88d39b5279944b6654047db1d56a655c6d7f",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "NONE",
+  "npmIntegrity": "sha512-/bFKOkUJ7P2e6PKPocZ2Xc6q+Ky3xH98M9sQvVj+ryy5YBtlV/JI5AgNYVww7gs1yZRKftAD2fRqY3d89CbuWw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.ikuma.cloud-pix-usage-0.0.12.piplug"
+ },
+ "pi-hang-guard": {
+  "name": "pi-hang-guard",
+  "id": "pi-pkg.pi-hang-guard",
+  "version": "0.3.6",
+  "ok": true,
+  "sizeBytes": 88016,
+  "shasum": "e61e9d02850e570373ef6f545a2257592245dd733aeb77d54d3e8076af7e7ed9",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-Ih6eI6dpYwVZhZaj84VqI9+V00uJYQ2+A9iun1yP9FsV5CTsX83Lqh4Kb3speyR3s55vmglZCkMIE9p5ielp/g==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-hang-guard-0.3.6.piplug"
+ },
+ "pi-dream-rsi": {
+  "name": "pi-dream-rsi",
+  "id": "pi-pkg.pi-dream-rsi",
+  "version": "3.0.2",
+  "ok": true,
+  "sizeBytes": 721952,
+  "shasum": "f3bf3adde979963450f04acbf2c7bd7c5a5388fb4cb1b27fc2a45ad0ed3dd6d4",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/pi-dream-rsi/dashboard.ts",
+   "src/extensions/pi-dream-rsi/index.ts",
+   "src/extensions/pi-dream-rsi/layout.ts",
+   "src/extensions/pi-dream-rsi/agent/output.ts",
+   "src/extensions/pi-dream-rsi/agent/runner.ts",
+   "src/extensions/pi-dream-rsi/engine/admission.ts",
+   "src/extensions/pi-dream-rsi/engine/budget.ts",
+   "src/extensions/pi-dream-rsi/engine/campaign-patch.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-ij/Lk72Zfr+hNIYnPE0KUeOLUehCKPAyFWlkPoQXeHxOosaA12W65GQ2v1NufXsyP8QBFnt6BvfyFlzwSgjlpg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-dream-rsi-3.0.2.piplug"
+ },
+ "@casualjim/pi-herdr-agents": {
+  "name": "@casualjim/pi-herdr-agents",
+  "id": "pi-pkg.casualjim-pi-herdr-agents",
+  "version": "2.0.20",
+  "ok": true,
+  "sizeBytes": 537068,
+  "shasum": "ed0bc61fea8f76cf9cd14a95fe7108c7f03a6b4205d44bb9b2562b27c9002520",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/pi-extension/subagents/index.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-SIqUJBUBqeoNXetDf9rT0UyD3P9XLsY0EAU5FiE3wr+KmG1IFDW7QYVj0dNUSp5V9jdI/iHYsJY2bosMU9dbPg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.casualjim-pi-herdr-agents-2.0.20.piplug"
+ },
+ "@casualjim/pi-cavekit": {
+  "name": "@casualjim/pi-cavekit",
+  "id": "pi-pkg.casualjim-pi-cavekit",
+  "version": "0.2.23",
+  "ok": true,
+  "sizeBytes": 49606,
+  "shasum": "bd1c5dea7cf85405b34277287dea65859304e835d1a082c9617ef4f4796f3f53",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-E43OcuiqsFFzJffNFPdKxoQ3Tsw/pXi1WeC5IqwMSeiUuVfJG/ptdsQafD3ZAXI99QTBRXwvpPrenKfJGXal7w==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.casualjim-pi-cavekit-0.2.23.piplug"
+ },
+ "pi-continual-harness": {
+  "name": "pi-continual-harness",
+  "id": "pi-pkg.pi-continual-harness",
+  "version": "0.20.0",
+  "ok": true,
+  "sizeBytes": 402119,
+  "shasum": "dbe9e0749d1366ef8f1d4790a30387f0854648b9c370abb52e66b281ded27fc4",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/dist/entry.js"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-ViV2AOMj8rmlm6rz3lwWmM2szqSMhK8EYniVLtHWhAMFXTDXZWhrqTQfwY4qylWqvHxSiI664MqVjptk0ci5vA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-continual-harness-0.20.0.piplug"
+ },
+ "@carlosgtrz/pi-codex-aliases": {
+  "name": "@carlosgtrz/pi-codex-aliases",
+  "id": "pi-pkg.carlosgtrz-pi-codex-aliases",
+  "version": "0.3.1",
+  "ok": true,
+  "sizeBytes": 13511,
+  "shasum": "4df0abc7e48fb57ab00170f3d89af251829fd24f39c9425a3fbd83f0141e9ca9",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-pSjfkKgHaS8aGe9r2X480K6hNF4NKLv/XTPuS+3eNVcKh55XKOp5XdJvkV0eVfNplphSFGA3cVavOV3fMfRzRg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.carlosgtrz-pi-codex-aliases-0.3.1.piplug"
+ },
+ "pi-beyin": {
+  "name": "pi-beyin",
+  "id": "pi-pkg.pi-beyin",
+  "version": "0.1.16",
+  "ok": true,
+  "sizeBytes": 126855,
+  "shasum": "7a954c40ef5bc1ee256b2361ae78d4f32ffb062f9f1ba9a6ee88c236912ac0bf",
+  "permissions": [
+   "agent.extension",
+   "agent.prompt.inject"
+  ],
+  "extensions": [
+   "src/extensions/context.ts",
+   "src/extensions/distillation.ts",
+   "src/extensions/jev.ts"
+  ],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "MIT",
+  "npmIntegrity": "sha512-HPjdpB4Moe5aFwjyRr/S+48CaBHAqdVm7FGEEsyXw5YttVO86NAG693A5M8HOCFZecq2Lekq4D09a5i2l7TVrA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-beyin-0.1.16.piplug"
+ },
+ "pi-memory-wiki-all-you-need": {
+  "name": "pi-memory-wiki-all-you-need",
+  "id": "pi-pkg.pi-memory-wiki-all-you-need",
+  "version": "0.26.1",
+  "ok": true,
+  "sizeBytes": 86763,
+  "shasum": "38fe1842768c5243b7ccae10fc22809726c8fc2bb76bdbde5fbdeca754209f9e",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-HjSSfeSBgIY9kg4K5htsgk9x79RQENBlHxQ2vHhsWEujv8Jpvb6YJxEDNLeK3fFeawuBLq3DJAypvzQmYuO6ZQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-memory-wiki-all-you-need-0.26.1.piplug"
+ },
+ "bermudis-pi-goodies": {
+  "name": "bermudis-pi-goodies",
+  "id": "pi-pkg.bermudis-pi-goodies",
+  "version": "0.27.11",
+  "ok": true,
+  "sizeBytes": 558897,
+  "shasum": "e1db30a620d6342e91fd48f4698fb25da33fa14f0e4fa2c4a3351f9163623770",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "NONE",
+  "npmIntegrity": "sha512-uhNo/Vv74D+4jcXfCHBC4PZgtClOa79TkwSIX91rvoaKme6eIslYXeTOiZFpFGZJtq+RpNiIAPyrnukGFiUejA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.bermudis-pi-goodies-0.27.11.piplug"
+ },
+ "@alexeiled/pi-subagents-bridge": {
+  "name": "@alexeiled/pi-subagents-bridge",
+  "id": "pi-pkg.alexeiled-pi-subagents-bridge",
+  "version": "0.5.5",
+  "ok": true,
+  "sizeBytes": 162359,
+  "shasum": "5914b6a3d5e6d87e5d2ba6073dfde76f737c672533536703dcb8a6a20fae0301",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-gLtajMPebBXtYHUCIEfzmZ82GHfcELl5KxrQDEeZjkuJhlEfaDPSd334nnZol17rOiKiXtkpzJqvOwd2KwccIw==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.alexeiled-pi-subagents-bridge-0.5.5.piplug"
+ },
+ "@casualjim/pi-headroom": {
+  "name": "@casualjim/pi-headroom",
+  "id": "pi-pkg.casualjim-pi-headroom",
+  "version": "0.1.19",
+  "ok": true,
+  "sizeBytes": 62846,
+  "shasum": "14aab60c0f534768febcb28c2948d406cbbcdeaeb432f3b6616d6693ac4986b0",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/headroom.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-KqgASz4JVHriPSo+Uty8MBechy6LZ0t5uSq8tBdATpGYAwkMtAUuNWVOIzHoa6SHLO7n69tRGc+q8oJkfyY9vA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.casualjim-pi-headroom-0.1.19.piplug"
+ },
+ "pi-alibaba-bailian": {
+  "name": "pi-alibaba-bailian",
+  "id": "pi-pkg.pi-alibaba-bailian",
+  "version": "0.1.0",
+  "ok": true,
+  "sizeBytes": 21312,
+  "shasum": "6c14b84fb529e03882365a67c4725fae70926f43637f0894582515c2baffe13d",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-F9LPP4wlD5SfJYIybQAukZFU+CJvaTVAhhby2pvnC+ZI99Kv5J8ZXAwpo+F2sbWBDB4Syn1wcW9OBBT33ohk6w==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-alibaba-bailian-0.1.0.piplug"
+ },
+ "bookmark-research": {
+  "name": "bookmark-research",
+  "id": "pi-pkg.bookmark-research",
+  "version": "0.5.0-beta.14",
+  "ok": true,
+  "sizeBytes": 288486,
+  "shasum": "339bdbfaf786dd802b210a8f649bdc50ea072120576e5a80946afbd494c791b7",
+  "permissions": [
+   "agent.prompt.inject"
+  ],
+  "extensions": [],
+  "skills": [
+   "src/skills"
+  ],
+  "license": "GPL-3.0-only",
+  "npmIntegrity": "sha512-Km3xdL0/mN7wUABPPdEjjhx4BMAH7zoAhCIdc9CDxdatdth8cw6NQw6R9PU+9/pGzZQmV6fibAyGCk36SWEMRg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.bookmark-research-0.5.0-beta.14.piplug"
+ },
+ "pi-subagents-lite": {
+  "name": "pi-subagents-lite",
+  "id": "pi-pkg.pi-subagents-lite",
+  "version": "1.17.1",
+  "ok": true,
+  "sizeBytes": 585654,
+  "shasum": "d66b037ea662eca1df291b7f7957f68fcd58a4ee30f409d07088404f93a88fae",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-lpwr1GLd6NPI9GPo7hqb8RFmRVVaJqNbpMqDhWBP/1MjCWrJNFv1reVVvf6ORwKX5hdLBbVkn5F1RRsqk30RBg==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-subagents-lite-1.17.1.piplug"
+ },
+ "pi-all-search": {
+  "name": "pi-all-search",
+  "id": "pi-pkg.pi-all-search",
+  "version": "1.1.19",
+  "ok": true,
+  "sizeBytes": 5813,
+  "shasum": "8a1ba0166e019dd1ac7e8168866c45cf381fbdfd049f09b3808acf098879bf43",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/extensions/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-SfVl8eub2CuraJdhlSTjnSuQle5LdVVS66Njy2V3CDwWn18VaewP2U7Vp2CANa2/gQ/CPG6QZ58VF5u9RinNJA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-all-search-1.1.19.piplug"
+ },
+ "@indexyz/pi-provider-sub2api": {
+  "name": "@indexyz/pi-provider-sub2api",
+  "id": "pi-pkg.indexyz-pi-provider-sub2api",
+  "version": "0.3.0",
+  "ok": true,
+  "sizeBytes": 203857,
+  "shasum": "111211422a7e76310222b23b841aab3f4c77912453a7df46dd0385e9466982aa",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-lEFWsJ8qzZfHEtSlBTtMG6JNJbE8XCl9uHOG4UwBDDRxdfAkrFhBMRGey+jzJijcX/Rz3fvzUF78Q+YCq9oASA==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.indexyz-pi-provider-sub2api-0.3.0.piplug"
+ },
+ "pi-cn-free-model-providers": {
+  "name": "pi-cn-free-model-providers",
+  "id": "pi-pkg.pi-cn-free-model-providers",
+  "version": "1.0.30",
+  "ok": true,
+  "sizeBytes": 164224,
+  "shasum": "7def88701ded6f2337b7bb3578cc5b729f6c675991f8055be91e3b34c0658358",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/pi-cn-free-model-providers-ext.mjs"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-Bw59w77Qad9F7Sh0ZUYaTsibUXCtt1LskmaSoUJL5psoQXBoXhLGVT0q2LjLGMlM95oRoGp7IvBGUJmpXulu0w==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-cn-free-model-providers-1.0.30.piplug"
+ },
+ "pi-openai-codex-fast": {
+  "name": "pi-openai-codex-fast",
+  "id": "pi-pkg.pi-openai-codex-fast",
+  "version": "0.0.22",
+  "ok": true,
+  "sizeBytes": 26298,
+  "shasum": "33b8dfa71cd978e58eb6f47e3e36f8cbc385675b86b802c439a7d3091d4a6d1d",
+  "permissions": [
+   "agent.extension"
+  ],
+  "extensions": [
+   "src/index.ts"
+  ],
+  "skills": [],
+  "license": "MIT",
+  "npmIntegrity": "sha512-H6DDpgwuErsKiRu4A8X21auJ5YY3U1labjPLrIv0iv+dk5YG9MWOSKjtdw7ToheIeZvBnhPlgbMYZwJKxAJysQ==",
+  "path": "/home/runner/work/pi-market/pi-market/packages/pi-pkg.pi-openai-codex-fast-0.0.22.piplug"
  }
 }
