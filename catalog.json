@@ -4,8 +4,8 @@
  "catalog_id": "pi-package-adapter",
  "name": "PI package adapter",
  "homepage": "https://pi.dev/packages",
- "generated_at": "2026-10-25T10:37:25Z",
- "updated_at": "2026-10-25T10:37:25Z",
+ "generated_at": "2026-10-25T10:38:23Z",
+ "updated_at": "2026-10-25T10:38:23Z",
  "policy_version": "local-adapter-2",
  "artifact_base_url": null,
  "plugins": [
@@ -12834,7 +12834,13 @@
     {
      "version": "0.1.120",
      "publishedAt": "2026-10-08T11:28:39Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.janvitos-pi-plan-build-0.1.120.piplug",
+     "shasum": "d83e273b01bc97858c3a16ddf10238204f29a793143af4b9ed3b023ec7d6bf30",
+     "sizeBytes": 566446,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -12866,7 +12872,13 @@
     {
      "version": "0.4.0",
      "publishedAt": "2026-07-10T01:20:09Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.tunnckocore-pi-gpt-fast-mode-0.4.0.piplug",
+     "shasum": "852eb23db7853972217cebfd5f8522f3449cf2ccf60c4558ed25c90af983f0b8",
+     "sizeBytes": 14631,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -12898,7 +12910,13 @@
     {
      "version": "1.3.68",
      "publishedAt": "2026-10-08T13:30:13Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.arhen-pi-core-subagent-1.3.68.piplug",
+     "shasum": "504c2e1d1aef695b7f1c2b2c7dd6a50167fcfe8666dc3db82f524bbbceaef12f",
+     "sizeBytes": 240847,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -12929,7 +12947,13 @@
     {
      "version": "0.1.34",
      "publishedAt": "2026-10-04T19:42:54Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-web-codex-0.1.34.piplug",
+     "shasum": "31ea305c341647f2972bc248ecefaca1b0ba5275fe29998fa7a4d04d8ea2ce12",
+     "sizeBytes": 16373,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -12992,7 +13016,13 @@
     {
      "version": "0.27.2",
      "publishedAt": "2026-10-20T02:40:59Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.erichll-pi-auto-review-0.27.2.piplug",
+     "shasum": "6d307c82d42992f976357fd7a8570219f34b7377033f9271d8e6e388835fab65",
+     "sizeBytes": 354351,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -13023,7 +13053,14 @@
     {
      "version": "0.1.0",
      "publishedAt": "2026-07-19T14:58:45Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-tokenrouter-provider-0.1.0.piplug",
+     "shasum": "8187dab6b2cec1158b97193b4d8cc4fd637891a42659f87f7f3088fd7de7d4fe",
+     "sizeBytes": 18340,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -13054,7 +13091,14 @@
     {
      "version": "0.1.3",
      "publishedAt": "2026-10-13T13:36:09Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.upstash-context7-pi-0.1.3.piplug",
+     "shasum": "169f5dc7b256b62ba6ea19dedb0c9691c43a8100cbc7983dd3d2300e3d573500",
+     "sizeBytes": 8657,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -13368,7 +13412,14 @@
     {
      "version": "0.26.9",
      "publishedAt": "2026-10-16T22:53:09Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-messenger-swarm-0.26.9.piplug",
+     "shasum": "3eba9f686fbb8fb23ba2f99ef19dc81b10c10bcf34d7423d9d52aa087077c192",
+     "sizeBytes": 494586,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -14196,7 +14247,13 @@
     {
      "version": "1.11.3",
      "publishedAt": "2026-09-21T01:28:07Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.reedchan-statusline-1.11.3.piplug",
+     "shasum": "d19bada0354d8190fc032b70a2a503f79851fed47037eb274563fe0250eb1996",
+     "sizeBytes": 90530,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -14228,7 +14285,13 @@
     {
      "version": "0.16.0",
      "publishedAt": "2026-10-22T07:41:10Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.alexeiled-pi-model-router-0.16.0.piplug",
+     "shasum": "ce73f6ac67225c09713724111dc036cc61f1114678357f0ea8f2a7be2076c57b",
+     "sizeBytes": 410892,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -14323,7 +14386,13 @@
     {
      "version": "0.3.0",
      "publishedAt": "2026-10-03T02:02:40Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-dashscope-native-0.3.0.piplug",
+     "shasum": "418a6639da99b7179393e4a065d9704d3f9bb650758498abf0a9a0b7694ca9de",
+     "sizeBytes": 41673,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -14451,7 +14520,13 @@
     {
      "version": "0.0.32",
      "publishedAt": "2026-10-24T22:49:11Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.deathbeam-pi-delegate-0.0.32.piplug",
+     "shasum": "1d2a1dd3e788dc45a3408f1d7b406cd4504522f5dee3243ecabca64554f46c5a",
+     "sizeBytes": 117068,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -14576,7 +14651,13 @@
     {
      "version": "1.3.1",
      "publishedAt": "2026-03-31T11:50:58Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-add-dir-1.3.1.piplug",
+     "shasum": "bd3306c0664e7608bbc13373028b75d1e51964787b02734667917bea706dc96a",
+     "sizeBytes": 82316,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -14606,9 +14687,15 @@
    "safety_notes": null,
    "versions": [
     {
-     "version": "0.6.3",
+     "version": "0.6.5",
      "publishedAt": "2026-10-25T04:15:39Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-voicekit-0.6.5.piplug",
+     "shasum": "445629bdaa0123c591bef781e3cd93eabb731fe7533079256bb778e836aeb3b7",
+     "sizeBytes": 816000,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -14829,7 +14916,13 @@
     {
      "version": "0.6.26",
      "publishedAt": "2026-10-22T18:17:12Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.yusukeshib-pi-babysit-0.6.26.piplug",
+     "shasum": "42f1bf1688b6571e858a0b98a6e89db9856b1a23ed4efd93a63d1d679713dad1",
+     "sizeBytes": 301278,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -14861,7 +14954,13 @@
     {
      "version": "0.1.0",
      "publishedAt": "2026-10-22T12:30:08Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-effort-0.1.0.piplug",
+     "shasum": "7a897c909e131272badfccbd99a148c17eb09701742d2d1f2c7520db1c83c104",
+     "sizeBytes": 53463,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -14924,7 +15023,14 @@
     {
      "version": "0.31.7",
      "publishedAt": "2026-10-16T22:53:24Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-fovea-0.31.7.piplug",
+     "shasum": "aa3dd4717a3a54819827d0f8ffec434ce930ee8f6ea9d0ed16ab8f459ac4728f",
+     "sizeBytes": 533014,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -15115,7 +15221,13 @@
     {
      "version": "0.3.3",
      "publishedAt": "2026-10-17T14:26:37Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-jar-0.3.3.piplug",
+     "shasum": "25f7dc54999f4ce0a672f30cdf6526e13ef12b8d8c6c8f9432cfe6a607cd3549",
+     "sizeBytes": 122583,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -15398,7 +15510,14 @@
     {
      "version": "2.5.4",
      "publishedAt": "2026-10-24T14:27:25Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.bachi-pi-coder-2.5.4.piplug",
+     "shasum": "e41479511e09ab13ff66006db80139156a44c110dd1ad2459837ff3f84bbdde4",
+     "sizeBytes": 3837225,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -15651,7 +15770,13 @@
     {
      "version": "0.7.18",
      "publishedAt": "2026-10-14T16:07:52Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.trevonistrevon-pi-loop-0.7.18.piplug",
+     "shasum": "3a0e8453d6cea943ce25c359c751f1dc52daa208569289333f735a3a00e2ea1d",
+     "sizeBytes": 1415499,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -15683,7 +15808,13 @@
     {
      "version": "0.15.0",
      "publishedAt": "2026-10-06T13:34:00Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-verdict-0.15.0.piplug",
+     "shasum": "8f1c3cf33c519d47a136b8f708c2404af457171cfdc8ed650e45a4822d3926b3",
+     "sizeBytes": 171659,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -15714,7 +15845,14 @@
     {
      "version": "0.37.1",
      "publishedAt": "2026-10-03T13:26:37Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.specpi-0.37.1.piplug",
+     "shasum": "b5df7512c6d51dbd9cc43859008599b59865b7e1c6ceb633e2a10cf90c744da7",
+     "sizeBytes": 184729,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -15811,7 +15949,13 @@
     {
      "version": "0.5.13",
      "publishedAt": "2026-10-20T09:50:56Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.quandev104-pi-style-0.5.13.piplug",
+     "shasum": "d735e0f4373d8c5bdd36f6e66fce0cb1eb35ff1d1350ca97472ced11a66a3f3c",
+     "sizeBytes": 150638,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -15970,7 +16114,14 @@
     {
      "version": "1.2.7",
      "publishedAt": "2026-10-12T14:16:07Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.drix10-agent-flow-1.2.7.piplug",
+     "shasum": "5317ebac6215adec21adec2960df095b6c68b7386a51ea642f15325cb336be6e",
+     "sizeBytes": 1187512,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16002,7 +16153,13 @@
     {
      "version": "0.11.3",
      "publishedAt": "2026-10-23T06:53:56Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.monotykamary-pi-retry-0.11.3.piplug",
+     "shasum": "f3c373c24d154d2f9286155ac7e16170e30262db85c6c2d255da596a5a612cc8",
+     "sizeBytes": 142612,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16067,7 +16224,13 @@
     {
      "version": "1.0.26",
      "publishedAt": "2026-10-12T02:35:00Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.nguyenquangthai-pi-omp-theme-1.0.26.piplug",
+     "shasum": "f46c6b038469d082563708b86f6ad284a7d821fddf931bbd6f7af0eaa293f845",
+     "sizeBytes": 619548,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16098,7 +16261,13 @@
     {
      "version": "0.2.1",
      "publishedAt": "2026-09-19T21:31:11Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-nvidia-0.2.1.piplug",
+     "shasum": "7b9f6bb7269ec725109b381fd86998c6ba481134c1a50c1a8b9914fe7b9de377",
+     "sizeBytes": 21563,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16129,7 +16298,13 @@
     {
      "version": "1.33.6",
      "publishedAt": "2026-10-23T23:20:32Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.the-librarian-pi-extension-1.33.6.piplug",
+     "shasum": "99ded8111ef436cfa28f631c369b581d4608e06ce44406564b6fba6a874e3c1d",
+     "sizeBytes": 68464,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16161,7 +16336,13 @@
     {
      "version": "0.9.2",
      "publishedAt": "2026-10-24T21:11:49Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-optchat-0.9.2.piplug",
+     "shasum": "ab6f4f6f74f08842e2f8ba59a45e01896b56ed0b637164306668b918c6f47244",
+     "sizeBytes": 438699,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16193,7 +16374,14 @@
     {
      "version": "0.13.0",
      "publishedAt": "2026-10-17T16:27:21Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.cr1ms0n-pi-subagent-0.13.0.piplug",
+     "shasum": "5c0818bba3110af9dcc64ddd64edcdc2995e4c0aeef0823db463c456810511e1",
+     "sizeBytes": 16347,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16256,7 +16444,13 @@
     {
      "version": "0.3.4",
      "publishedAt": "2026-06-18T14:50:47Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.blackbelt-technology-pi-anthropic-messages-0.3.4.piplug",
+     "shasum": "bcdf6f365efeb54fc24807ff45bce140db5aee7e2636a346d3a5f2e61853b76f",
+     "sizeBytes": 61711,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16288,7 +16482,13 @@
     {
      "version": "0.3.19",
      "publishedAt": "2026-10-14T02:46:53Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-kaush-pi-tool-call-markers-0.3.19.piplug",
+     "shasum": "6f6377d29e61ae1b0bd7f54a5a986f23f07eefd9a5d7e0587c04a4490a0d28c9",
+     "sizeBytes": 147018,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16352,7 +16552,13 @@
     {
      "version": "0.1.55",
      "publishedAt": "2026-10-11T03:32:28Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.bacnh85-pi-sub-0.1.55.piplug",
+     "shasum": "ce1174fc707d44e3dbe5a8e9cf26830a32bcf7fed0fcf8c8f07150bb4547f45c",
+     "sizeBytes": 109268,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16416,7 +16622,13 @@
     {
      "version": "0.10.11",
      "publishedAt": "2026-10-16T22:54:51Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-vision-handoff-0.10.11.piplug",
+     "shasum": "69acb836d13a6c5674a7d9ce963a38a81d78bde59aa3e6d6108db6ce77563221",
+     "sizeBytes": 221624,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16576,7 +16788,13 @@
     {
      "version": "0.3.1",
      "publishedAt": "2026-10-03T10:10:18Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.valdo766hi-pi-lazy-skill-tool-0.3.1.piplug",
+     "shasum": "f2a4447c332470dbad046a68eae3578325e9070877412b282e3cffd564e0caa2",
+     "sizeBytes": 173307,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16640,7 +16858,13 @@
     {
      "version": "1.1.6",
      "publishedAt": "2026-07-08T19:11:25Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-patty-bg-tasks-1.1.6.piplug",
+     "shasum": "972a39bc7ad183d86ecacedb0499251fe049a3f3f44a3285d8a284ec542bb2a0",
+     "sizeBytes": 224046,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16671,7 +16895,13 @@
     {
      "version": "3.2.4",
      "publishedAt": "2026-10-23T12:52:47Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.henryqw-pi-deps-3.2.4.piplug",
+     "shasum": "8bc99a8bcdf745deef3d5f7eb01acf71cf172ebf67ae3fe630a2896cc893f06b",
+     "sizeBytes": 14208,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16703,7 +16933,13 @@
     {
      "version": "1.0.6",
      "publishedAt": "2026-05-07T16:52:37Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-moonshot-1.0.6.piplug",
+     "shasum": "7fb97d5dbda1d58a0fbeef03f6b8235673c2fad58d518eac0a72b390008f823e",
+     "sizeBytes": 7259,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16734,7 +16970,13 @@
     {
      "version": "3.2.2",
      "publishedAt": "2026-10-23T12:51:47Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.henryqw-pi-ask-question-3.2.2.piplug",
+     "shasum": "6cdaa10f120d24260b4bb691fad95ac376c367ea60963d89cf177193457cac99",
+     "sizeBytes": 8497,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16924,7 +17166,13 @@
     {
      "version": "8.0.0",
      "publishedAt": "2026-10-19T14:58:50Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.jopqior-pi-subagents-8.0.0.piplug",
+     "shasum": "b8db6d3c3249d4d3073c25186aa802abcde68f73bdfb68820a9d12fa38718b04",
+     "sizeBytes": 602543,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -16955,7 +17203,14 @@
     {
      "version": "0.19.0",
      "publishedAt": "2026-10-12T16:38:34Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.zephyrdeng-pi-review-0.19.0.piplug",
+     "shasum": "d09c2ee549319f1fe9469494b5b44e9cadf69cc6f036a2af72277788dcce3a2a",
+     "sizeBytes": 327875,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17018,7 +17273,13 @@
     {
      "version": "0.1.27",
      "publishedAt": "2026-10-23T09:15:26Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.ck-pi-zen-session-0.1.27.piplug",
+     "shasum": "cbb14193f94db4d25e5588aa55191cd8ae2976da22648e7c4ee61dc8cbbf2285",
+     "sizeBytes": 172255,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17082,7 +17343,13 @@
     {
      "version": "0.9.1",
      "publishedAt": "2026-10-16T01:21:58Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-better-plan-0.9.1.piplug",
+     "shasum": "00f8a67725452a78c05bc429ae54cd19b72c62f69ee39c0a67c00b67d87872c7",
+     "sizeBytes": 96598,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17178,7 +17445,13 @@
     {
      "version": "1.14.0",
      "publishedAt": "2026-10-11T21:30:36Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-jarvis-1.14.0.piplug",
+     "shasum": "f43c636bacc312e4bc8c774f689ac93597f7f76a0f8837690c632584f40d5b8e",
+     "sizeBytes": 1873743,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17209,7 +17482,13 @@
     {
      "version": "0.12.0",
      "publishedAt": "2026-10-12T22:59:41Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.ohmyjev-0.12.0.piplug",
+     "shasum": "0b1b58ff5c8d6209f47c5595492d6158f31e90ff4e12db0f2a890eea92b93bc0",
+     "sizeBytes": 123296,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17272,7 +17551,13 @@
     {
      "version": "0.5.0",
      "publishedAt": "2026-10-23T10:11:38Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-ansicat-0.5.0.piplug",
+     "shasum": "1801dc20242258abd575eefc745efb067f3750b5431ce2220cf37d499bff6195",
+     "sizeBytes": 118018,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17336,7 +17621,14 @@
     {
      "version": "0.53.2",
      "publishedAt": "2026-10-23T02:11:00Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.notesoup-0.53.2.piplug",
+     "shasum": "066b7280aba60b98a16bad1f39ac2f30589da9852a59e04196852d1420054a6b",
+     "sizeBytes": 122909,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17367,7 +17659,13 @@
     {
      "version": "0.14.2",
      "publishedAt": "2026-10-23T07:02:57Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-matt-subagent-0.14.2.piplug",
+     "shasum": "885c36921da8ad34f5e534827b2e07e747a0de9898312e92943bca95344f6aab",
+     "sizeBytes": 93951,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17429,7 +17727,14 @@
     {
      "version": "1.3.3",
      "publishedAt": "2026-10-24T09:19:26Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-tsgw-1.3.3.piplug",
+     "shasum": "8e12cc35c70ba7b1e2b58bef60aa9934e7487a812d353b54058059ac961e6ce4",
+     "sizeBytes": 427126,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17589,7 +17894,13 @@
     {
      "version": "0.14.1",
      "publishedAt": "2026-10-04T17:53:11Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.danmademe-pi-provider-litellm-0.14.1.piplug",
+     "shasum": "70fe3898e1ac49676e9ed781177ec76138207bcd91ed5e10c0d234643b1334a0",
+     "sizeBytes": 66532,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17621,7 +17932,14 @@
     {
      "version": "0.1.22",
      "publishedAt": "2026-10-23T23:05:09Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.casualjim-pi-pstack-0.1.22.piplug",
+     "shasum": "46d09c1ebdffa36a7da357fdaea4189e30e170b158de1ce7963e18e3a065e9de",
+     "sizeBytes": 963987,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17781,7 +18099,13 @@
     {
      "version": "3.3.5",
      "publishedAt": "2026-10-11T16:38:54Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.toolflow-3.3.5.piplug",
+     "shasum": "4f0b4935c2b65911b7360795895429598876c19731ce1e69610f1ab51b0e7cd5",
+     "sizeBytes": 341670,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17812,7 +18136,13 @@
     {
      "version": "0.17.0",
      "publishedAt": "2026-10-03T23:17:18Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.kvidzibo-pi-mem-0.17.0.piplug",
+     "shasum": "fd287bf92991d1908ed3e55b413fc69769691e77db797a18343b43bf208a9dc1",
+     "sizeBytes": 478348,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17875,7 +18205,13 @@
     {
      "version": "0.7.1",
      "publishedAt": "2026-10-22T21:07:32Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.magiusche-pi-webview-0.7.1.piplug",
+     "shasum": "5cadb34a671baf229e5ad6623f45186e2996b6272ba6a081404551e9ec7c06fd",
+     "sizeBytes": 1174363,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -17970,7 +18306,14 @@
     {
      "version": "5.5.1",
      "publishedAt": "2026-10-16T08:01:37Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.immune-brain-5.5.1.piplug",
+     "shasum": "d5b6041aabd4e13d4328728aaa9f38321c6e03ea3badec3702172fa55bdf1ae9",
+     "sizeBytes": 328117,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18128,7 +18471,14 @@
     {
      "version": "0.2.0-beta.6",
      "publishedAt": "2026-10-23T09:45:07Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.atlas-project-harness-0.2.0-beta.6.piplug",
+     "shasum": "f534f1e8605dc3665663ae74d0bdd39fdea8d8dab55f98c383763d14f2d90324",
+     "sizeBytes": 302624,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18255,7 +18605,13 @@
     {
      "version": "0.21.0",
      "publishedAt": "2026-10-25T04:46:40Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-sessions-0.21.0.piplug",
+     "shasum": "52dc330bf0b8d1169596521035547fe46949a348aaf7fadf02f99bccf4444b64",
+     "sizeBytes": 740423,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18318,7 +18674,13 @@
     {
      "version": "0.2.0",
      "publishedAt": "2026-10-23T09:43:53Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.zenodinh-pi-provider-qoder-0.2.0.piplug",
+     "shasum": "7e0c0429f26aed0f27371e14ac8710dfa6c2f8ca7115d8a91243fca3614c07d2",
+     "sizeBytes": 514072,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18349,7 +18711,13 @@
     {
      "version": "1.3.18",
      "publishedAt": "2026-10-16T22:56:15Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.monotykamary-pi-tps-1.3.18.piplug",
+     "shasum": "cd146f9a085d242f8513dca173097976a1794d8eec0832114a92056e61121b2b",
+     "sizeBytes": 60147,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18380,7 +18748,13 @@
     {
      "version": "0.7.3",
      "publishedAt": "2026-10-23T12:52:07Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.henryqw-pi-codegraph-0.7.3.piplug",
+     "shasum": "c9868b08bf76c054c4f1d867d52a709943881cfca4f3a6e572a3f442324c5ccf",
+     "sizeBytes": 27044,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18445,7 +18819,13 @@
     {
      "version": "11.0.1",
      "publishedAt": "2026-10-22T22:00:07Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.mrclrchtr-supi-claude-md-11.0.1.piplug",
+     "shasum": "89f72c3205d09113fe669c1bfde5502ee22b4ed3bdb79a68b4f81d6189f5afbb",
+     "sizeBytes": 5039,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18539,7 +18919,13 @@
     {
      "version": "0.13.0",
      "publishedAt": "2026-10-12T09:00:34Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-scenes-0.13.0.piplug",
+     "shasum": "c4f088c4e15ea1bf0cefaa05d7efa229185755b8a06bf7ddf16c42885e70288d",
+     "sizeBytes": 143157,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18571,7 +18957,13 @@
     {
      "version": "0.10.1",
      "publishedAt": "2026-10-24T14:09:16Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.sevten-pi-data-masking-0.10.1.piplug",
+     "shasum": "be1b5c277d2ba8438515a1cbab82867a43edaf045888a75900a034228a9d8b69",
+     "sizeBytes": 745955,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18602,7 +18994,14 @@
     {
      "version": "0.2.4",
      "publishedAt": "2026-09-22T11:47:23Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.tmustier-pi-ralph-wiggum-0.2.4.piplug",
+     "shasum": "2ba42c040fab3cb8c5d645ccff989827e95faed7585deee35790e3ffcaacbb17",
+     "sizeBytes": 52245,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18634,7 +19033,13 @@
     {
      "version": "0.3.18",
      "publishedAt": "2026-10-16T22:53:18Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-invisible-continue-0.3.18.piplug",
+     "shasum": "90045ccd43a99db4500975e8c35ffee815589171c0a3f8c266c2d2117b21596f",
+     "sizeBytes": 13342,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18697,7 +19102,13 @@
     {
      "version": "0.13.0",
      "publishedAt": "2026-10-22T09:41:29Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.heyhuynhgiabuu-pi-task-0.13.0.piplug",
+     "shasum": "609984968d9d6526f0add9536760ce7848223b8d5ced072021296ebe5d58af92",
+     "sizeBytes": 1262912,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18792,7 +19203,14 @@
     {
      "version": "0.4.0",
      "publishedAt": "2026-10-24T12:45:10Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.bismawy-pi-jev-eye-0.4.0.piplug",
+     "shasum": "d0d45f0a9b0fb3fea15178f9a1632bbb9be65ddbba94d409ef7f34a2760e01ac",
+     "sizeBytes": 222803,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -18981,7 +19399,13 @@
     {
      "version": "0.8.28",
      "publishedAt": "2026-10-24T14:41:55Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-autosuggestions-0.8.28.piplug",
+     "shasum": "5dff9a6155416b042058542ae99a8ebc623ba6d0e66b733805db7bae03b3bbf9",
+     "sizeBytes": 104842,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19013,7 +19437,14 @@
     {
      "version": "0.0.15",
      "publishedAt": "2026-09-20T07:12:21Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.vigolium-piolium-0.0.15.piplug",
+     "shasum": "c98d1c630dded1b81da5fa1d2c40f92e5117c0c7e9be8daa09afd23c06dcfc98",
+     "sizeBytes": 2365718,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19075,7 +19506,13 @@
     {
      "version": "0.2.22",
      "publishedAt": "2026-10-18T07:18:26Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-provider-qoder-cn-0.2.22.piplug",
+     "shasum": "cf63d08ebc7c7e14058edbe47ee5c58cf5e8d8662d63bf58a1d53a7666ed2ba9",
+     "sizeBytes": 189659,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19139,7 +19576,13 @@
     {
      "version": "0.18.4",
      "publishedAt": "2026-10-14T17:35:07Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.nathan33-nao-skill-0.18.4.piplug",
+     "shasum": "bb71285ed9aab9d239805e5e35da5f16f6550a7422b0487b63f7e35530f5baa5",
+     "sizeBytes": 30208,
+     "permissions": [
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19172,7 +19615,13 @@
     {
      "version": "0.13.0",
      "publishedAt": "2026-10-22T23:02:04Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.sreetej510-pi-prompt-manager-0.13.0.piplug",
+     "shasum": "b4d88005b40bb37f6bfa0f5b274631bc788646cad88dc4059202724e445167d8",
+     "sizeBytes": 9867,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19234,7 +19683,13 @@
     {
      "version": "1.0.0",
      "publishedAt": "2026-09-18T05:46:18Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-jev-compaction-1.0.0.piplug",
+     "shasum": "49c624fc7879bbeba7f1edcca3a0818691dcffd11455bff1b38427112dcf8698",
+     "sizeBytes": 97749,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19330,7 +19785,13 @@
     {
      "version": "0.7.1",
      "publishedAt": "2026-10-23T11:24:38Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-bansos-0.7.1.piplug",
+     "shasum": "ded1b81890af1e972199100d2b0531bad768040324e52cff42ebdb6e5fbaddb2",
+     "sizeBytes": 118230,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19522,7 +19983,13 @@
     {
      "version": "1.7.6",
      "publishedAt": "2026-10-11T16:38:16Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-tui-status-beautifier-1.7.6.piplug",
+     "shasum": "76cb41bb75a7ddde8a18fb752077b4250519897ca5686cbade9be1ae43ce5154",
+     "sizeBytes": 49659,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19554,7 +20021,13 @@
     {
      "version": "1.9.7",
      "publishedAt": "2026-10-23T01:30:14Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-ui-extension-1.9.7.piplug",
+     "shasum": "a2e1ebcd982e7a09f3aec88913e461312d76c634a131bf551509fc5529a977ad",
+     "sizeBytes": 287106,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19776,7 +20249,13 @@
     {
      "version": "0.6.2",
      "publishedAt": "2026-10-15T20:03:33Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.arcmira-0.6.2.piplug",
+     "shasum": "21d5f12f6ea2f04340306027e0028cb902ec3b2444ed0b3fdd1361d2222f1e7b",
+     "sizeBytes": 72903,
+     "permissions": [
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19905,7 +20384,13 @@
     {
      "version": "0.6.3",
      "publishedAt": "2026-10-11T06:49:40Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.inaiii-pi-preset-0.6.3.piplug",
+     "shasum": "48512949112be78bd8b52b0177a38fdf2b08651cc15b746443e250dee2579a88",
+     "sizeBytes": 174031,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19937,7 +20422,13 @@
     {
      "version": "0.28.0",
      "publishedAt": "2026-10-23T14:10:39Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-provider-antigravity-0.28.0.piplug",
+     "shasum": "98b9840324f8d11ae0b7b75dfddf731c8eb13f9eb6b7659d82b77538f33c4666",
+     "sizeBytes": 317175,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -19969,7 +20460,13 @@
     {
      "version": "0.13.0",
      "publishedAt": "2026-10-22T22:59:42Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.sreetej510-pi-hpc-tools-0.13.0.piplug",
+     "shasum": "ade2a17b6d153cd0cf57cb50e5171074e20db2ab5bd81d477c831099a03dd1e0",
+     "sizeBytes": 99265,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -20001,7 +20498,13 @@
     {
      "version": "0.1.21",
      "publishedAt": "2026-10-23T03:41:44Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-gemini-multimodal-0.1.21.piplug",
+     "shasum": "7db29423c0c3a7f6d08bbe47e201fc779310081a5e92310538f17aa76ee7e0f4",
+     "sizeBytes": 19630,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -20032,7 +20535,13 @@
     {
      "version": "0.0.17",
      "publishedAt": "2026-10-25T01:37:49Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-anthropic-compat-0.0.17.piplug",
+     "shasum": "8f672bcad88db461276e30288e08112c520042bc83781ee3a42ab3f4869056af",
+     "sizeBytes": 135793,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -20096,7 +20605,13 @@
     {
      "version": "0.18.0",
      "publishedAt": "2026-10-18T07:35:59Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.bytetrue-pi-subagent-0.18.0.piplug",
+     "shasum": "8f997fe5db90609ad852d8f2884300d435f42cdc5b1e070f84e9c8fc176bfb3f",
+     "sizeBytes": 149789,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -20128,7 +20643,13 @@
     {
      "version": "0.3.1",
      "publishedAt": "2026-09-22T00:45:06Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.geohar-pi-permissions-analyzer-0.3.1.piplug",
+     "shasum": "158da774ffaa999549a8b491af5615cb7527b95688c10676ed452ad86d72b9aa",
+     "sizeBytes": 127207,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -20255,7 +20776,13 @@
     {
      "version": "0.14.2",
      "publishedAt": "2026-09-05T00:04:59Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-vim-0.14.2.piplug",
+     "shasum": "31f313eb39df987272ec5f0d0146c354bb9ddbe2a14322577b974e411c6a8577",
+     "sizeBytes": 233721,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -20574,7 +21101,13 @@
     {
      "version": "0.1.0-tip.0",
      "publishedAt": "2026-09-17T15:20:20Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.vimhead.dev-pi-norn-0.1.0-tip.0.piplug",
+     "shasum": "d71c75258b0aa2699ec55d4afca481701992fde6c7d5b207ff958369b1904d8c",
+     "sizeBytes": 4994,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -20701,7 +21234,14 @@
     {
      "version": "0.9.0",
      "publishedAt": "2026-10-05T10:02:57Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-extensions-i18n-0.9.0.piplug",
+     "shasum": "6a12f1b08af0cc2c725560cdfe70bd39ddb6c2f6ef7f014a256432bdb9b33420",
+     "sizeBytes": 50772,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -20796,7 +21336,13 @@
     {
      "version": "0.9.4",
      "publishedAt": "2026-10-09T09:52:48Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-grok-cli-0.9.4.piplug",
+     "shasum": "ee4d50b2d31fce4bb3a3533852a460574cf959a9c372645255aa9b15b8b902cd",
+     "sizeBytes": 267622,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -20827,7 +21373,14 @@
     {
      "version": "0.2.23",
      "publishedAt": "2026-10-23T23:03:59Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.casualjim-pi-caveman-0.2.23.piplug",
+     "shasum": "908cc0d7edfc118a87975ce2f81c0e2cb9cfeb64febeb75d0fbd1b93186dc8eb",
+     "sizeBytes": 81080,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -21081,7 +21634,13 @@
     {
      "version": "0.6.0",
      "publishedAt": "2026-09-27T19:09:36Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.andrewjacop-pi-herdr-0.6.0.piplug",
+     "shasum": "39e788fef5bc419ea67a3977cab317ddd450ef1241cbac613a9731bca18c2b0c",
+     "sizeBytes": 594884,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -21113,7 +21672,13 @@
     {
      "version": "1.0.1",
      "publishedAt": "2026-10-11T16:38:51Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-anchor-1.0.1.piplug",
+     "shasum": "fcf413a74cacb626fed408656f13258d8c6539a46eb86b6bbb523b0bd757efbd",
+     "sizeBytes": 302175,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -21176,7 +21741,13 @@
     {
      "version": "1.4.2",
      "publishedAt": "2026-10-17T05:01:04Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-tui-footer-1.4.2.piplug",
+     "shasum": "079628b1d71142951225b23b027f6fc3ca3128620ebd05511e9026eb3bbd8105",
+     "sizeBytes": 141770,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -21458,7 +22029,13 @@
     {
      "version": "0.3.0",
      "publishedAt": "2026-10-21T04:25:41Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-pretty-tui-0.3.0.piplug",
+     "shasum": "da92c9a6f93ed22782ffd73f0c3ebf9bcc110b5c30cba0846755c892a7b0d062",
+     "sizeBytes": 285593,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -21490,7 +22067,13 @@
     {
      "version": "0.10.0",
      "publishedAt": "2026-09-04T09:51:24Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.juanibiapina-pi-extension-settings-0.10.0.piplug",
+     "shasum": "181613c0f09524eb980eda9c90dae613adf0b5b20d80e560bffa8471f8549b53",
+     "sizeBytes": 35652,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -21679,7 +22262,13 @@
     {
      "version": "0.4.15",
      "publishedAt": "2026-10-25T00:40:54Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-zip-0.4.15.piplug",
+     "shasum": "be593a6d0dc0bc46e3066b3f17de6be023a3e9bf13990b1fa0ffade639332ad9",
+     "sizeBytes": 384558,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -21773,7 +22362,13 @@
     {
      "version": "0.7.3",
      "publishedAt": "2026-10-25T01:33:20Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.oira666_pi-subagent-0.7.3.piplug",
+     "shasum": "3ab362181afb2436fcd0cba49ce5c5d90da688087a971602920aa542af45f57f",
+     "sizeBytes": 772106,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -21898,7 +22493,13 @@
     {
      "version": "1.1.2",
      "publishedAt": "2026-10-07T20:12:44Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-openrouter-session-1.1.2.piplug",
+     "shasum": "2be9e8cd7f266362238c19b568850283bf2b891e807b52238f8b392e0440868c",
+     "sizeBytes": 14775,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22053,7 +22654,14 @@
     {
      "version": "0.13.5",
      "publishedAt": "2026-10-18T07:32:33Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-aia-asf-0.13.5.piplug",
+     "shasum": "7818834cf2fe0f3abfb74d63cea793f288343058389c0a1b5df1befb5f86986a",
+     "sizeBytes": 465600,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22181,7 +22789,13 @@
     {
      "version": "2.1.0",
      "publishedAt": "2026-09-30T21:45:35Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-context-prune-2.1.0.piplug",
+     "shasum": "e32497e882db39f0f869c90621695cc821abf4ddb4411528a4389eb9756b55c7",
+     "sizeBytes": 725602,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22213,7 +22827,13 @@
     {
      "version": "0.5.0",
      "publishedAt": "2026-07-03T03:44:40Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-tool-display-0.5.0.piplug",
+     "shasum": "88218eee9bac976a9a60fa6b25d66387ae5ce38dd7ff01da2651480df62f74a2",
+     "sizeBytes": 359136,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22244,7 +22864,13 @@
     {
      "version": "0.5.0",
      "publishedAt": "2026-08-08T23:40:12Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.alasano-pi-linear-0.5.0.piplug",
+     "shasum": "e7b5698a84e2305e73c76da3c17f49cb909c59d11ca6c6d7b628162b4f26c8a5",
+     "sizeBytes": 398241,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22308,7 +22934,13 @@
     {
      "version": "0.7.1",
      "publishedAt": "2026-10-17T02:09:55Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-wokey-0.7.1.piplug",
+     "shasum": "b4b481485b9f7bd6c063958451548dfc83ae20fc70e25de8d6653a484baab047",
+     "sizeBytes": 375676,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22339,7 +22971,13 @@
     {
      "version": "0.3.4",
      "publishedAt": "2026-07-16T14:26:35Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.tmustier-pi-skill-creator-0.3.4.piplug",
+     "shasum": "9a6f76d804acee9d23797574f34d679c4219779d5f351623d9587d2beee9bc1b",
+     "sizeBytes": 19277,
+     "permissions": [
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22433,7 +23071,13 @@
     {
      "version": "2.13.1",
      "publishedAt": "2026-10-22T04:46:31Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-condense-2.13.1.piplug",
+     "shasum": "d2400a268b69fa82205c4f4e03bea8dafc05ff8dd1d95e529ed303ba07c394c3",
+     "sizeBytes": 1052216,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22497,7 +23141,13 @@
     {
      "version": "0.15.0",
      "publishedAt": "2026-10-23T10:33:10Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.dorokuma-herdsman-pi-0.15.0.piplug",
+     "shasum": "3a44dc824297e3cae09f606ea95097de3fadc50e2a804a8d95e524a044a08159",
+     "sizeBytes": 182288,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22655,7 +23305,13 @@
     {
      "version": "0.3.11",
      "publishedAt": "2026-10-16T22:52:49Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.monotykamary-pi-better-grok-0.3.11.piplug",
+     "shasum": "04a822222d3c5107f8773158af558a45af6e68f62a8349c14919e00aa7a9e2e0",
+     "sizeBytes": 129204,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22687,7 +23343,13 @@
     {
      "version": "0.1.25",
      "publishedAt": "2026-10-16T22:52:36Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-hide-providers-0.1.25.piplug",
+     "shasum": "88b8c70c1ed437ba60a1cc9d02891513701bc0a5869d2e2c486ee90b7a1da970",
+     "sizeBytes": 53983,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22719,7 +23381,13 @@
     {
      "version": "0.5.0",
      "publishedAt": "2026-10-13T16:51:01Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.hank-warren-pi-cliproxyapi-provider-0.5.0.piplug",
+     "shasum": "e8d7358d227c66ccc19d9eadcd8df46aa4161e07f22226f0bd2d1cdcc11e5a53",
+     "sizeBytes": 168538,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22846,7 +23514,13 @@
     {
      "version": "1.6.1",
      "publishedAt": "2026-10-09T22:56:57Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.samfp-pi-memory-1.6.1.piplug",
+     "shasum": "4213884d9ac10cbbe0b1741483d286f247705ccd863aa80c2cbdbc440972b781",
+     "sizeBytes": 249203,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22878,7 +23552,13 @@
     {
      "version": "0.4.1",
      "publishedAt": "2026-07-27T07:35:56Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.zgltyq-pi-provider-kimi-code-0.4.1.piplug",
+     "shasum": "013557aaa96fff99aa2006d247b977dac1fed44b1a070af64b052b00e73a2ebd",
+     "sizeBytes": 54840,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22909,7 +23589,14 @@
     {
      "version": "0.2.29",
      "publishedAt": "2026-10-06T22:55:52Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.weave-os-router-0.2.29.piplug",
+     "shasum": "390a2cb3a48f59b1be824cad9c7a56a9ff2b3cf566682d808f6eae360afffa95",
+     "sizeBytes": 217926,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -22971,7 +23658,13 @@
     {
      "version": "0.13.1",
      "publishedAt": "2026-10-22T13:18:05Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-web-simple-0.13.1.piplug",
+     "shasum": "8ccec00d93d712bbfc3035e719dad1913218e08f55e7ca736b3541e112f1d9d5",
+     "sizeBytes": 69808,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23004,7 +23697,14 @@
     {
      "version": "2.1.0",
      "publishedAt": "2026-10-11T11:13:15Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.alexeiled-pi-plan-exec-2.1.0.piplug",
+     "shasum": "e07ebfa22e892a221f406f1b5f23a503e1a74aba3c192571c5d037b61c259b8d",
+     "sizeBytes": 845891,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23068,7 +23768,13 @@
     {
      "version": "0.4.0",
      "publishedAt": "2026-09-20T16:04:55Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.specpi-jev-guard-0.4.0.piplug",
+     "shasum": "8ad1b523868d9fffccf9b8fb051e8828460bad39b0b3deeb5f8df2a67ad233e3",
+     "sizeBytes": 108240,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23161,7 +23867,13 @@
     {
      "version": "0.18.0",
      "publishedAt": "2026-08-13T11:18:07Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-xai-0.18.0.piplug",
+     "shasum": "4364b1ef8bf7952d76a7ba03b24e1a7432974ecc7792a4267026b0fee0da19d3",
+     "sizeBytes": 822630,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23255,7 +23967,13 @@
     {
      "version": "0.1.5",
      "publishedAt": "2026-09-22T11:45:55Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.tmustier-pi-tab-status-0.1.5.piplug",
+     "shasum": "223ca07d60fd1d21e4146bad1b73e638f07f1b4e043a01f6193985548baf4e7b",
+     "sizeBytes": 121681,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23442,7 +24160,13 @@
     {
      "version": "2.0.2",
      "publishedAt": "2026-10-21T20:53:03Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.alphazede-bearing-lite-2.0.2.piplug",
+     "shasum": "8791d8c0450b8b96ac1f22a07c53caa6f91405abfc7e85cc237fcbb52e9174aa",
+     "sizeBytes": 230969,
+     "permissions": [
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23474,7 +24198,14 @@
     {
      "version": "0.7.0",
      "publishedAt": "2026-10-04T04:13:15Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.flowot-pi-pition-0.7.0.piplug",
+     "shasum": "19751e4cecebd00f1c373ccb3a68bfb0a3b066fd4a8fa4714bc8ccefebbab1ec",
+     "sizeBytes": 34311,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23506,7 +24237,13 @@
     {
      "version": "0.20.9",
      "publishedAt": "2026-10-24T13:10:43Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.opensec-pi-subagents-0.20.9.piplug",
+     "shasum": "66f4f371f3e5128e94dbda9f5fdde5cbdce343db300b83f6b71f3c6fbb7c0d9a",
+     "sizeBytes": 699196,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23538,7 +24275,13 @@
     {
      "version": "0.7.1",
      "publishedAt": "2026-10-16T19:35:50Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-minimal-footer-0.7.1.piplug",
+     "shasum": "ca26371090f47375b66e18f628f11dd690932850e4910b77b7b3c55d92f90e62",
+     "sizeBytes": 56994,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23569,7 +24312,13 @@
     {
      "version": "2.2.0",
      "publishedAt": "2026-10-16T16:39:25Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.shopify-ai-toolkit-2.2.0.piplug",
+     "shasum": "2ef6f60dee8ab4a13a2bf52a49b03b3664dee9771ceafdbcae4f1fcd327bb787",
+     "sizeBytes": 7770882,
+     "permissions": [
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23601,7 +24350,13 @@
     {
      "version": "0.9.1",
      "publishedAt": "2026-10-16T05:24:50Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-auto-model-0.9.1.piplug",
+     "shasum": "c5353076f6ffd07d26c196f0dd38c1a6e5e5f2620326537c9c96f39069571991",
+     "sizeBytes": 123513,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23759,7 +24514,13 @@
     {
      "version": "0.3.6",
      "publishedAt": "2026-10-16T09:27:52Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-hang-guard-0.3.6.piplug",
+     "shasum": "e61e9d02850e570373ef6f545a2257592245dd733aeb77d54d3e8076af7e7ed9",
+     "sizeBytes": 88016,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23822,7 +24583,14 @@
     {
      "version": "3.0.2",
      "publishedAt": "2026-10-22T23:44:34Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-dream-rsi-3.0.2.piplug",
+     "shasum": "f3bf3adde979963450f04acbf2c7bd7c5a5388fb4cb1b27fc2a45ad0ed3dd6d4",
+     "sizeBytes": 721952,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23853,7 +24621,14 @@
     {
      "version": "2.0.20",
      "publishedAt": "2026-10-23T23:04:31Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.casualjim-pi-herdr-agents-2.0.20.piplug",
+     "shasum": "ed0bc61fea8f76cf9cd14a95fe7108c7f03a6b4205d44bb9b2562b27c9002520",
+     "sizeBytes": 537068,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -23884,7 +24659,13 @@
     {
      "version": "0.2.23",
      "publishedAt": "2026-10-23T23:03:46Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.casualjim-pi-cavekit-0.2.23.piplug",
+     "shasum": "bd1c5dea7cf85405b34277287dea65859304e835d1a082c9617ef4f4796f3f53",
+     "sizeBytes": 49606,
+     "permissions": [
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24013,7 +24794,13 @@
     {
      "version": "0.20.0",
      "publishedAt": "2026-10-21T21:41:48Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-continual-harness-0.20.0.piplug",
+     "shasum": "dbe9e0749d1366ef8f1d4790a30387f0854648b9c370abb52e66b281ded27fc4",
+     "sizeBytes": 402119,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24045,7 +24832,13 @@
     {
      "version": "0.3.1",
      "publishedAt": "2026-09-21T01:59:27Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.carlosgtrz-pi-codex-aliases-0.3.1.piplug",
+     "shasum": "4df0abc7e48fb57ab00170f3d89af251829fd24f39c9425a3fbd83f0141e9ca9",
+     "sizeBytes": 13511,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24110,7 +24903,14 @@
     {
      "version": "0.1.16",
      "publishedAt": "2026-10-22T22:27:41Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-beyin-0.1.16.piplug",
+     "shasum": "7a954c40ef5bc1ee256b2361ae78d4f32ffb062f9f1ba9a6ee88c236912ac0bf",
+     "sizeBytes": 126855,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24204,7 +25004,13 @@
     {
      "version": "0.26.1",
      "publishedAt": "2026-10-15T00:10:40Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-memory-wiki-all-you-need-0.26.1.piplug",
+     "shasum": "38fe1842768c5243b7ccae10fc22809726c8fc2bb76bdbde5fbdeca754209f9e",
+     "sizeBytes": 86763,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24331,7 +25137,13 @@
     {
      "version": "0.5.5",
      "publishedAt": "2026-10-06T06:22:17Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.alexeiled-pi-subagents-bridge-0.5.5.piplug",
+     "shasum": "5914b6a3d5e6d87e5d2ba6073dfde76f737c672533536703dcb8a6a20fae0301",
+     "sizeBytes": 162359,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24362,7 +25174,13 @@
     {
      "version": "0.1.19",
      "publishedAt": "2026-10-23T23:03:00Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.casualjim-pi-headroom-0.1.19.piplug",
+     "shasum": "14aab60c0f534768febcb28c2948d406cbbcdeaeb432f3b6616d6693ac4986b0",
+     "sizeBytes": 62846,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24521,7 +25339,13 @@
     {
      "version": "0.1.0",
      "publishedAt": "2026-08-17T12:36:44Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-alibaba-bailian-0.1.0.piplug",
+     "shasum": "6c14b84fb529e03882365a67c4725fae70926f43637f0894582515c2baffe13d",
+     "sizeBytes": 21312,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24552,7 +25376,13 @@
     {
      "version": "0.5.0-beta.14",
      "publishedAt": "2026-10-16T05:28:14Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.bookmark-research-0.5.0-beta.14.piplug",
+     "shasum": "339bdbfaf786dd802b210a8f649bdc50ea072120576e5a80946afbd494c791b7",
+     "sizeBytes": 288486,
+     "permissions": [
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24648,7 +25478,13 @@
     {
      "version": "1.17.1",
      "publishedAt": "2026-10-16T11:16:36Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-subagents-lite-1.17.1.piplug",
+     "shasum": "d66b037ea662eca1df291b7f7957f68fcd58a4ee30f409d07088404f93a88fae",
+     "sizeBytes": 585654,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24680,7 +25516,13 @@
     {
      "version": "1.1.19",
      "publishedAt": "2026-10-23T03:40:50Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-all-search-1.1.19.piplug",
+     "shasum": "8a1ba0166e019dd1ac7e8168866c45cf381fbdfd049f09b3808acf098879bf43",
+     "sizeBytes": 5813,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24742,7 +25584,13 @@
     {
      "version": "0.3.0",
      "publishedAt": "2026-10-22T23:18:51Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.indexyz-pi-provider-sub2api-0.3.0.piplug",
+     "shasum": "111211422a7e76310222b23b841aab3f4c77912453a7df46dd0385e9466982aa",
+     "sizeBytes": 203857,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24839,7 +25687,13 @@
     {
      "version": "1.0.30",
      "publishedAt": "2026-09-22T21:17:40Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-cn-free-model-providers-1.0.30.piplug",
+     "shasum": "7def88701ded6f2337b7bb3578cc5b729f6c675991f8055be91e3b34c0658358",
+     "sizeBytes": 164224,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -24870,7 +25724,13 @@
     {
      "version": "0.0.22",
      "publishedAt": "2026-10-22T12:18:49Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.pi-openai-codex-fast-0.0.22.piplug",
+     "shasum": "33b8dfa71cd978e58eb6f47e3e36f8cbc385675b86b802c439a7d3091d4a6d1d",
+     "sizeBytes": 26298,
+     "permissions": [
+      "agent.extension"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],
@@ -25469,9 +26329,16 @@
    "safety_notes": null,
    "versions": [
     {
-     "version": "4.3.32",
+     "version": "4.3.34",
      "publishedAt": "2026-10-22T07:41:22Z",
-     "permissions": [],
+     "url": "https://github.com/Chestnuts-Sisyphus/pi-market/releases/download/pkgs-40182242008/pi-pkg.ferris1225-pi-subagents-4.3.34.piplug",
+     "shasum": "f53b9d1eac9fcc286d737a17d0f86493060290c362f5491b3f1fb496ab0ef83c",
+     "sizeBytes": 538106,
+     "permissions": [
+      "agent.extension",
+      "agent.prompt.inject"
+     ],
+     "minPiDesktop": ">=0.21.0",
      "yanked": false
     }
    ],

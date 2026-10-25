@@ -803,6 +803,8 @@ def cmd_verify(args):
                 continue
             local = os.path.join(in_base, "packages", os.path.basename(url))
             if not os.path.exists(local):
+                if getattr(args, "allow_missing", False):
+                    continue
                 problems.append(f"{pid}: artifact missing {os.path.basename(url)}")
                 continue
             h = hashlib.sha256(open(local, "rb").read()).hexdigest()
@@ -881,6 +883,8 @@ def main():
 
     v = sub.add_parser("verify", help="release gate")
     v.add_argument("--only-tag", default=None, help="gate only packages published under this tag")
+    v.add_argument("--allow-missing", action="store_true",
+                   help="skip artifacts that are not on this machine (published from CI)")
     v.set_defaults(func=cmd_verify)
 
     s = sub.add_parser("serve", help="loopback HTTP server (dev fallback)")

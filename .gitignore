@@ -1,6 +1,7 @@
-# generated inputs are ignored, except the small build state CI needs to stay incremental
 cache/*
 !cache/built.json
+!cache/npm-versions.json
+!cache/translations.json
 plugins/
 packages/
 *.tmp
