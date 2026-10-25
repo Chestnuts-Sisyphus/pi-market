@@ -37,6 +37,9 @@ jobs:
       - name: Resolve npm versions
         run: python pimarket.py versions || true
 
+      - name: Translate new descriptions (free tiers, cached)
+        run: python translate.py --batch 20 --workers 4 || true
+
       - name: Package new packages (bounded)
         run: python pimarket.py build-top --limit 150 --max-mb 8 --skip-built || true
 
@@ -72,6 +75,17 @@ jobs:
             echo "nothing new to publish"
           fi
 
+      - name: Guard against a shrinking catalog
+        run: |
+          python - <<'PY'
+          import json
+          idx = json.load(open("cache/pi-index.json", encoding="utf-8"))["count"]
+          cat = len(json.load(open("catalog.json", encoding="utf-8"))["plugins"])
+          print(f"index={idx} catalog={cat}")
+          if cat < idx * 0.95:
+              raise SystemExit(f"catalog shrank below 95% of the index ({cat}/{idx})")
+          PY
+
       - name: Release gate (hashes, zip shape, manifest rules)
         run: python pimarket.py verify --only-tag "$TAG"
 
@@ -79,7 +93,7 @@ jobs:
         run: |
           git config user.name  "pi-market bot"
           git config user.email "pi-market@users.noreply.github.com"
-          git add catalog.json lock.json cache/built.json
+          git add catalog.json lock.json cache/built.json cache/translations.json
           if git diff --cached --quiet; then
             echo "no catalog change"
           else

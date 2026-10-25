@@ -658,8 +658,26 @@ def _write_catalog(plugins, stats, base_url):
     return cat
 
 
+def load_translations() -> dict:
+    """zh-CN copy per package, produced by translate.py (catalog i18n block)."""
+    data = load_json(os.path.join(CACHE, "translations.json"), {}) or {}
+    return (data.get("entries") or {})
+
+
+def zh_block(name: str, translations: dict):
+    zh = (translations.get(name) or {}).get("zh")
+    if not zh:
+        return None
+    return {"zh-CN": {"description": zh}}
+
+
 def cmd_catalog(args):
     plugins, stats = _catalog_entries(args.base_url, False)
+    tr = load_translations()
+    for p in plugins:
+        b = zh_block(p["name"], tr)
+        if b:
+            p["i18n"] = b
     _write_catalog(plugins, stats, args.base_url)
 
 
@@ -673,6 +691,7 @@ def cmd_publish(args):
     allowed = set(pol["licenses"])
     built = load_json(BUILT, {})
     prev = (load_json(LOCK, {}) or {}).get("packages", {})
+    translations = load_translations()
     releases_base = args.releases_base.rstrip("/")
 
     publishable = {n: r for n, r in built.items() if r.get("license") in allowed}
@@ -735,6 +754,9 @@ def cmd_publish(args):
             "repository": None, "readme_markdown": None, "safety_notes": None,
             "versions": [vobj],
         })
+        zh = (translations.get(name) or {}).get("zh")
+        if zh:
+            plugins[-1]["i18n"] = {"zh-CN": {"description": zh}}
     stats["entries"] = len(plugins)
     _write_catalog(plugins, stats, None)
 
@@ -831,7 +853,10 @@ def main():
                    help="also resolve npm versions (optionally for N missing packages)")
     i.set_defaults(func=cmd_index)
 
-    sub.add_parser("versions", help="resolve npm versions only").set_defaults(func=cmd_versions)
+    vp = sub.add_parser("versions", help="resolve npm versions only")
+    vp.add_argument("--fetch-versions", nargs="?", type=int, const=0, default=None,
+                    help="also fetch N missing packages directly from the registry")
+    vp.set_defaults(func=cmd_versions)
 
     b = sub.add_parser("build", help="package named packages")
     b.add_argument("names", nargs="+")

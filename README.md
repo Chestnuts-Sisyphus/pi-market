@@ -40,22 +40,43 @@ plugins/pi-pkg.<slug>/
 
 | 项 | 值 |
 | --- | --- |
-| 市场里**可看/可搜/可查详情** | **全部 5,3xx 条**（目录全量列出；未打包的显示为不可安装） |
-| **可一键安装** | 已打包并发布的部分（随每次 refresh 增长；见 `lock.json`） |
-| 不可安装的原因 | ① 有运行时依赖（`.piplug` 不能装依赖，市场安装也不跑 npm）；② 超过 2000 文件 / 50 MB；③ 纯主题/提示词包；④ 无许可证（不公开分发） |
-| 有依赖的包怎么装 | 用 App 内 **导入 pi 扩展**（宿主会用受限安装器装依赖），或本地 `pimarket.py build` 后走「安装插件包」 |
+| 市场里**可看/可搜/查详情** | **全部 5,291 条**（`pi.dev` 目录全量；未打包的显示为不可安装） |
+| **可一键安装** | 已打包并发布的部分（见 `lock.json`，随每次 refresh 增长） |
+| 中文文案 | 全部条目的**描述**已译成简体中文（`cache/translations.json` → catalog `i18n.zh-CN`），包名保留原文 |
+
+**为什么不是全部都能装**（在已尝试的最高下载量样本里实测）：
+
+| 原因 | 数量（153 个已取到元数据的样本） |
+| --- | --- |
+| 已打包成功 | 74 |
+| **有运行时依赖**（`.piplug` 不能装依赖，市场安装也不跑 npm） | **78** |
+| 声明的入口在包里不存在 | 1 |
+
+宿主的两条硬约束决定了上限：`.piplug` 打包排除 `node_modules`，且**市场安装不会执行 `npm install`**；
+另外包内文件 ≤2000、体积 ≤50 MB。所以「几千个可装」不可能，只能做到「几千个可选」。
+有依赖的包请用 App 内 **导入 pi 扩展**（宿主会用受限安装器装依赖），或本地 `pimarket.py build` 后走「安装插件包」。
+
+## 中文文案
+
+- 引擎：只用**免费额度**的通道（智谱 GLM-Flash / Groq / OpenRouter free / Gemini free），
+  按 `FREE-FLEET` 里的 key 轮换；不消耗付费额度。
+- 方式：`translate.py` 批量翻译 **描述**（包名/标识符不译），逐条写入 `cache/translations.json`，
+  **可断点续跑**（已译的不再请求）。
+- 合并：`pimarket.py publish` 把译文写成 catalog 的 `i18n.zh-CN` 块，宿主按界面语言自动切换。
+- 复跑：`python translate.py --batch 20 --workers 8`（CI 每次也会补译新增包）。
 
 ## 自动化（无需人工）
 
 `.github/workflows/refresh.yml`，每周一 03:17 UTC 运行（也可 `workflow_dispatch` 手动触发）：
 
 1. `pimarket.py index` 重抓 pi.dev 目录
-2. `pimarket.py versions` 解析 npm 版本
-3. `pimarket.py build-top --limit 150 --skip-built` 增量打包（有预算上限）
-4. `pimarket.py publish` 生成 `catalog.json` + `lock.json`
-5. 把本次新增的 `.piplug` 上传到一个**新的不可变 tag**（`pkgs-<run_id>`）
-6. `pimarket.py verify --only-tag` 过发布闸（sha256 / sizeBytes / store-only zip / 根 manifest / id 规则）
-7. 提交 `catalog.json`、`lock.json`、`cache/built.json`
+2. `pimarket.py versions` 解析 npm 版本（**结果缓存已入库**，否则会出现"只有已打包的条目"的目录）
+3. `translate.py` 补译新增描述（免费通道，缓存入库）
+4. `pimarket.py build-top --limit 150 --skip-built` 增量打包（有预算上限）
+5. `pimarket.py publish` 生成 `catalog.json` + `lock.json`
+6. 把本次新增的 `.piplug` 上传到一个**新的不可变 tag**（`pkgs-<run_id>`）
+7. `pimarket.py verify --only-tag` 过发布闸（sha256 / sizeBytes / store-only zip / 根 manifest / id 规则）
+8. 提交 `catalog.json`、`lock.json`、`cache/built.json`、`cache/translations.json`
 
 ## 可复现与可回滚
 
