@@ -4,16 +4,19 @@ PI-Desktop 的**插件目录适配层**：把 [pi.dev](https://pi.dev/packages) 
 （当前 5,3xx 个）转成 PI-Desktop 能读的 `catalog v2`，并把其中能打包的那些做成
 `.piplug` 发布到 GitHub Release，让**原生市场**里可以直接搜索、看详情、**一键安装**。
 
-- 目录地址（客户端"自定义"渠道填这个）：
-  `https://raw.githubusercontent.com/Chestnuts-Sisyphus/pi-market/main/catalog.json`
+- 目录地址（客户端"自定义"渠道填这个，**主用**）：
+  `https://chestnuts-sisyphus.github.io/pi-market/catalog.json`（GitHub Pages，Fastly CDN）
+- 备用（`raw.githubusercontent.com` 在部分网络被重置时才有用）：
+  `https://fastly.jsdelivr.net/gh/Chestnuts-Sisyphus/pi-market@main/catalog.json`
+- 目录是**精简版**（`slim.py`：只留卡片与安装必需字段，832 KB / 1,653 条），因为这条链路带宽被压到 ~26 KB/s，字节数直接等于刷新耗时。
 - 安装动作完全由 PI-Desktop 原生安装器完成（含权限确认），本项目**不改客户端**、
   **不写它的数据库**、**不常驻任何进程**。
 
 ## 一分钟接入（一次性）
 
 1. 设置 → 插件市场来源 → **自定义**
-2. 填上面的 `catalog.json` 地址
-3. 扩展 → 市场 → **刷新市场** → 计数从几十变成 5,3xx
+2. 填上面的 GitHub Pages 地址
+3. 扩展 → 市场 → **刷新市场** → 计数变成 **1,653**
 
 之后每次想装什么，市场里搜 → 点开 → **安装** → 权限弹窗确认，就装好了。
 （如果从开始菜单启动时读不到环境变量，用一次 `start-pi-with-pi-market.cmd`。）

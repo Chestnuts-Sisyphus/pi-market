@@ -55,6 +55,9 @@ jobs:
             --release-tag "$TAG" \
             --only-installable
 
+      - name: Slim the catalog (fetch is bandwidth-bound)
+        run: python slim.py
+
       - name: Upload the new tag's assets
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

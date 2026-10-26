@@ -10,3 +10,4 @@ packages/
 *.bak-*
 __pycache__/
 .backup/
+catalog.full.json
