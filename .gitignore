@@ -2,7 +2,11 @@ cache/*
 !cache/built.json
 !cache/npm-versions.json
 !cache/translations.json
+!cache/screen.json
+!cache/npm-latest.json
 plugins/
 packages/
 *.tmp
+*.bak-*
 __pycache__/
+.backup/

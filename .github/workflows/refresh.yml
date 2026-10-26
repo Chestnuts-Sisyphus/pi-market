@@ -40,14 +40,20 @@ jobs:
       - name: Translate new descriptions (free tiers, cached)
         run: python translate.py --batch 20 --workers 4 || true
 
-      - name: Package new packages (bounded)
-        run: python pimarket.py build-top --limit 150 --max-mb 8 --skip-built || true
+      - name: Screen every package (static gate)
+        run: python screen.py --meta cache/npm-latest.json --workers 8 || true
+
+      - name: Package new packages (screened, bounded)
+        run: |
+          python build_from_screen.py --only ok --workers 6 --limit 200 --time-budget 1800 || true
+          python build_from_screen.py --only ok-deps --workers 2 --limit 60 --time-budget 900 || true
 
       - name: Publish catalog + lock
         run: |
           python pimarket.py publish \
             --releases-base "$RELEASES_BASE" \
-            --release-tag "$TAG"
+            --release-tag "$TAG" \
+            --only-installable
 
       - name: Upload the new tag's assets
         env:
@@ -77,13 +83,20 @@ jobs:
 
       - name: Guard against a shrinking catalog
         run: |
+          git show HEAD:lock.json > /tmp/prev-lock.json || echo '{}' > /tmp/prev-lock.json
           python - <<'PY'
-          import json
-          idx = json.load(open("cache/pi-index.json", encoding="utf-8"))["count"]
+          import json, os
+          cur = json.load(open("lock.json", encoding="utf-8"))["packages"]
+          try:
+              prev = json.load(open("/tmp/prev-lock.json", encoding="utf-8")).get("packages", {})
+          except Exception:
+              prev = {}
           cat = len(json.load(open("catalog.json", encoding="utf-8"))["plugins"])
-          print(f"index={idx} catalog={cat}")
-          if cat < idx * 0.95:
-              raise SystemExit(f"catalog shrank below 95% of the index ({cat}/{idx})")
+          print(f"installable={len(cur)} (prev {len(prev)}) catalog_entries={cat}")
+          if cat != len(cur):
+              raise SystemExit(f"catalog advertises {cat} entries but only {len(cur)} have artifacts")
+          if prev and len(cur) < len(prev) * 0.9:
+              raise SystemExit(f"installable shrank: {len(cur)} < 90% of {len(prev)}")
           PY
 
       - name: Release gate (hashes, zip shape, manifest rules)

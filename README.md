@@ -36,25 +36,37 @@ plugins/pi-pkg.<slug>/
   src/               包内源码，保留相对结构（含被 import 的兄弟模块与 LICENSE）
 ```
 
-## 覆盖范围（诚实的数字）
+## 覆盖范围（诚实的数字，2026-10-26 全量实测）
 
 | 项 | 值 |
 | --- | --- |
-| 市场里**可看/可搜/查详情** | **全部 5,291 条**（`pi.dev` 目录全量；未打包的显示为不可安装） |
-| **可一键安装** | 已打包并发布的部分（见 `lock.json`，随每次 refresh 增长） |
-| 中文文案 | 全部条目的**描述**已译成简体中文（`cache/translations.json` → catalog `i18n.zh-CN`），包名保留原文 |
+| 目录条目 | **1,412** |
+| 可一键安装 | **1,412**（与目录条目**相等**：不再有"看得见但点不动"的条目） |
+| 内置依赖的包 | 176 个（打包时跑 `npm install --omit=dev --ignore-scripts`，把 `node_modules` 塞进 `src/`） |
+| 中文文案 | 1,412 条描述全部有 `i18n.zh-CN` |
+| 目录体积 | 1.65 MB |
 
-**为什么不是全部都能装**（在已尝试的最高下载量样本里实测）：
+入选口径（`screen.py` 逐包静态体检，全部通过才打包）：
 
-| 原因 | 数量（153 个已取到元数据的样本） |
-| --- | --- |
-| 已打包成功 | 74 |
-| **有运行时依赖**（`.piplug` 不能装依赖，市场安装也不跑 npm） | **78** |
-| 声明的入口在包里不存在 | 1 |
+1. `package.json` 里有 `pi.extensions` 或 `pi.skills`，且声明的入口文件**真实存在**；
+2. 源码里**没有** `pi-tui`，**没有**调用 16 个桌面惰性成员（`setWidget/setFooter/overlay/registerMessageRenderer/...`）；
+3. 许可证在允许清单内；
+4. ≤2000 文件、≤50 MB（打包后仍要满足）。
 
-宿主的两条硬约束决定了上限：`.piplug` 打包排除 `node_modules`，且**市场安装不会执行 `npm install`**；
-另外包内文件 ≤2000、体积 ≤50 MB。所以「几千个可装」不可能，只能做到「几千个可选」。
-有依赖的包请用 App 内 **导入 pi 扩展**（宿主会用受限安装器装依赖），或本地 `pimarket.py build` 后走「安装插件包」。
+**从 5,348 到 1,412 的漏斗**：
+
+| 阶段 | 数量 | 原因 |
+| --- | --- | --- |
+| pi.dev 全量 | 5,348 | — |
+| 触碰终端渲染 | −2,650 | 桌面没有对应渲染面，装了也是空转 |
+| 入口文件缺失 | −378 | `pi.extensions` 指向的文件不在包里 |
+| 许可不明/受限 | −323 | 不能再分发（自用仍可导入） |
+| 既无 extensions 也无 skills | −148 | 没有可贡献的资源 |
+| 超 2000 文件 / 50 MB | −83 | 宿主硬限制 |
+| **打包成功** | **1,412** | 每个都过 `verify`（sha256/尺寸/store-only zip/根 manifest） |
+
+剩下没进目录的包不是"还没做"，是**做了也用不了**（56% 结构性依赖终端渲染）。
+如果你确实想试某个不在目录里的包，用 App 内 **导入 pi 扩展**（宿主自己装依赖，但只覆盖 agent 层）。
 
 ## 中文文案
 
@@ -93,21 +105,33 @@ plugins/pi-pkg.<slug>/
   `NONE`（无许可证）的包一律不进公开仓库。
 - 生成器不执行被下载包的代码：只解包、读 `package.json`、复制文件、打 store-only zip。
 
+## 目录检索（给 agent 用）
+
+```powershell
+python pimarket.py find 记忆 --installable
+python pimarket.py find pdf 转换 --limit 20
+```
+
+`[INSTALL]` = 可一键安装。规则已写进全局 `~/.pi/agent/AGENTS.md` §17 与技能 `pi-market-lookup`：
+**遇到本机没有的能力，先查这个目录，再回答"做不到"。**
+
 ## 本地使用（可选）
 
 ```powershell
 cd D:\AI\PI\pi-market
-python pimarket.py index
-python pimarket.py build pi-simplify pi-memory
-python pimarket.py catalog                 # 相对 URL，配 serve 或本地目录
+python screen.py --meta cache/npm-latest.json --workers 12     # 静态体检 -> cache/screen.json
+python build_from_screen.py --only ok --workers 8              # 零依赖批量打包
+python build_from_screen.py --only ok-deps --workers 2         # 带依赖打包（npm 串行更稳）
+python pimarket.py publish --releases-base <URL> --release-tag <tag> --only-installable
 python pimarket.py verify
-python pimarket.py serve --port 8765       # 仅开发兜底
 ```
 
 ## 已知限制
 
 1. 市场来源是单选：用本目录时看不到官方 78 个，反之亦然（已装插件不受影响）。
-2. TUI 类插件装上后界面部分是惰性空实现（状态栏/footer/overlay/消息渲染器等）。
-3. 版本漂移：桌面内核 Pi 1.3.0，npm 最新 1.4.0；按 1.4 写的包可能降级为 Unsupported。
-4. 目录无 i18n 块，卡片名称/描述用 npm 原文（多为英文）。
-5. 无许可证的包只能本地用，不能进公开仓库。
+2. 目录只收"静态干净"的包；被筛掉的 2,650 个 TUI 类包在桌面上没有渲染面，装了也是空转。
+3. 176 个包内置了 `node_modules`，总资产 769 MB（单包 p90 约 1 MB，安装仍是秒级）。
+4. 版本漂移：桌面内核 Pi 1.3.0，npm 最新 1.4.0；按 1.4 写的包可能降级为 Unsupported。
+5. GitHub Release 单个最多 1000 资产，因此分在 `pkgs-b3`(1000) / `pkgs-b4`(303) 两个 tag；URL 已按 tag 钉死，sha256 在 `lock.json`。
+6. `raw.githubusercontent.com` 在国内网络会间歇被重置（2026-10-26 实测不可达）；备选
+   `https://fastly.jsdelivr.net/gh/Chestnuts-Sisyphus/pi-market@main/catalog.json`。

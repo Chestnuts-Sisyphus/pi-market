@@ -59,6 +59,7 @@ POLICY = os.path.join(BASE, "policy.json")
 ID_PREFIX = "pi-pkg."
 UA = "pimarket/2.0 (+local adapter)"
 SKIP_DIRS = {".git", "node_modules", ".github", ".idea", ".vscode", "__pycache__"}
+PACK_SKIP_DIRS = {".git", ".github", ".idea", ".vscode", "__pycache__"}
 ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
 SEMVER = re.compile(r"^\d+\.\d+\.\d+([-+].*)?$")
 
@@ -329,7 +330,7 @@ def expand_extensions(ext, work, limit):
 def pack_piplug(plugin_dir: str, out_path: str) -> tuple[int, str]:
     entries = []
     for dirpath, dirnames, filenames in os.walk(plugin_dir):
-        dirnames[:] = sorted(d for d in dirnames if d not in SKIP_DIRS)
+        dirnames[:] = sorted(d for d in dirnames if d not in PACK_SKIP_DIRS)
         for fn in sorted(filenames):
             f = os.path.join(dirpath, fn)
             entries.append((os.path.relpath(f, plugin_dir).replace("\\", "/"), f))
@@ -385,8 +386,10 @@ def bundle_deps(work: str, deps: dict) -> tuple[int, int]:
         with open(os.path.join(tmp, "package.json"), "w", encoding="utf-8") as fh:
             json.dump(pkg, fh)
         subprocess.run([npm, "install", "--omit=dev", "--ignore-scripts", "--no-audit", "--no-fund",
-                        "--legacy-peer-deps", "--loglevel=error"], cwd=tmp, check=False,
-                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=600)
+                        "--legacy-peer-deps", "--loglevel=error", "--prefer-offline",
+                        "--fetch-retries=1", "--fetch-timeout=20000", "--no-progress"],
+                       cwd=tmp, check=False,
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=180)
         nm = os.path.join(tmp, "node_modules")
         if not os.path.isdir(nm):
             return 0, 0
@@ -408,6 +411,51 @@ def bundle_deps(work: str, deps: dict) -> tuple[int, int]:
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def copy_tree(src_root: str, dst_root: str) -> tuple[int, int]:
+    """Copy a tree verbatim, keeping nested node_modules (they can carry pinned versions)."""
+    files = size = 0
+    for dp, _dn, fn in os.walk(src_root):
+        for f in fn:
+            p = os.path.join(dp, f)
+            if os.path.islink(p):
+                continue
+            relp = os.path.relpath(p, src_root)
+            _copy(p, os.path.join(dst_root, relp))
+            files += 1
+            size += os.path.getsize(p)
+    return files, size
+
+
+TUI_MEMBER_RE = re.compile(
+    r"\.(setWidget|setFooter|setHeader|setTitle|custom|overlay|onTerminalInput|"
+    r"setWorkingVisible|setWorkingIndicator|setHiddenThinkingLabel|pasteToEditor|"
+    r"editor|registerMessageRenderer|registerEntryRenderer|navigateTree|shutdown)\s*\(")
+
+
+def tui_scan(root: str) -> list:
+    """Reasons a package cannot render here (empty list == statically clean)."""
+    reasons = []
+    for dp, dn, fn in os.walk(root):
+        dn[:] = [d for d in dn if d not in (".git", "node_modules")]
+        for f in fn:
+            if not f.endswith((".js", ".mjs", ".cjs", ".ts", ".tsx")):
+                continue
+            p = os.path.join(dp, f)
+            try:
+                if os.path.getsize(p) > 1_500_000:
+                    continue
+                src = open(p, encoding="utf-8", errors="ignore").read()
+            except OSError:
+                continue
+            if "pi-tui" in src and "pi-tui" not in reasons:
+                reasons.append("pi-tui")
+            for name in sorted(set(TUI_MEMBER_RE.findall(src))):
+                tag = "ui." + name
+                if tag not in reasons:
+                    reasons.append(tag)
+    return reasons
+
+
 def read_license(work: str) -> str:
     pj = load_json(os.path.join(work, "package.json"), {}) or {}
     lic = pj.get("license")
@@ -418,7 +466,7 @@ def read_license(work: str) -> str:
     return str(lic or "NONE")
 
 
-def build_one(name: str, force: bool = False) -> dict:
+def build_one(name: str, force: bool = False, strict_tui: bool = False) -> dict:
     pol = policy()
     meta = npm_meta(name)
     ver, vmeta = npm_latest(meta)
@@ -449,13 +497,21 @@ def build_one(name: str, force: bool = False) -> dict:
     ext = expand_extensions(ext, work, pol["max_agent_extensions"])
     skills = [s for s in skills if os.path.exists(os.path.join(work, s))]
 
-    if deps and pol.get("bundle_dependencies"):
+    if strict_tui:
+        bad = tui_scan(work)
+        if bad:
+            rec.update(ok=False, tui_coupled=True,
+                       error="tui-coupled: " + ", ".join(bad[:4]))
+            return rec
+
+    need_bundle = bool(deps) and bool(ext)
+    if need_bundle and pol.get("bundle_dependencies"):
         files, size = bundle_deps(work, deps)
         rec["bundledDeps"] = files
         if not files:
             rec.update(ok=False, error="dependency bundle failed")
             return rec
-    elif deps:
+    elif need_bundle:
         rec.update(ok=False, needs_import=True,
                    error="runtime dependencies (" + ", ".join(sorted(deps)[:4]) +
                          ") — use the in-app pi-extension import, or enable bundle_dependencies")
@@ -467,8 +523,11 @@ def build_one(name: str, force: bool = False) -> dict:
         shutil.rmtree(out_dir, ignore_errors=True)
     os.makedirs(out_dir, exist_ok=True)
     files, size = copy_keep(work, os.path.join(out_dir, "src"), keep or ["."])
-    if deps and pol.get("bundle_dependencies"):
-        files += rec.get("bundledDeps") or 0
+    if need_bundle and pol.get("bundle_dependencies"):
+        nf, nsz = copy_tree(os.path.join(work, "node_modules"),
+                            os.path.join(out_dir, "src", "node_modules"))
+        files += nf
+        size += nsz
     for extra in ("package.json", "README.md", "LICENSE", "LICENSE.md", "LICENCE"):
         f = os.path.join(work, extra)
         if os.path.exists(f):
@@ -534,7 +593,7 @@ def cmd_build(args):
     results = []
     for n in args.names:
         try:
-            r = build_one(n, force=args.force)
+            r = build_one(n, force=args.force, strict_tui=getattr(args, "strict_tui", False))
         except Exception as e:
             r = {"name": n, "ok": False, "error": f"{type(e).__name__}: {e}"}
         results.append(r)
@@ -556,7 +615,7 @@ def cmd_build_top(args):
         if args.skip_built and name in built:
             continue
         try:
-            r = build_one(name)
+            r = build_one(name, strict_tui=getattr(args, "strict_tui", False))
         except Exception as e:
             failed += 1
             log(f"  FAIL {name}: {type(e).__name__}: {e}")
@@ -706,6 +765,8 @@ def cmd_publish(args):
     for p in idx["packages"]:
         name = p["name"]
         b = publishable.get(name)
+        if getattr(args, "only_installable", False) and not b:
+            continue
         ver = (b or {}).get("version") or versions.get(name)
         if not ver:
             stats["no_version"] += 1
@@ -846,6 +907,33 @@ def cmd_serve(args):
         httpd.serve_forever()
 
 
+def cmd_find(args):
+    """Keyword search over catalog.json - what the agent runs when a capability is missing."""
+    cat = load_json(CATALOG, {}) or {}
+    plugins = cat.get("plugins") or []
+    terms = [t for t in " ".join(args.query).lower().split() if t.strip()]
+    rows = []
+    for p in plugins:
+        v = (p.get("versions") or [{}])[0]
+        zh = ((p.get("i18n") or {}).get("zh-CN") or {}).get("description") or ""
+        hay = " ".join([p.get("name", ""), p.get("description") or "", zh]).lower()
+        score = sum(1 for t in terms if t in hay)
+        if not score:
+            continue
+        rows.append((score, p.get("downloads") or 0, p, v, zh))
+    rows.sort(key=lambda r: (-r[0], -r[1]))
+    if args.installable:
+        rows = [r for r in rows if r[3].get("url")]
+    print(f"{len(rows)} match(es) for {' '.join(terms)}")
+    for _, dl, p, v, zh in rows[: args.limit]:
+        flag = "INSTALL" if v.get("url") else "listed"
+        print(f"- [{flag}] {p['name']}  v{v.get('version')}  downloads={dl}")
+        print(f"    {(zh or p.get('description') or '')[:160]}")
+        if v.get("url"):
+            print(f"    {v['url']}")
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser(prog="pimarket", description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -863,12 +951,16 @@ def main():
     b = sub.add_parser("build", help="package named packages")
     b.add_argument("names", nargs="+")
     b.add_argument("--force", action="store_true")
+    b.add_argument("--strict-tui", action="store_true",
+                   help="skip packages that touch pi-tui or unsupported UI members")
     b.set_defaults(func=cmd_build)
 
     bt = sub.add_parser("build-top", help="package by download rank")
     bt.add_argument("--limit", type=int, default=None)
     bt.add_argument("--max-mb", type=float, default=8.0)
     bt.add_argument("--skip-built", action="store_true")
+    bt.add_argument("--strict-tui", action="store_true",
+                    help="skip packages that touch pi-tui or unsupported UI members")
     bt.set_defaults(func=cmd_build_top)
 
     c = sub.add_parser("catalog", help="write catalog.json")
@@ -879,6 +971,8 @@ def main():
     p.add_argument("--releases-base", required=True,
                    help="e.g. https://github.com/<owner>/<repo>/releases/download")
     p.add_argument("--release-tag", required=True, help="tag the new/changed assets go to")
+    p.add_argument("--only-installable", action="store_true",
+                   help="omit entries with no packaged artifact (kills dead install buttons)")
     p.set_defaults(func=cmd_publish)
 
     v = sub.add_parser("verify", help="release gate")
@@ -890,6 +984,13 @@ def main():
     s = sub.add_parser("serve", help="loopback HTTP server (dev fallback)")
     s.add_argument("--port", type=int, default=8765)
     s.set_defaults(func=cmd_serve)
+
+    f = sub.add_parser("find", help="search the catalog for a capability")
+    f.add_argument("query", nargs="+")
+    f.add_argument("--limit", type=int, default=20)
+    f.add_argument("--installable", action="store_true",
+                   help="only entries that can be installed in one click")
+    f.set_defaults(func=cmd_find)
 
     args = ap.parse_args()
     rc = args.func(args)

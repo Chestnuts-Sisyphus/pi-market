@@ -18,7 +18,7 @@
  "max_files": 2000,
  "max_bytes": 52428800,
  "max_agent_extensions": 8,
- "bundle_dependencies": false,
+ "bundle_dependencies": true,
  "max_package_mb": 8,
  "per_run_budget": 150
 }
